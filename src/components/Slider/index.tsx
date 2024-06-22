@@ -1,0 +1,90 @@
+'use client';
+
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Navigation, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import Image from 'next/image';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { Navigation, Pagination } from 'swiper/modules';
+
+interface Testimonial {
+  name: string;
+  role: string;
+  image: string;
+  rating: number;
+  feedback: string;
+}
+
+const testimonials: Testimonial[] = [
+  {
+    name: 'Hannah Schmitt',
+    role: 'Lead designer',
+    image: '/assets/images/demo.jpg', // Use your local image path or replace with URL
+    rating: 4,
+    feedback: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas...'
+  },
+  {
+    name: 'John Doe Schmitt',
+    role: 'Lead designer',
+    image: '/assets/images/demo.jpg', // Use your local image path or replace with URL
+    rating: 4,
+    feedback: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas...'
+  },
+  // Add more testimonials here if needed
+];
+
+const TestimonialSlider: React.FC = () => {
+  return (
+    <div>
+      <h2 className="text-3xl font-extrabold text-gray-900 mb-2 text-center">Satisfaction Customer</h2>
+      <p className="text-center text-gray-500 mb-12">What Our Clients Say About Us</p>
+   
+    <div className="relative max-w-4xl mx-auto py-12">
+      
+      <Swiper
+        modules={[Navigation, Pagination]}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        pagination={{ clickable: true }}
+        spaceBetween={30}
+        slidesPerView={1}
+      >
+        {testimonials.map((testimonial, index) => (
+          <SwiperSlide key={index}>
+            <div className="bg-white max-w-screen-sm mx-auto p-8 rounded-lg shadow-lg text-center relative">
+              <div className="relative w-24 h-24 mx-auto mb-4 z-10">
+                <Image src={testimonial.image} alt={testimonial.name} layout="fill" className="rounded-full" />
+              </div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-100 rounded-lg transform -rotate-6 z-0"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-gray-100 rounded-lg transform rotate-6 z-0"></div>
+              <div className="relative z-20">
+                <h3 className="text-xl font-bold">{testimonial.name}</h3>
+                <p className="text-gray-500 mb-4">{testimonial.role}</p>
+                <div className="flex justify-center mb-4">
+                  {Array.from({ length: testimonial.rating }).map((_, i) => (
+                    <span key={i} className="text-yellow-500">&#9733;</span>
+                  ))}
+                </div>
+                <p className="text-gray-600">{testimonial.feedback}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <div className="absolute left-0 !top-1/2 transform !-translate-y-1/2 swiper-button-prev !text-2xl text-dark !text-black">
+        {/* <FaChevronLeft className="text-2xl text-dark" /> */}
+      </div>
+      <div className="absolute right-0 !top-1/2 transform !-translate-y-1/2 swiper-button-next !text-black !text-lg">
+        {/* <FaChevronRight className="text-2xl text-dark" /> */}
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default TestimonialSlider;
