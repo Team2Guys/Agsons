@@ -5,7 +5,7 @@ const Company = () => {
     <div className="max-w-md mx-auto">
       <h2 className="text-xl font-bold mb-4">Company</h2>
       <nav className="mb-4">
-        <ul className="flex justify-around flex-col text-slate-800 hover:text-slate-600">
+        <ul className="flex justify-around flex-col text-slate-800 hover:text-slate-600 gap-5">
           <li>
             <a href="#about">About</a>
           </li>

@@ -26,7 +26,7 @@ const Video: React.FC = () => {
         <div className="mt-10 flex justify-center">
           {!showVideo ? (
             <div
-              className="relative group cursor-pointer"
+              className="relative group cursor-pointer w-full h-64"
               onClick={handleClick}
             >
               <Image
