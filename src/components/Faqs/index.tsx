@@ -34,12 +34,12 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto py-12">
+    <div className="max-w-3xl mx-auto py-12">
       <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
         FREQUENTLY ASKED QUESTIONS
       </h2>
       {accordionData.map((item, index) => (
-        <div key={index} className="mb-4 border rounded-sm bg-gray-100">
+        <div key={index} className="mb-8 border rounded-sm bg-gray-100 ">
           <button
             className="w-full p-4 flex justify-between items-center text-left"
             onClick={() => handleToggle(index)}
