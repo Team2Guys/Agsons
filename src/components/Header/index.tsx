@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               )}
             </button>
           </div>
-          <div className="flex-1 flex items-center justify-center ">
+          <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <Link href={'/'}>
               <Image
                 className=" h-20 w-auto"
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              className="bg-black text-white px-2 md:px-3 py-2 rounded-full text-[8px] md:text-sm font-normal md:font-medium"
+              className="bg-black text-white text-[8px] md:text-sm px-3 py-2 rounded-full  font-medium"
             >
               GET IN TOUCH
             </button>
