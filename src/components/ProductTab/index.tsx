@@ -112,9 +112,9 @@ const ProductTab: React.FC = () => {
             See Our Collection
           </div>
         </div>
-        <div className="text-center bg-gray-300 space-y-5 pt-10 pb-10">
-          <h2 className="text-4xl font-bold">Richmond Luxury Vinyl Flooring</h2>
-          <div className="flex justify-center flex-wrap space-y-2 space-x-4">
+        <div className="text-center bg-gray-300 pt-10 pb-10">
+          <h2 className="text-4xl md:text-6xl font-medium">Richmond Luxury Vinyl Flooring</h2>
+          <div className="flex md:justify-center flex-wrap gap-2 md:space-y-2 md:space-x-4 mt-5 px-4">
             <button
               onClick={() => setActiveTab('tab1')}
               className={`px-4 py-2 font-medium text-sm rounded-full ${

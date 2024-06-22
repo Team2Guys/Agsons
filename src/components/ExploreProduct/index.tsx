@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import img from '@images/demo.jpg';
 import React from 'react';
+
 interface Project {
   title: string;
   description: string;
@@ -11,7 +12,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Richmond Flooring',
+    title: 'Say goodbye to outdated carpets and hello to the modern wor',
     description:
       'Say goodbye to outdated carpets and hello to the modern world of SPC and LVT flooring! These innovative options offer stunning visuals.',
     image: img,
@@ -40,17 +41,21 @@ const projects: Project[] = [
   },
 ];
 
+const truncateText = (text: string, maxLength: number) => {
+  if (text.length > maxLength) {
+    return text.slice(0, maxLength) + '...';
+  } else {
+    return text;
+  }
+};
+
 const ExploreProduct = () => {
   return (
     <div className="bg-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            EXPLORE
-          </h2>
-          <p className="mt-3 text-lg text-gray-500 sm:mt-4">
-            OUR LATEST PROJECT
-          </p>
+          <h2 className="text-3xl font-extrabold sm:text-4xl">EXPLORE</h2>
+          <p className="mt-3 text-lg sm:mt-4">OUR LATEST PROJECT</p>
         </div>
 
         <div className="mt-10 grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
@@ -66,16 +71,14 @@ const ExploreProduct = () => {
                   className="w-full h-64 object-cover"
                 />
               </div>
-              <h3 className="mt-4 text-2xl font-semibold text-gray-900">
-                {project.title}
-              </h3>
-              <p className="mt-2 text-base text-gray-500">
-                {project.description}
+              <h3 className="mt-4 text-sm text-center">{truncateText(project.title, 30)} </h3>
+              <p className="mt-2 text-xs text-center">
+                {truncateText(project.description, 100)} {/* Limit to 100 characters */}
               </p>
-              <div className="mt-6">
+              <div className="mt-6 text-center">
                 <Link
                   href={project.link}
-                  className="inline-block px-6 py-2 border border-gray-900 text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-100"
+                  className="px-8 py-2 border-2 text-sm font-medium rounded-full bg-white border-black hover:bg-black hover:text-white"
                 >
                   View More
                 </Link>

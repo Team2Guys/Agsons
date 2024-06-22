@@ -34,24 +34,24 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto py-12">
-      <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+    <div className="max-w-4xl mx-auto py-12 p-2">
+      <h2 className="text-xl md:text-3xl font-extrabold mb-8 text-center">
         FREQUENTLY ASKED QUESTIONS
       </h2>
       {accordionData.map((item, index) => (
-        <div key={index} className="mb-8 border rounded-sm bg-gray-100 ">
+        <div key={index} className="mb-8 border rounded-sm bg-gray-100 px-4 ">
           <button
-            className="w-full p-4 flex justify-between items-center text-left"
+            className="w-full p-2 md:p-4 flex justify-between items-center text-left"
             onClick={() => handleToggle(index)}
           >
-            <span className="text-xl font-semibold">{item.question}</span>
-            <span className="border-black p-2 border rounded-full">
+            <span className="text-sm md:text-xl font-semibold">{item.question}</span>
+            <span className="border-black p-2 border rounded-full text-sm">
               {activeIndex === index ? <FaChevronUp /> : <FaChevronDown />}
             </span>
           </button>
           {activeIndex === index && (
-            <div className="p-4 bg-gray-100">
-              <p>{item.answer}</p>
+            <div className="p-2 md:p-4 bg-gray-100">
+              <p className='text-xs md:text-base'>{item.answer}</p>
             </div>
           )}
         </div>

@@ -68,25 +68,25 @@ const Header: React.FC = () => {
             <div className="hidden sm:flex sm:items-center sm:ml-6">
               <div className="flex space-x-4">
                 <Link
-                  className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href="/"
                 >
                   Home
                 </Link>
                 <Link
-                  className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href="/product"
                 >
                   Product
                 </Link>
                 <Link
-                  className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href="/projects"
                 >
                   Projects
                 </Link>
                 <Link
-                  className="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href="/about"
                 >
                   About
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button
               type="button"
-              className="bg-gray-800 text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="bg-black text-white text-[8px] md:text-sm px-3 py-2 rounded-full  font-medium"
             >
               GET IN TOUCH
             </button>
@@ -109,25 +109,25 @@ const Header: React.FC = () => {
         <div className="sm:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <Link
-              className="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className=" hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               href="/"
             >
               Home
             </Link>
             <Link
-              className="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className=" hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               href="/product"
             >
               Product
             </Link>
             <Link
-              className="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className=" hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               href="/projects"
             >
               Projects
             </Link>
             <Link
-              className="text-gray-900 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className=" hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               href="/about"
             >
               About

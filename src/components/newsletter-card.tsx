@@ -11,7 +11,7 @@ const NewsLetterCard = () => {
         alt="log"
         className="white-logo"
       />
-      <div className="flex flex-col  text-white   justify-center gap-3">
+      <div className="flex flex-col flex-wrap text-white   justify-center gap-3">
         <h1 className="text-xl font-extrabold">Join our Newsletter</h1>
         <div className="  flex-col sm:flex-row flex items-center  w-full  space-y-4 sm:space-y-0 rounded-lg">
           <input
