@@ -10,14 +10,14 @@ const Footer = () => {
   return (
     <div className="flex flex-col items-center mt-2 ">
       <section className="flex flex-col md:flex-row justify-between w-full mt-4 border-t-2 p-5">
-        <div className="flex flex-col items-center">
+        <div>
           <ReactUS />
         </div>
-        <div className="flex flex-col items-center">
+        <div className="mt-2 md:mt-0">
           <Company />
         </div>
 
-        <div className="flex flex-col items-center w-1/2">
+        <div className="items-center md:w-1/2">
           <NewsLetterCard />
         </div>
       </section>

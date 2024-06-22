@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '@images/logo/Agsons logo.png';
 const NewsLetterCard = () => {
   return (
-    <div className="flex gap-6 bg-black rounded-lg items-center py-4 px-6">
+    <div className="flex flex-col md:flex-row gap-6 bg-black rounded-lg items-center py-4 px-6">
       <Image
         src={logo}
         width={200}
