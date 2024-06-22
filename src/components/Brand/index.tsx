@@ -54,44 +54,44 @@ const Brands: React.FC = () => {
           </p>
         </div>
 
-        <div className="mt-10">
-          <div className="flex justify-center space-x-4">
+        <div className="mt-10 overflow-y-auto overflow-hidden">
+          <div className="flex flex-wrap mt-2 md:justify-evenly gap-2">
             <button
               onClick={() => setActiveTab('tab1')}
-              className={`px-4 py-2 font-medium text-sm rounded-md ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full ${
                 activeTab === 'tab1'
-                  ? 'bg-gray-900 text-white'
-                  : 'bg-gray-200 text-gray-700'
+                  ? 'bg-black text-white'
+                  : 'bg-white  text-black'
               }`}
             >
               Monster Sealant
             </button>
             <button
               onClick={() => setActiveTab('tab2')}
-              className={`px-4 py-2 font-medium text-sm rounded-md ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full ${
                 activeTab === 'tab2'
-                  ? 'bg-gray-900 text-white'
-                  : 'bg-gray-200 text-gray-700'
+                  ? 'bg-black text-white'
+                  : 'bg-white  text-black'
               }`}
             >
               Non-Formaldehyde
             </button>
             <button
               onClick={() => setActiveTab('tab3')}
-              className={`px-4 py-2 font-medium text-sm rounded-md ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full ${
                 activeTab === 'tab3'
-                  ? 'bg-gray-900 text-white'
-                  : 'bg-gray-200 text-gray-700'
+                  ? 'bg-black text-white'
+                  : 'bg-white  text-black'
               }`}
             >
               Pluvia Flooring
             </button>
             <button
               onClick={() => setActiveTab('tab4')}
-              className={`px-4 py-2 font-medium text-sm rounded-md ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full ${
                 activeTab === 'tab4'
-                  ? 'bg-gray-900 text-white'
-                  : 'bg-gray-200 text-gray-700'
+                  ? 'bg-black text-white'
+                  : 'bg-white  text-black'
               }`}
             >
               Stone Tec
