@@ -108,7 +108,7 @@ const Brands: React.FC = () => {
           </div>
 
           <div className="mt-10">
-            <div className="flex  items-center  bg-gray-300 py-10 px-10">
+            <div className="flex flex-wrap md:flex-nowrap items-center  bg-gray-300 py-2 px-2 md:py-10 md:px-10">
               <div className="lg:w-1/2">
                 <Image
                   className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-full"
@@ -122,13 +122,13 @@ const Brands: React.FC = () => {
                 <h3 className="text-xl font-bold text-start">
                   {tabContent[activeTab].title}
                 </h3>
-                <p className="mt-3 text-base  sm:mt-4">
+                <p className="mt-3 text-xs md:text-base  sm:mt-4">
                   {tabContent[activeTab].description}
                 </p>
                 <div className='flex gap-2 mt-5'>
-                  <button className='bg-black rounded-full text-xs md:text-base  md:px-4 p-2 text-white'>Download Now</button>
-                  <button className='bg-black rounded-full text-xs md:text-base  md:px-4 p-2 text-white'>Read More</button>
-                  <button className='bg-black rounded-full text-xs md:text-base  md:px-4 p-2 text-white'>Visit Official Site</button>
+                  <button className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Download Now</button>
+                  <button className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</button>
+                  <button className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</button>
                 </div>
               </div>
             </div>
