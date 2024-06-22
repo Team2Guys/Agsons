@@ -17,7 +17,6 @@ const Footer = () => {
           <div className="mt-2 md:mt-0">
             <Company />
           </div>
-
           <div className="items-center md:w-1/2">
             <NewsLetterCard />
           </div>
