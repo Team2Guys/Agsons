@@ -9,7 +9,7 @@ import NewsLetterCard from '../newsletter-card';
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col items-center  max-w-7xl mx-auto mt-20">
+      <div className="flex flex-col items-center  max-w-screen-xl mx-auto mt-20">
         <section className="flex flex-col md:flex-row justify-between w-full mt-4 border-t-2 p-5">
           <div>
             <ReactUS />

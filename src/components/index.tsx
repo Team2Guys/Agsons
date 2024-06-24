@@ -3,7 +3,7 @@ import React from 'react'
 import img from "@images/demo.jpg"
 const About = () => {
   return (
-    <div className='mt-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+    <div className='mt-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center'>
             <h1 className='font-bold text-4xl'>ABOUT</h1>
             <p>Lorem ipsum dolor sit amet.</p>

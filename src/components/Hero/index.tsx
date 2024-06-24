@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Hero: React.FC = () => {
   return (
-    <div className="bg-gray-300 max-w-7xl mx-auto md:mt-10 flex flex-col lg:flex-row items-center pt-5 pb-5 px-10 lg:justify-between ">
+    <div className="bg-gray-300 max-w-screen-xl mx-auto md:mt-10 flex flex-col lg:flex-row items-center pt-5 pb-5 px-10 lg:justify-between ">
       <div className="text-center lg:text-left lg:max-w-lg">
         <h1 className=" tracking-tight">
           <span className="block text-lg">WELCOME TO</span>
