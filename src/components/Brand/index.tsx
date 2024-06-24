@@ -84,7 +84,7 @@ const Brands: React.FC = () => {
           <div className="flex flex-wrap mt-2 md:justify-evenly gap-2">
             <button
               onClick={() => setActiveTab('tab1')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full capitalize ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
                 activeTab === 'tab1'
                   ? 'bg-black text-white'
                   : 'bg-white  text-black'
@@ -94,7 +94,7 @@ const Brands: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab2')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full capitalize ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
                 activeTab === 'tab2'
                   ? 'bg-black text-white'
                   : 'bg-white  text-black'
@@ -104,7 +104,7 @@ const Brands: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab3')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full capitalize ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
                 activeTab === 'tab3'
                   ? 'bg-black text-white'
                   : 'bg-white  text-black'
@@ -114,7 +114,7 @@ const Brands: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab4')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full capitalize ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
                 activeTab === 'tab4'
                   ? 'bg-black text-white'
                   : 'bg-white  text-black'
@@ -124,7 +124,7 @@ const Brands: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab5')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full capitalize ${
+              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
                 activeTab === 'tab5'
                   ? 'bg-black text-white'
                   : 'bg-white  text-black'

@@ -24,7 +24,7 @@ const Video: React.FC = () => {
         </div>
 
         <div className="mt-10">
-        <video className='w-full object-cover h-[300px]' controls={false} loop muted   playsInline>
+        <video className='w-full object-cover h-[300px]' controls={false} loop muted autoPlay   playsInline>
           <source src='/assets/video/Agsons.mp4' type="video/mp4" />
         </video>
        

@@ -161,7 +161,7 @@ const ProductTab: React.FC = () => {
           </div>
         </div>
         <div className="text-center bg-gray-300 pt-10 pb-10">
-        <h2 className="text-4xl md:text-6xl font-medium capitalize">
+        <h2 className="text-4xl md:text-6xl font-medium uppercase">
           {activeTab === 'tab1'
             ? 'Richmond Luxury Vinyl Flooring'
             : activeTab === 'tab2'
@@ -175,7 +175,7 @@ const ProductTab: React.FC = () => {
           <div className="flex md:justify-evenly flex-wrap gap-2  mt-5 px-4">
             <button
               onClick={() => setActiveTab('tab1')}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full capitalize ${
+              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab1'
                   ? 'bg-black text-white'
                   : 'bg-gray-300 border border-black '
@@ -185,7 +185,7 @@ const ProductTab: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab2')}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full capitalize ${
+              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab2'
                   ? 'bg-black text-white'
                   : 'bg-gray-300 border border-black '
@@ -195,7 +195,7 @@ const ProductTab: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab3')}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full capitalize ${
+              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab3'
                   ? 'bg-black text-white'
                   : 'bg-gray-300 border border-black '
@@ -205,7 +205,7 @@ const ProductTab: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab4')}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full capitalize ${
+              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab4'
                   ? 'bg-black text-white'
                   : 'bg-gray-300 border border-black '
@@ -215,7 +215,7 @@ const ProductTab: React.FC = () => {
             </button>
             <button
               onClick={() => setActiveTab('tab5')}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full capitalize ${
+              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab5'
                   ? 'bg-black text-white'
                   : 'bg-gray-300 border border-black '
