@@ -70,7 +70,7 @@ const TestimonialSlider: React.FC = () => {
                     <span key={i} className="text-yellow-500">&#9733;</span>
                   ))}
                 </div>
-                <p className="text-gray-600">{testimonial.feedback}</p>
+                <p className="">{testimonial.feedback}</p>
               </div>
             </div>
           </SwiperSlide>

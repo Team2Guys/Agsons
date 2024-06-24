@@ -15,10 +15,10 @@ const Video: React.FC = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="relative bg-gray-100 py-12 px-4">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-extrabold  sm:text-4xl">
             EXPLORE OUR FACILITIES
           </h2>
-          <p className="mt-3 text-lg text-gray-500 sm:mt-4">
+          <p className="mt-3 text-lg sm:mt-4">
             Discover our state-of-the-art facilities through this video.
           </p>
         </div>

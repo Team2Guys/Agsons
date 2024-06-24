@@ -23,14 +23,14 @@ const ContactForm: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           {formFields.slice(0, 2).map((field) => (
             <div key={field.id}>
-              <label htmlFor={field.id} className="block text-sm font-medium text-gray-700 bg-transparent">{field.label}</label>
+              <label htmlFor={field.id} className="block text-sm font-medium  bg-transparent">{field.label}</label>
               <input type={field.type} id={field.id} name={field.name} className="mt-1 block bg-transparent w-full border-gray-300 rounded-none shadow-none outline-none border-b-2" />
             </div>
           ))}
         </div>
         {formFields.slice(2).map((field, index) => (
           <div key={field.id} className={`mb-4 ${index > 0 ? 'py-4' : ''}`}>
-            <label htmlFor={field.id} className="block text-sm font-medium text-gray-700">{field.label}</label>
+            <label htmlFor={field.id} className="block text-sm font-medium ">{field.label}</label>
             {field.type === 'textarea' ? (
               <textarea id={field.id} name={field.name} rows={4} className="mt-1 block bg-transparent w-full border-gray-300 rounded-none shadow-none outline-none border-b-2"></textarea>
             ) : (

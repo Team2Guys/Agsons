@@ -8,15 +8,15 @@ const ReactUS = () => {
       <h1 className="text-xl font-bold">Reach US</h1>
       <div className="flex text-md gap-2">
         <FaPhoneAlt className="text-lg mt-1" />
-        <p className="text-gray-700">+971 4 385 2652</p>
+        <p className="">+971 4 385 2652</p>
       </div>
       <div className="flex text-md  gap-2">
         <IoMdMail className="text-lg mt-1" />
-        <p className="text-gray-700">info@agsons.com</p>
+        <p className="">info@agsons.com</p>
       </div>
       <div className="flex text-md  gap-2">
         <FaLocationDot className="text-lg mt-1" />
-        <p className="text-gray-700">
+        <p className="">
           Unit A12, J1 Warehouses, Jabel Ali <br /> industerial 1, Dubai, UAE
         </p>
       </div>
