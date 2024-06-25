@@ -8,7 +8,11 @@ import Monster from '@images/logo/Monster logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Richmond from '@images/logo/Richmond logo.png';
 import Sintrich from '@images/logo/Sintrich logo.png';
-
+import rich from "@/assets/images/Richmond Flooring.png"
+import monst from "@/assets/images/Monster.png"
+import pol from "@/assets/images/Polar.png"
+import sint from "@/assets/images/Sintrich.png"
+import dux from "@/assets/images/DULUX .png"
 
 
 type TabContent = {
@@ -29,7 +33,7 @@ const Brands: React.FC = () => {
       title: 'Richmond Flooring',
       description:
         'Lorem Ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap inpesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-      image: img,
+      image: rich,
       downloadlink: "/assets/Richmond.pdf",
       websitelink:"https://richmondflooring.ae/ae-en"
     },
@@ -37,7 +41,7 @@ const Brands: React.FC = () => {
       title: 'SINTRICH Stone',
       description:
         'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap into elctronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-      image: img,
+      image: sint,
       downloadlink: "/assets/SINTRICH.pdf",
       websitelink:"https://sintrich.com/ae-en"
 
@@ -46,7 +50,7 @@ const Brands: React.FC = () => {
       title: 'Polar Flooring',
       description:
         'Explore the durabwhen an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap into electronic typesetti unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumility and elegance of Pluvia Flooring for all your flooring needs...',
-      image: img,
+      image: pol,
       downloadlink: "/assets/Polar.pdf",
       websitelink:"https://polarfloors.co.uk/"
     },
@@ -54,7 +58,7 @@ const Brands: React.FC = () => {
       title: 'Monster Sealent',
       description:
         'when when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumExperience the strength and beauty of Stone Tec in your home...',
-      image: img,
+      image: monst,
       downloadlink: "/assets/Monster.pdf",
       websitelink:"https://monstersealant.com/"
     },
@@ -62,7 +66,7 @@ const Brands: React.FC = () => {
       title: 'Delux Paint',
       description:
         'when when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumExperience the strength and beauty of Stone Tec in your home...',
-      image: img,
+      image: dux,
       downloadlink: "/assets/Dulux.pdf",
       websitelink:"https://www.dulux.co.uk/en"
     },
@@ -167,7 +171,7 @@ const Brands: React.FC = () => {
                 </p>
                 <div className='flex gap-2 mt-5'>
                   <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Download Now</Link>
-                  <button className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</button>
+                  <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
                   <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
               </div>

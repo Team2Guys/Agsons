@@ -20,7 +20,6 @@ export default function Home() {
       <Accordion />
       <TestimonialSlider />
       <ContactSection />
-      <Footer />
     </React.Fragment>
   );
 }

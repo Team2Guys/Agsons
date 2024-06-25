@@ -2,42 +2,36 @@ import Image from 'next/image';
 import Link from 'next/link';
 import img from '@images/demo.jpg';
 import React from 'react';
-
+import blog1 from "@/assets/images/blog1.jpg"
+import blog2 from "@/assets/images/blog2.jpg"
+import blog3 from "@/assets/images/blog3.jpg"
+import blog4 from "@/assets/images/blog4.jpg"
 interface Project {
   title: string;
-  description: string;
   image: any;
   link: string;
 }
 
 const projects: Project[] = [
   {
-    title: 'Say goodbye to outdated carpets and hello to the modern wor',
-    description:
-      'Say goodbye to outdated carpets and hello to the modern world of SPC and LVT flooring! These innovative options offer stunning visuals.',
-    image: img,
-    link: '#',
+    title: 'STEPPING UP YOUR STYLE: A GUIDE TO SPC & LVT FLOORING',
+    image: blog1,
+    link: '/stepping-up-your-style',
   },
   {
-    title: 'Sintrich',
-    description:
-      'Say goodbye to outdated carpets and hello to the modern world of SPC and LVT flooring! These innovative options offer stunning visuals.',
-    image: img,
-    link: '#',
+    title: 'THE ENDURING ELEGANCE OF SINTRICH STONE: COUNTERTOPS THAT IMPRESS',
+    image: blog2,
+    link: '/the-enduring-elegance-of-sintrich-stone',
   },
   {
-    title: 'Polar Floors',
-    description:
-      'Say goodbye to outdated carpets and hello to the modern world of SPC and LVT flooring! These innovative options offer stunning visuals.',
-    image: img,
-    link: '#',
+    title: 'SEALING THE DEAL: WHY MONSTER SEALENT IS YOUR GO-TO ADHESIVE',
+    image: blog3,
+    link: '/sealing-the-deal',
   },
   {
-    title: 'Monster',
-    description:
-      'Say goodbye to outdated carpets and hello to the modern world of SPC and LVT flooring! These innovative options offer stunning visuals.',
-    image: img,
-    link: '#',
+    title: "BUDGET-FRIENDLY BEAUTY: AFFORDABLE FLOORING OPTIONS THAT DON'T COMPROMISE ON STYLE",
+    image: blog4,
+    link: '/budget-friendly-beauty',
   },
 ];
 
@@ -60,21 +54,19 @@ const ExploreProduct = () => {
 
         <div className="mt-10 grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
           {projects.map((project, index) => (
-            <div key={index} className="group relative">
-              <div className="w-full bg-gray-200 rounded-lg overflow-hidden">
+            <Link href={project.link} key={index} className="group relative">
+              <div className="w-full  rounded-lg overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={150}
-                  height={150}
+                  width={500}
+                  height={500}
                   priority
-                  className="w-full h-64 object-cover"
+                  className="w-full h-64 object-cover rounded-md hover:scale-90 hover:rounded-md transition duration-300"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-center">{truncateText(project.title, 30)} </h3>
-              <p className="mt-2 text-xs text-center">
-                {truncateText(project.description, 100)} {/* Limit to 100 characters */}
-              </p>
+              <h3 className="mt-4 text-sm font-semibold text-center">{truncateText(project.title, 50)} </h3>
+             
               <div className="mt-6 text-center">
                 <Link
                   href={project.link}
@@ -83,7 +75,7 @@ const ExploreProduct = () => {
                   View More
                 </Link>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
