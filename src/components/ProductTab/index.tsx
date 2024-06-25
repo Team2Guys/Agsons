@@ -226,7 +226,7 @@ const ProductTab: React.FC = () => {
           </div>
         </div>
         <div className="mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mt-3 mb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mt-3 mb-10">
             {tabContent[activeTab].products.map((product, index) => (
               <ProductCard
                 key={index}

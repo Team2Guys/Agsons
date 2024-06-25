@@ -1,15 +1,8 @@
-'use client';
+
 import React, { useState } from 'react';
-import { FaPlay } from 'react-icons/fa';
-import img from '@images/demo.jpg';
-import Image from 'next/image';
 
 const Video: React.FC = () => {
-  const [showVideo, setShowVideo] = useState(false);
 
-  const handleClick = () => {
-    setShowVideo(true);
-  };
 
   return (
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
