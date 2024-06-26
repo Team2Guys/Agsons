@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import img from '@images/paint.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import Dulux from '@images/logo/Dulux logo.png';
@@ -38,7 +37,7 @@ const Brands: React.FC = () => {
       websitelink:"https://richmondflooring.ae/ae-en"
     },
     tab2: {
-      title: 'SINTRICH Stone',
+      title: 'Sintrich Stone',
       description:
         'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap into elctronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
       image: sint,
@@ -152,7 +151,7 @@ const Brands: React.FC = () => {
                   ))}
                 </div>
           <div className="mt-10">
-            <div className="flex flex-wrap md:flex-nowrap items-center  bg-gray-300 py-2 px-2 md:py-10 md:px-10">
+            <div className="flex flex-wrap md:flex-nowrap items-center  bg-primary py-2 px-2 md:py-10 md:px-10">
               <div className="lg:w-1/2">
                 <Image
                   className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-full"
