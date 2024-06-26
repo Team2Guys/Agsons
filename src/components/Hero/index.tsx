@@ -8,13 +8,11 @@ const Hero: React.FC = () => {
     <div className="bg-primary max-w-screen-xl mx-auto md:mt-32 flex flex-col lg:flex-row items-center pt-5 pb-5 px-10 lg:justify-between ">
       <div className="text-center lg:text-left lg:max-w-lg">
         <h1 className=" tracking-tight">
-          <span className="block text-lg">WELCOME TO</span>
-          <span className="block text-2xl font-bold">AGSONS MIDDLE EAST LLC</span>
+          {/* <span className="block text-lg">WELCOME TO</span> */}
+          <span className="block text-2xl font-bold">Agsons is a family run business supplying exclusive products to the property development industry</span>
         </h1>
         <p className="mt-3 text-base sm:mt-5  sm:max-w-xl md:mt-5  lg:mx-0">
-          At AGSONS Middle East, we’re proud to be an extension of the UK family
-          business, bringing generations of experience and excellence to the
-          region.
+        Agsons offers top-quality building materials, speedy delivery, and unbeatable prices. Consolidate your sourcing with us and find everything you need in one place.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">

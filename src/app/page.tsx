@@ -11,7 +11,7 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <React.Fragment>
+    <>
       <Hero />
       <Brands />
       <ExploreProduct />
@@ -20,6 +20,6 @@ export default function Home() {
       <Accordion />
       <TestimonialSlider />
       <ContactSection />
-    </React.Fragment>
+    </>
   );
 }

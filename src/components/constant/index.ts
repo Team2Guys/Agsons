@@ -104,6 +104,17 @@ import SUPERWHITE from "@images/Sintrich/Unveilings/SUPER WHITE/SUPER WHITE.jpg"
 import SilkRoad from "@images/Sintrich/Unveilings/Silk Road/Silk Road.jpg";
 import TajMahal from "@images/Sintrich/Unveilings/Taj Mahal/Taj Mahal.jpg";
 import VanGogh from "@images/Sintrich/Unveilings/Van Gogh Grey/Van Gogh Grey.jpg";
+import Antique from "@images/Polar LVT/Polar LVT-Antique.jpg";
+import Cherry from "@images/Polar LVT/Polar LVT-Cherry.jpg";
+import Chestnut from "@images/Polar LVT/Polar LVT-Chestnut.jpg";
+import Classic from "@images/Polar LVT/Polar LVT-Classic Oak.jpg";
+import History from "@images/Polar LVT/Polar LVT-Oak History.jpg";
+import Prarie from "@images/Polar LVT/Polar LVT-Prarie.jpg";
+import Walnut from "@images/Polar LVT/Polar LVT-US Walnut.jpg";
+import Vintage from "@images/Polar LVT/Polar LVT-Vintage Timber.jpg";
+import Weathered from "@images/Polar LVT/Polar LVT-Weathered Oak.jpg";
+import wash from "@images/Polar LVT/Polar LVT-White wash.jpg";
+
 
 
 interface Product {
@@ -739,41 +750,66 @@ const tabContent: Record<string, TabContent> = {
     logo: Polar,
     products: [
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Antique',
+        subtitle: 'Polar LVT',
+        imageUrl:Antique,
         link: 'product',
       },
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Cherry',
+        subtitle: 'Polar LVT',
+        imageUrl:Cherry,
         link: 'product',
       },
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Chestnut',
+        subtitle: 'Polar LVT',
+        imageUrl: Chestnut,
         link: 'product',
       },
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Classic Oak',
+        subtitle: 'Polar LVT',
+        imageUrl: Classic,
         link: 'product',
       },
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Oak History',
+        subtitle: 'Polar LVT',
+        imageUrl: History,
         link: 'product',
       },
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond2,
+        title: 'Polar LVT-Prarie',
+        subtitle: 'Polar LVT',
+        imageUrl: Prarie,
         link: 'product',
       },
+      {
+        title: 'Polar LVT-US Walnut',
+        subtitle: 'Polar LVT',
+        imageUrl: Walnut,
+        link: 'product',
+      },
+      {
+        title: 'Polar LVT-Vintage Timber',
+        subtitle: 'Polar LVT',
+        imageUrl: Vintage,
+        link: 'product',
+      },
+      {
+        title: 'Polar LVT-Weathered Oak',
+        subtitle: 'Polar LVT',
+        imageUrl: Weathered,
+        link: 'product',
+      },
+      {
+        title: 'Polar LVT-White wash',
+        subtitle: 'Polar LVT',
+        imageUrl: wash,
+        link: 'product',
+      },
+     
     ],
   },
   tab4: {

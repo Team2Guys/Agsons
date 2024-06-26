@@ -31,7 +31,7 @@ const Brands: React.FC = () => {
     tab1: {
       title: 'Richmond Flooring',
       description:
-        'Lorem Ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap inpesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
+        'Richmond has a well-established reputation among floor traders and wholesalers, having maintained a position as a top-tier brand for more than 20 years in the UK and the last 3 years in the Middle East. As manufacturers of the Richmond brand, we leave no attention to detail untouched. With over 2 decades of manufacturing experience using the latest technology with branding to create appealing and well constructed products. We have an extensive range of SPC flooring and LVT flooring. Please contact us if you’re a retailer, wholesaler or wish to be a distributor in your own country. We currently have a dealer network in the UK, Spain, Greece, South Africa, Kenya, and Zimbabwe. We would love to add more countries. ',
       image: rich,
       downloadlink: "/assets/Richmond.pdf",
       websitelink:"https://richmondflooring.ae/ae-en"
@@ -39,7 +39,7 @@ const Brands: React.FC = () => {
     tab2: {
       title: 'Sintrich Stone',
       description:
-        'when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap into elctronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
+        "Sintrich Sintered Stone stands as a paragon of functional beauty, tailor-made for every architectural endeavour. Its versatility knows no bounds, thriving even in the most challenging environments, be it interior, exterior, kitchen countertops, vanities, dining table or floors and walls. Sintrich is designed to withstand extreme temperatures and fire, proudly holding an A1 certification for fire resistance. It also boasts remarkable UV-ray resilience, ensuring that its vibrancy and integrity remain intact over time. With Sintrich, this becomes a reality.  At Agsons, we bring you the unmatched durability and beauty of Sintrich Sintered Stone. Whether you're designing a sleek modern facade or a sophisticated design Sintrich offers the perfect solution. ",
       image: sint,
       downloadlink: "/assets/SINTRICH.pdf",
       websitelink:"https://sintrich.com/ae-en"
@@ -48,7 +48,7 @@ const Brands: React.FC = () => {
     tab3: {
       title: 'Polar Flooring',
       description:
-        'Explore the durabwhen an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap into electronic typesetti unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsumility and elegance of Pluvia Flooring for all your flooring needs...',
+        'Polar Flooring was established in 2022 to cater for development projects. All our Polar Flooring in our SPC and LVT ranges still offer a manufacturer’s warranty but have been rigorously value engineered to create a contractor’s perfect solution in a competitive marketplace. Have comfort in the knowledge that the skeleton and quality of Polar Flooring have not been compromised to still be a high quality product. ',
       image: pol,
       downloadlink: "/assets/Polar.pdf",
       websitelink:"https://polarfloors.co.uk/"
@@ -56,7 +56,7 @@ const Brands: React.FC = () => {
     tab4: {
       title: 'Monster Sealent',
       description:
-        'when when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumExperience the strength and beauty of Stone Tec in your home...',
+        'Monster sealants are our new products we’ve added to the range under our Richmond brand. These high quality silicons and glues are used daily with all the product ranges that we sell in Agsons. Quality and competitive pricing are key to the success of these products. Our formulas exceed all European requirements.',
       image: monst,
       downloadlink: "/assets/Monster.pdf",
       websitelink:"https://monstersealant.com/"
@@ -64,7 +64,7 @@ const Brands: React.FC = () => {
     tab5: {
       title: 'Delux Paint',
       description:
-        'when when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumExperience the strength and beauty of Stone Tec in your home...',
+        'Dulux Paints is globally known as the industrial leader in the painting supply industry. At Agsons, we keep stock of all the paints and tinting options are done in house. For large scale projects and companies that require a large volume of matt emulsion paints nobody can beat us on price and quality.',
       image: dux,
       downloadlink: "/assets/Dulux.pdf",
       websitelink:"https://www.dulux.co.uk/en"
@@ -75,11 +75,14 @@ const Brands: React.FC = () => {
     <div className="bg-white py-12">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold sm:text-4xl">
-            OUR BRANDS!
+          <h2 className="text-3xl font-extrabold sm:text-4xl capitalize">
+          Brands that we have built with quality always in mind
           </h2>
-          <p className="mt-3 text-lg sm:mt-4">
-          Lorem Ipsum when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha survived not only five centuries, but also the leap inpesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+          <p className="mt-3 text-lg sm:mt-4 font-semibold">
+          From the UK to the Middle East now, Agsons delivers 3 decades of experience in the property renovation sector
+          </p>
+          <p className="text-base">
+          Our key clients would be architects, interior designers, fit out contractors, channel partners and of course the end user. All our products are offered with a manufacturer’s warranty with a no hassle policy.
           </p>
         </div>
 
