@@ -114,6 +114,14 @@ import Walnut from "@images/Polar LVT/Polar LVT-US Walnut.jpg";
 import Vintage from "@images/Polar LVT/Polar LVT-Vintage Timber.jpg";
 import Weathered from "@images/Polar LVT/Polar LVT-Weathered Oak.jpg";
 import wash from "@images/Polar LVT/Polar LVT-White wash.jpg";
+import richmond6 from '@images/Richmond LVT comfort/Richmond LVT comfort- Twine.jpg';
+import richmond7 from '@images/Richmond LVT comfort/Richmond LVT comfort-American Walnut.jpg';
+import richmond8 from '@images/Richmond LVT comfort/Richmond LVT comfort-Cappuccino.jpg';
+import richmond9 from '@images/Richmond LVT comfort/Richmond LVT comfort-Forest.jpg';
+import richmond10 from '@images/Richmond LVT comfort/Richmond LVT comfort-Mahogany.jpg';
+import richmond11 from '@images/Richmond LVT comfort/Richmond LVT comfort-Premium oak.jpg';
+import richmond12 from '@images/Richmond LVT comfort/Richmond LVT comfort-Shadow oak.jpg';
+import richmond13 from '@images/Richmond LVT comfort/Richmond LVT comfort-Silver.jpg';
 
 
 
@@ -161,6 +169,54 @@ const tabContent: Record<string, TabContent> = {
         subtitle: 'Richmond LVT Luxury',
         title: 'Richmond LVT Luxury -cappuccino',
         imageUrl: richmond5,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort- Twine',
+        imageUrl: richmond6,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-American Walnut',
+        imageUrl: richmond7,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Cappuccino',
+        imageUrl: richmond8,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Forest',
+        imageUrl: richmond9,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Mahogany',
+        imageUrl: richmond10,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Premium oak',
+        imageUrl: richmond10,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Shadow oak',
+        imageUrl: richmond11,
+        link: 'product',
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Silver',
+        imageUrl: richmond12,
         link: 'product',
       },
     ],

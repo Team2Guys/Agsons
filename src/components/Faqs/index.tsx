@@ -10,7 +10,7 @@ interface AccordionItem {
 
 const accordionData: AccordionItem[] = [
   {
-    question: 'WHAT BRANDS DOES AGSONS OFFER?',
+    question: 'What brands does AGSONS offer?',
     answer:
       'Richmond Flooring (SPC & LVT), Sintrich (Sintered Stone), and Monster (Silicon and nail free Clue).',
   },
@@ -18,12 +18,37 @@ const accordionData: AccordionItem[] = [
     question: 'WHAT TYPES OF FLOORING DOES AGSONS OFFER?',
     answer:
       'We offer a variety of flooring types including SPC, LVT, and Sintered Stone.',
+  },{
+    question: 'What are the benefits of Sintrich stone?',
+    answer:
+      'Durable, low maintenance, stain and scratch resistant, available in various styles and colours.',
   },
   {
-    question: 'WHAT ARE THE BENEFITS OF SINTRICH STONE?',
+    question: "What's the advantage of using Monster adhesives?",
     answer:
-      'Sintrich Stone offers durability, aesthetic appeal, and is eco-friendly.',
+      'Eco-friendly, strong and reliable, silicon and nail free for easy application.',
   },
+  {
+    question: 'Do you offer installation services?',
+    answer:
+      'This may vary depending on your location and chosen products. Please contact your local AGSONS branch for further information.',
+  },
+  {
+    question: 'Can I get samples of your products?',
+    answer:
+      'Yes, in many cases. Check with your local branch or visit the AGSONS website. Do you offer personalized design consultations? Some locations may offer this service. Contact your local branch for details. Ordering & Delivery:',
+  },
+  {
+    question: 'How can I order AGSONS products?',
+    answer:
+      'Online through the AGSONS website, visiting a showroom, or by contacting your local branch.',
+  },
+  {
+    question: 'What does AGSONS do to promote sustainability?',
+    answer:
+      'AGSONS prioritizes eco-friendly practices and responsible sourcing. This includes using recycled materials, offering sustainable product options, and minimizing waste.',
+  },
+ 
 ];
 
 const Accordion: React.FC = () => {
@@ -45,8 +70,8 @@ const Accordion: React.FC = () => {
             onClick={() => handleToggle(index)}
           >
             <span className="text-sm md:text-xl font-semibold">{item.question}</span>
-            <span className="border-black p-2 border rounded-full text-sm">
-              {activeIndex === index ? <FaChevronUp /> : <FaChevronDown />}
+            <span className="">
+              {activeIndex === index ? <FaChevronUp size={15}/> : <FaChevronDown size={15} />}
             </span>
           </button>
           {activeIndex === index && (
