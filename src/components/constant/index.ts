@@ -123,6 +123,12 @@ import richmond11 from '@images/Richmond LVT comfort/Richmond LVT comfort-Premiu
 import richmond12 from '@images/Richmond LVT comfort/Richmond LVT comfort-Shadow oak.jpg';
 import richmond13 from '@images/Richmond LVT comfort/Richmond LVT comfort-Silver.jpg';
 
+import FORMULATED from "@images/Monster/Flooring Glue/FORMULATED FLOORING GLUE R10.jpg"
+import MULTIPURPOSE from "@images/Monster/MULTIPURPOSE SILICONE/MULTIPURPOSE SILICONE.jpg"
+import R200 from "@images/Monster/Nail Free Glue/MAX POWER R200/Nail Free Glue MAX POWER R200.jpg"
+import R120 from "@images/Monster/Nail Free Glue/WEATHER MAX R120/Nail Free Glue WEATHER MAX R120.jpg"
+import Adhesive from "@images/Monster/Other Adhesive/Foam Master R007.jpg"
+import TILE from "@images/Monster/Tile Grout/TILE GROUT R300.jpg"
 
 
 interface Product {
@@ -872,18 +878,49 @@ const tabContent: Record<string, TabContent> = {
     logo: Monster,
     products: [
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond4,
+        title: 'FORMULATED FLOORING GLUE R10',
+        subtitle: 'Flooring Glue',
+        imageUrl: FORMULATED,
         link: 'product',
       },
+      {
+        title: 'MULTIPURPOSE SILICONE',
+        subtitle: 'MULTIPURPOSE SILICONE',
+        imageUrl: MULTIPURPOSE,
+        link: 'product',
+      },
+      {
+        title: '/Nail Free Glue MAX POWER R200',
+        subtitle: 'Nail Free Glue',
+        imageUrl: R200,
+        link: 'product',
+      },
+      {
+        title: 'Nail Free Glue WEATHER MAX R120',
+        subtitle: 'Nail Free Glue',
+        imageUrl: R120,
+        link: 'product',
+      },
+      {
+        title: 'Foam Master R00',
+        subtitle: 'Other Adhesive',
+        imageUrl: Adhesive,
+        link: 'product',
+      },
+      {
+        title: 'TILE GROUT R300',
+        subtitle: 'Tile Grout',
+        imageUrl: TILE,
+        link: 'product',
+      },
+      
     ],
   },
   tab5: {
     logo: Dulux,
     products: [
       {
-        title: 'NON-FORMALDEHYDE Subtitle',
+        title: 'NON',
         subtitle: 'LUXURY VINYL TILE',
         imageUrl: richmond4,
         link: 'product',
