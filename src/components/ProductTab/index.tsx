@@ -45,7 +45,7 @@ const ProductTab: React.FC = () => {
             <button
               onClick={() => {
                 setActiveTab('tab1');
-                setVisibleCount(10);
+                setVisibleCount(9);
               }}
               className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
                 activeTab === 'tab1'
