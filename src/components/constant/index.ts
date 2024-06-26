@@ -129,7 +129,13 @@ import R200 from "@images/Monster/Nail Free Glue/MAX POWER R200/Nail Free Glue M
 import R120 from "@images/Monster/Nail Free Glue/WEATHER MAX R120/Nail Free Glue WEATHER MAX R120.jpg"
 import Adhesive from "@images/Monster/Other Adhesive/Foam Master R007.jpg"
 import TILE from "@images/Monster/Tile Grout/TILE GROUT R300.jpg"
-
+import INSPIRE from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX INSPIRE.jpg"
+import POWERFLEXX from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX WEATHERSHIELD POWERFLEXX.jpg"
+import WEATHERSHIELD from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX WEATHERSHIELD.jpg"
+import AMBIANCE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX AMBIANCE.jpg"
+import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF THE WORLD.jpg"
+import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
+import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
 interface Product {
   title: string;
@@ -920,11 +926,48 @@ const tabContent: Record<string, TabContent> = {
     logo: Dulux,
     products: [
       {
-        title: 'NON',
-        subtitle: 'LUXURY VINYL TILE',
-        imageUrl: richmond4,
+        title: 'DULUX INSPIRE',
+        subtitle: 'DULUX EXTERIOR RANGE',
+        imageUrl: INSPIRE,
         link: 'product',
       },
+      {
+        title: 'DULUX WEATHERSHIELD POWERFLEXX',
+        subtitle: 'DULUX EXTERIOR RANGE',
+        imageUrl: POWERFLEXX,
+        link: 'product',
+      },
+      {
+        title: 'DULUX WEATHERSHIELD',
+        subtitle: 'DULUX EXTERIOR RANGE',
+        imageUrl: WEATHERSHIELD,
+        link: 'product',
+      },
+      {
+        title: 'DULUX AMBIANCE',
+        subtitle: 'DULUX INTERIOR RANGE',
+        imageUrl: AMBIANCE,
+        link: 'product',
+      },
+      {
+        title: 'DULUX COLOURS OF THE WORLD',
+        subtitle: 'DULUX INTERIOR RANGE',
+        imageUrl: COLOURS,
+        link: 'product',
+      },
+      {
+        title: 'DULUX EASY CLEAN',
+        subtitle: 'DULUX INTERIOR RANGE',
+        imageUrl: CLEAN,
+        link: 'product',
+      },
+      {
+        title: 'DULUX INSPIRE INTERIOR',
+        subtitle: 'DULUX INTERIOR RANGE',
+        imageUrl: RANGE,
+        link: 'product',
+      },
+     
     ],
   },
 };

@@ -32,7 +32,7 @@ interface Blog {
 
 const Blog4:React.FC = () => {
   return (
-    <div className='max-w-screen-xl mx-auto mt-36 px-2 sm:px-4 md:px-8'>
+    <div className='max-w-screen-xl mx-auto mt-36 px-2 sm:px-4  md:px-8'>
         <div className='flex flex-wrap md:flex-nowrap md:gap-10'>
         <div className='w-full md:w-9/12 space-y-4'>
             <h1 className='text-lg md:text-2xl font-bold'>Budget-friendly Beauty: Affordable Flooring Options That Do Not Compromise On Style</h1>
@@ -49,7 +49,7 @@ const Blog4:React.FC = () => {
                 <h4 className='font-bold'>Appearance</h4>
                 <p>Vinyl tiles appear smooth, sleek, and minimalistic, with a touch of rustic. They have a traditional charm and are available in a variety of colours, designs, and patterns. Although vinyl tiles have a natural glamour, many printing technologies further improve their appeal to make them more aesthetic and versatile. </p>
                 <h4 className='font-bold'>Benefits</h4>
-                <ul className='md:px-8'>
+                <ul className='px-4 md:px-8'>
                   <li className='list-disc'>Durable</li>
                   <li className='list-disc'>Needs minimum maintenance</li>
                   <li className='list-disc'>Versatile (many colours and patterns are available) </li>
@@ -59,20 +59,20 @@ const Blog4:React.FC = () => {
                 </ul>
                 <h4 className='font-bold'>Design Options</h4>
                 <p>Vinyl tiles not only make an affordable flooring option but also give you diversity. Here are the patterns available for vinyl tiles to choose from.</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Stack bond (grid):</h5>seamless designs in which vertical and horizontal points attach</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Running bond (offset):</h5>The design is offset by half of the tile&apos;s width.</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Random:</h5>Design with no certain order.</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Flemish bond:</h5> An exciting blend of intervening rows. </p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Herringbone:</h5>A fish scale pattern with an elegant touch</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Stagger:</h5>Tile pattern on the alternate side of the centre. (Ideal for 2 & 3 colours)</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Diagonal:</h5>Alternative pattern of rectangles and squares</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Weave:</h5>Gives off a woven-effect vibe (called basketweave)</p>
+                <p > <span className='font-bold'>Stack bond (grid):</span>seamless designs in which vertical and horizontal points attach</p>
+                <p > <span className='font-bold'>Running bond (offset):</span>The design is offset by half of the tile&apos;s width.</p>
+                <p > <span className='font-bold'>Random:</span>Design with no certain order.</p>
+                <p > <span className='font-bold'>Flemish bond:</span> An exciting blend of intervening rows. </p>
+                <p > <span className='font-bold'>Herringbone:</span>A fish scale pattern with an elegant touch</p>
+                <p > <span className='font-bold'>Stagger:</span>Tile pattern on the alternate side of the centre. (Ideal for 2 & 3 colours)</p>
+                <p > <span className='font-bold'>Diagonal:</span>Alternative pattern of rectangles and squares</p>
+                <p > <span className='font-bold'>Weave:</span>Gives off a woven-effect vibe (called basketweave)</p>
 
                 <h3  className='font-bold'>Laminate</h3>
                 <h4  className='font-bold'>Appearance</h4>
                 <p>With a polished and charming outlook, laminate tiles capture intricate details. The best thing about laminate is that it is very versatile and available in a broad spectrum of colours and patterns. Plus, the glossy finish adds to their visual appeal and makes them resistant to wear & tear.</p>
                 <h4  className='font-bold'>Benefits</h4>
-                <ul className='md:px-8'>
+                <ul className=' px-4 md:px-8'>
                   <li className='list-disc'>Very easy to clean</li>
                   <li className='list-disc'>Durable and strong</li>
                   <li className='list-disc'>Easy installation (does not require a professional)</li>
@@ -80,18 +80,18 @@ const Blog4:React.FC = () => {
                   <li className='list-disc'>Prevents spills/smudges/scratches/UV light</li>
                 </ul>
                 <h4  className='font-bold'>Design Options</h4>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Textured laminate:</h5> Embossed textures or hand-scraped surfaces</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>High-gloss:</h5>Shiny, polished and seamless</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Patterned laminate:</h5>It has different designs like herringbone or chevron</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Stone look:</h5>Looks like natural stone (marble, slate etc)</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Wood look:</h5> Looks like natural hardwood (maple, oak, walnut etc)</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Matte-finish:</h5>Non-reflective and smooth</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Mixed width laminate:</h5>Combination of planks with different widths</p>
+                <p > <span className='font-bold'>Textured laminate:</span> Embossed textures or hand-scraped surfaces</p>
+                <p > <span className='font-bold'>High-gloss:</span>Shiny, polished and seamless</p>
+                <p > <span className='font-bold'>Patterned laminate:</span>It has different designs like herringbone or chevron</p>
+                <p > <span className='font-bold'>Stone look:</span>Looks like natural stone (marble, slate etc)</p>
+                <p > <span className='font-bold'>Wood look:</span> Looks like natural hardwood (maple, oak, walnut etc)</p>
+                <p > <span className='font-bold'>Matte-finish:</span>Non-reflective and smooth</p>
+                <p > <span className='font-bold'>Mixed width laminate:</span>Combination of planks with different widths</p>
                 <h3  className='font-bold'>Linoleum</h3>
                 <h4  className='font-bold'>Appearance</h4>
                 <p>Looking for a material that looks timeless and natural? Well, linoleum is the one. It&apos;s an absolutely charming and affordable flooring option with a matte finish. The inviting patterns, earthy tone, and seamless design have made linoleum the chosen favourite of homeowners. Its timeless appearance has made it ideal for both commercial and residential areas.</p>
                 <h4  className='font-bold'>Benefits</h4>
-                <ul className='md:px-8'>
+                <ul className='px-4 md:px-8'>
                   <li className='list-disc'>Eco-friendly and biodegradable</li>
                   <li className='list-disc'>Durable (lasts up to approximately 40 years with proper handling)</li>
                   <li className='list-disc'>Anti-microbial and antistatic</li>
@@ -99,7 +99,7 @@ const Blog4:React.FC = () => {
                   <li className='list-disc'>Prevents discoloration</li>
                 </ul>
                 <h4  className='font-bold'>Design Options</h4>
-                <ul className='md:px-8'>
+                <ul className='px-4 md:px-8'>
                   <li className='list-disc'>Sheet flooring</li>
                   <li className='list-disc'>Tiles (glue-down and click-clock)</li>
                   <li className='list-disc'>Plank flooring</li>
@@ -108,7 +108,7 @@ const Blog4:React.FC = () => {
                 <h4  className='font-bold'>Appearance</h4>
                 <p>Polished concrete has a sleek, smooth, and vibrant look. Its reflective surface and glossy finish lead to a sense of openness. You can choose your favourite look of concrete flooring as it offers broad customization. There are many colours and stains to choose from. Also, designs also vary from minimalistic to complex.</p>
                 <h4  className='font-bold'>Benefits</h4>
-                <ul className='md:px-8'>
+                <ul className='px-4 md:px-8'>
                   <li className='list-disc'>Light-reflective</li>
                   <li className='list-disc'>Avoids slips and falls</li>
                   <li className='list-disc'>Long-lasting</li>
@@ -116,18 +116,18 @@ const Blog4:React.FC = () => {
                   <li className='list-disc'>Hypoallergenic (doesn’t trap grime or mould)</li>
                 </ul>
                 <h4  className='font-bold'>Design Options</h4>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Natural-grey finish:</h5>Features aesthetic natural grey concrete</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>High-gloss:</h5>Offers highly reflective surface with a modern feel</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Matte:</h5>It’s less reflective, has a smooth surface with a traditional vibe</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Patterned concrete:</h5>Offers different patterns (engraved, saw-cuts, or geometric ones)</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Salt & pepper finish:</h5>Showcases fine grains of sand with a subtle texture</p>
-                <p className='flex items-center gap-2'> <h5 className='font-bold'>Textured concrete:</h5>Soft texture which prevents slips and offers visual appeal</p>
+                <p > <span className='font-bold'>Natural-grey finish:</span>Features aesthetic natural grey concrete</p>
+                <p > <span className='font-bold'>High-gloss:</span>Offers highly reflective surface with a modern feel</p>
+                <p > <span className='font-bold'>Matte:</span>It’s less reflective, has a smooth surface with a traditional vibe</p>
+                <p > <span className='font-bold'>Patterned concrete:</span>Offers different patterns (engraved, saw-cuts, or geometric ones)</p>
+                <p > <span className='font-bold'>Salt & pepper finish:</span>Showcases fine grains of sand with a subtle texture</p>
+                <p > <span className='font-bold'>Textured concrete:</span>Soft texture which prevents slips and offers visual appeal</p>
 
                 <h3  className='font-bold'>Engineered Wood</h3>
                 <h4  className='font-bold'>Appearance</h4>
                 <p>Natural, rustic, and earthy—that&apos;s how engineered wood appears. With a close resemblance to solid hardwood, it gives off a lived-in vibe and a natural glamour. Polished engineered wood has a glossy finish, while a matte finish goes fine for a rustic feel. The versatile and evergreen look of engineered hardwood has made it ideal for traditional and urban settings.</p>
                 <h4  className='font-bold'>Benefits</h4>
-                <ul className='md:px-8'>
+                <ul className='px-4 md:px-8'>
                   <li className='list-disc'>Gives off the vibe of real wood</li>
                   <li className='list-disc'>Very durable with remarkable strength</li>
                   <li className='list-disc'>Long lifespan</li>
@@ -135,11 +135,11 @@ const Blog4:React.FC = () => {
                   <li className='list-disc'>Incredibly environment-friendly</li>
                 </ul>
                 <h4  className='font-bold'>Design Options</h4>
-                <p className='flex items-center gap-2 '> <h5 className='font-bold'>Planks with different widths:</h5>Combines planks of different widths, has a rustic charm</p>
-                <p className='flex items-center gap-2 '> <h5 className='font-bold'>Distressed:</h5>It intentionally gives a worn-out look for a classic aesthetic</p>
-                <p className='flex items-center gap-2 '> <h5 className='font-bold'>Herringbone:</h5>Planks with irregular patterns. It’s a very classy engineered wood design.</p>
-                <p className='flex items-center gap-2 '> <h5 className='font-bold'>Hand-scraped:</h5>Offers a feel of hand-crafted wood</p>
-                <p className='flex items-center gap-2 '> <h5 className='font-bold'>Chevron:</h5>Resembles herringbones and has V-shaped patterns to add sleekness</p>
+                <p className=' '> <span className='font-bold'>Planks with different widths:</span>Combines planks of different widths, has a rustic charm</p>
+                <p className=' '> <span className='font-bold'>Distressed:</span>It intentionally gives a worn-out look for a classic aesthetic</p>
+                <p className=' '> <span className='font-bold'>Herringbone:</span>Planks with irregular patterns. It’s a very classy engineered wood design.</p>
+                <p className=' '> <span className='font-bold'>Hand-scraped:</span>Offers a feel of hand-crafted wood</p>
+                <p className=' '> <span className='font-bold'>Chevron:</span>Resembles herringbones and has V-shaped patterns to add sleekness</p>
 
                 <h2>Simple Hacks For Smart Shopping </h2>
                 <p>It is not easy to choose an affordable flooring solution while the market is brimming with flooring options. So, here are some simple techniques to help you through this process.</p>
