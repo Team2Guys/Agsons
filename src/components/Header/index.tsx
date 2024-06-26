@@ -108,11 +108,11 @@ const Header: React.FC = () => {
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 gap-5">
-            <Link href={"#"} target='_blank' className='  h-10 w-10 rounded-full bg-white shadow-lg  hidden md:flex justify-center items-center'>
+            <Link href={"https://www.facebook.com/profile.php?id=61556264781121"} target='_blank' className='  h-10 w-10 rounded-full bg-white shadow-lg  hidden md:flex justify-center items-center'>
             <FaFacebookF className='text-blue-600' size={20} />
 
             </Link>
-            <Link href={""} target='_blank' className='  h-10 w-10 rounded-full bg-white shadow-lg hidden md:flex justify-center items-center'>
+            <Link href={"https://www.instagram.com/agsons_me/?fbclid=IwAR2c41ivOZ4VQhMOZ_5RaNYwYCXwYfJVmqN3vbREGBb4-ml-XzQ9rg_2rgA"} target='_blank' className='  h-10 w-10 rounded-full bg-white shadow-lg hidden md:flex justify-center items-center'>
               <Image width={300} height={300} className='p-2' src={insta} alt='insta'/>
             </Link>
             <Link

@@ -896,7 +896,7 @@ const tabContent: Record<string, TabContent> = {
         link: 'product',
       },
       {
-        title: '/Nail Free Glue MAX POWER R200',
+        title: 'Nail Free Glue MAX POWER R200',
         subtitle: 'Nail Free Glue',
         imageUrl: R200,
         link: 'product',
