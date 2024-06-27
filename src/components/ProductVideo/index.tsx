@@ -12,8 +12,8 @@ const ProductVideo = () => {
                 </video>
             </div>
             <div className='w-full md:w-6/12 space-y-4'>
-                <h1 className='text-2xl mt-3 md:text-6xl font-medium md:text-start text-center'>We Believe that Interior beautifies!</h1>
-                <p className='text-center md:text-start text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi </p>
+                <h1 className='text-2xl mt-3 md:text-6xl font-medium md:text-start text-center'>Building Better, Together: Quality, Innovation, and Trust </h1>
+                <p className='text-center md:text-start text-sm md:text-base'>Our collection features the luxurious textures of Richmond Flooring, the enduring beauty of Sintrich Stone, and the exceptional performance of Monster Sealants. By leveraging our global network and local expertise, we ensure competitive pricing and reliable delivery, making AGSONS Middle East your trusted partner in building success.</p>
                 <Link className='bg-black flex justify-between rounded-full w-48 mx-auto md:mx-0' href={"#"}>
                 <div className='bg-black rounded-full items-center flex justify-between w-48 p-2'>
                     <p className='text-white text-lg px-2'>View Detail </p>
