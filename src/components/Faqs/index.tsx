@@ -15,7 +15,7 @@ const accordionData: AccordionItem[] = [
       'Richmond Flooring (SPC & LVT), Sintrich (Sintered Stone), and Monster (Silicon and nail free Clue).',
   },
   {
-    question: 'WHAT TYPES OF FLOORING DOES AGSONS OFFER?',
+    question: 'What Types Of Flooring Does AGSONS Offer?',
     answer:
       'We offer a variety of flooring types including SPC, LVT, and Sintered Stone.',
   },{
@@ -59,7 +59,7 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto py-12 p-2" id='faq'>
+    <div className="max-w-4xl mx-auto py-12 p-2 md:mt-20" id='faq'>
       <h2 className="text-xl md:text-3xl font-extrabold mb-8 text-center">
         FREQUENTLY ASKED QUESTIONS
       </h2>
@@ -69,7 +69,7 @@ const Accordion: React.FC = () => {
             className="w-full p-2 md:p-4 flex justify-between items-center text-left"
             onClick={() => handleToggle(index)}
           >
-            <span className="text-sm md:text-xl font-semibold">{item.question}</span>
+            <span className="text-sm md:text-xl font-semibold capitalize">{item.question}</span>
             <span className="">
               {activeIndex === index ? <FaChevronUp size={15}/> : <FaChevronDown size={15} />}
             </span>

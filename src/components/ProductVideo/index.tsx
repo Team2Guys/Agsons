@@ -12,9 +12,9 @@ const ProductVideo = () => {
                 </video>
             </div>
             <div className='w-full md:w-6/12 space-y-4'>
-                <h1 className='text-2xl mt-3 md:text-6xl font-medium text-start'>We Believe that Interior beautifies!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi </p>
-                <Link className='bg-black flex justify-between rounded-full w-48' href={"#"}>
+                <h1 className='text-2xl mt-3 md:text-6xl font-medium md:text-start text-center'>We Believe that Interior beautifies!</h1>
+                <p className='text-center md:text-start text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi </p>
+                <Link className='bg-black flex justify-between rounded-full w-48 mx-auto md:mx-0' href={"#"}>
                 <div className='bg-black rounded-full items-center flex justify-between w-48 p-2'>
                     <p className='text-white text-lg px-2'>View Detail </p>
                     <div className='border rounded-full flex items-center justify-center w-8 h-8 bg-white'>

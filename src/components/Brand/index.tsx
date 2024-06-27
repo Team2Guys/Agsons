@@ -72,16 +72,16 @@ const Brands: React.FC = () => {
   };
 
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 mt-5 md:mt-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold sm:text-4xl capitalize">
+          <h2 className="text-xl font-extrabold sm:text-4xl capitalize">
           Brands that we have built with quality always in mind
           </h2>
-          <p className="mt-3 text-lg sm:mt-4 font-semibold">
+          <p className="mt-3 text-base md:text-lg sm:mt-4 font-semibold">
           From the UK to the Middle East now, Agsons delivers 3 decades of experience in the property renovation sector
           </p>
-          <p className="text-base">
+          <p className="text-sm md:text-base">
           Our key clients would be architects, interior designers, fit out contractors, channel partners and of course the end user. All our products are offered with a manufacturer’s warranty with a no hassle policy.
           </p>
         </div>
@@ -144,7 +144,7 @@ const Brands: React.FC = () => {
                   {Object.keys(tabContent).map((tab, index) => (
                     <Image
                       key={index}
-                      className={`border-b-2 ${activeTab === tab ? 'border-black' : 'border-transparent'}`}
+                      className={`border-b-2  ${activeTab === tab ? 'border-black' : 'border-transparent'}`}
                       width={100}
                       height={100}
                       src={tab === 'tab1' ? Richmond : tab === 'tab2' ? Sintrich : tab === 'tab3' ? Polar : tab === 'tab4' ? Monster : Dulux}
@@ -157,9 +157,9 @@ const Brands: React.FC = () => {
             <div className="flex flex-wrap md:flex-nowrap items-center  bg-primary py-2 px-2 md:py-10 md:px-10">
               <div className="lg:w-1/2">
                 <Image
-                  className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-full"
-                  width={400}
-                  height={400}
+                  className="h-full w-full object-contain md:h-full lg:w-full lg:h-full"
+                  width={500}
+                  height={500}
                   src={tabContent[activeTab].image}
                   alt={tabContent[activeTab].title}
                 />
@@ -168,7 +168,7 @@ const Brands: React.FC = () => {
                 <h3 className="text-xl font-bold text-start">
                   {tabContent[activeTab].title}
                 </h3>
-                <p className="mt-3 text-xs md:text-base  sm:mt-4">
+                <p className="mt-3 text-sm md:text-base  sm:mt-4">
                   {tabContent[activeTab].description}
                 </p>
                 <div className='flex gap-2 mt-5'>

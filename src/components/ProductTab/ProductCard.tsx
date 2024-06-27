@@ -35,8 +35,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
           </div>
           </Link>
           <div className='pt-3'>
-          <h2 className='font-semibold text-sm'>{subtitle}</h2>
-          <p className='text-lg font-semibold'> {title}</p>
+          <h2 className='font-semibold text-xs md:text-sm'>{subtitle}</h2>
+          <p className='text-base md:text-lg font-semibold'> {title}</p>
         </div>
         </Link>
 

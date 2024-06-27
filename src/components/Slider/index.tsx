@@ -39,9 +39,8 @@ const testimonials: Testimonial[] = [
 
 const TestimonialSlider: React.FC = () => {
   return (
-    <div>
-      <h2 className="text-xl md:text-3xl font-extrabold  mb-2 text-center">Satisfaction Customer</h2>
-      <p className="text-center  mb-10">What Our Clients Say About Us</p>
+    <div className='mt-5 md:mt-20'>
+      <h2 className="text-xl md:text-3xl font-extrabold  px-5 md:px-0 mb-2 text-center">What Our Clients Say About Us</h2>
    
     <div className="relative max-w-4xl mx-auto py-12">
       

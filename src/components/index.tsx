@@ -3,7 +3,7 @@ import React from 'react'
 import img from "@images/about.jpeg"
 const About = () => {
   return (
-    <div className='mt-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8' id='about'>
+    <div className='mt-20 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8' id='about'>
         <div className='text-center'>
             <h1 className='font-bold text-4xl'>ABOUT Us</h1>
             <p className='font-semibold'>Quality You Trust, Innovation You Need, Sustainability We Ensure</p>
@@ -13,8 +13,8 @@ const About = () => {
              <div className='space-y-2'>
                 <p className='text-xs text-justify md:text-base'>As an extension of our UK family business, we bring generations of expertise and excellence to your doorstep. Our mission? To provide you with high quality building materials at competitive prices – whether its the opulent finish of Richmond Flooring, the timeless elegance of Sintrich Stone, or the dependable strength of Monster Adhesives.</p>
                 <p className='text-xs text-justify md:text-base'>But we’re not just about products; we’re about people. Since every project is different, our committed team in the Middle East focuses on offering solutions that meet your particular needs for your one-of-a-kind projects. We are committed to establishing enduring bonds based on respect, honesty, and trust.</p>
-                <p>Why Choose Agsons?</p>
-                <ul className='md:px-6'>
+                <p className='font-bold'>Why Choose Agsons?</p>
+                <ul className='md:px-6 text-xs md:text-base'>
                   <li className='list-disc'>We source only the finest materials, holding ourselves to the highest standards.</li>
                   <li className='list-disc'>Always on the lookout for the latest technologies, we bring you the most advanced building solutions.</li>
                   <li className='list-disc'>Committed to sustainability, we offer eco-friendly options and practise responsible sourcing.</li>

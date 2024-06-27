@@ -24,13 +24,13 @@ const ProductTab: React.FC = () => {
               alt="logo"
             />
           </div>
-          <div className="w-4/12 md:w-8/12 border-t-2"></div>
-          <div className="w-4/12 md:w-2/12 pointer-events-none text-sm md:text-base">
+          <div className="w-3/12 md:w-8/12 border-t-2"></div>
+          <div className="w-5/12 md:w-2/12 pointer-events-none text-sm md:text-base">
             See Our Collection
           </div>
         </div>
         <div className="text-center bg-primary pt-10 pb-10">
-          <h2 className="text-4xl md:text-6xl font-medium uppercase">
+          <h2 className="text-xl md:text-6xl font-medium uppercase">
             {activeTab === 'tab1'
               ? 'Richmond Luxury Vinyl Flooring'
               : activeTab === 'tab2'
@@ -47,7 +47,7 @@ const ProductTab: React.FC = () => {
                 setActiveTab('tab1');
                 setVisibleCount(9);
               }}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
+              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
                 activeTab === 'tab1'
                   ? 'bg-black text-white'
                   : 'bg-primary border border-black'
@@ -60,7 +60,7 @@ const ProductTab: React.FC = () => {
                 setActiveTab('tab2');
                 setVisibleCount(9);
               }}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
+              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
                 activeTab === 'tab2'
                   ? 'bg-black text-white'
                   : 'bg-primary border border-black'
@@ -73,7 +73,7 @@ const ProductTab: React.FC = () => {
                 setActiveTab('tab3');
                 setVisibleCount(9);
               }}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
+              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
                 activeTab === 'tab3'
                   ? 'bg-black text-white'
                   : 'bg-primary border border-black'
@@ -86,7 +86,7 @@ const ProductTab: React.FC = () => {
                 setActiveTab('tab4');
                 setVisibleCount(9);
               }}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
+              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
                 activeTab === 'tab4'
                   ? 'bg-black text-white'
                   : 'bg-primary border border-black'

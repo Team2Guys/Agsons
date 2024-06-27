@@ -45,11 +45,11 @@ const truncateText = (text: string, maxLength: number) => {
 
 const ExploreProduct = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white md:py-12 mt-5 md:mt-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold sm:text-4xl">EXPLORE</h2>
-          <p className="mt-3 text-lg sm:mt-4">OUR LATEST Blogs</p>
+          <p className="mt-3 text-lg sm:mt-4">Our Latest Blogs</p>
         </div>
 
         <div className="mt-10 grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
