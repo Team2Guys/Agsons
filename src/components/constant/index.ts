@@ -157,7 +157,7 @@ import POLARSPC6 from "@/assets/images/Polar SPC/Polar SPC -Prarie.jpg"
 import POLARSPC7 from "@/assets/images/Polar SPC/Polar SPC -US walnut.jpg"
 import POLARSPC8 from "@/assets/images/Polar SPC/Polar SPC -Weathered Oak.jpg"
 import POLARSPC9 from "@/assets/images/Polar SPC/Polar SPC -White wash.jpg"
-import POLARSPC10 from "@/assets/images/Polar SPC/Polar SPC Rustic Oak.jpg"
+import POLARSPC10 from "@/assets/images/Polar SPC/Polar SPC Rustic oak.jpg"
 
 
 
