@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='mt-20 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8' id='about'>
         <div className='text-center'>
-            <h1 className='font-bold text-4xl'>ABOUT Us</h1>
+            <h1 className='font-bold text-4xl'>ABOUT US</h1>
             <p className='font-semibold'>Quality You Trust, Innovation You Need, Sustainability We Ensure</p>
         </div>
 

@@ -62,7 +62,7 @@ const Brands: React.FC = () => {
       websitelink:"https://monstersealant.com/"
     },
     tab5: {
-      title: 'Delux Paint',
+      title: 'Dulux Paint',
       description:
         'Dulux Paints is globally known as the industrial leader in the painting supply industry. At Agsons, we keep stock of all the paints and tinting options are done in house. For large scale projects and companies that require a large volume of matt emulsion paints nobody can beat us on price and quality.',
       image: dux,
@@ -136,7 +136,7 @@ const Brands: React.FC = () => {
                   : 'bg-white  text-black'
               }`}
             >
-              Delux Paint
+              Dulux Paint
             </button>
           </div>
  
