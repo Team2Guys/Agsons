@@ -5,7 +5,7 @@ const Map: React.FC = () => {
   return (
     <div className="mt-8">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7485322461097!2d-74.00601538459356!3d40.71277537933102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3169028ddf%3A0x7d1f91d1d920a8!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1619199923350!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14464.500725076008!2d55.1227873!3d24.995862!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f136b6d69190b%3A0x1026582358119466!2sAgsons%20Middle%20East%20Trading%20LLC!5e0!3m2!1sen!2sae!4v1719555812301!5m2!1sen!2sae"
         width="100%"
         height="300"
         allowFullScreen={false}

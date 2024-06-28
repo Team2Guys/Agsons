@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { FaLocationDot } from 'react-icons/fa6';
@@ -8,17 +9,17 @@ const ReactUS = () => {
       <h1 className="text-xl font-bold">Reach US</h1>
       <div className="flex text-md gap-2">
         <FaPhoneAlt className="text-lg mt-1" />
-        <p className="">+971 4 385 2652</p>
+        <Link href={"tel:+971 4 385 2652"} className="">+971 4 385 2652</Link>
       </div>
       <div className="flex text-md  gap-2">
         <IoMdMail className="text-lg mt-1" />
-        <p className="">info@agsons.com</p>
+        <Link href={"mailto:info@agsons.ae"} className="">info@agsons.ae</Link>
       </div>
       <div className="flex text-md  gap-2">
         <FaLocationDot className="text-lg mt-1" />
-        <p className="">
+        <Link href={"https://maps.app.goo.gl/ZMFEiHmxCGEwrQnZ7"} className="">
           Unit A12, J1 Warehouses, Jabel Ali <br /> industerial 1, Dubai, UAE
-        </p>
+        </Link>
       </div>
     </div>
   );

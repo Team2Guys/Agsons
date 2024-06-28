@@ -1,4 +1,5 @@
 // components/ContactInfo.tsx
+import Link from 'next/link';
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -15,15 +16,15 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ phone, email, address }) => {
       <p className=" mb-4">Say something to start a live chat!</p>
       <div className="flex items-center mb-4">
         <FaPhoneAlt className="mr-3 " />
-        <span>{phone}</span>
+        <Link href={`tel:${phone}`}>{phone}</Link>
       </div>
       <div className="flex items-center mb-4">
         <FaEnvelope className="mr-3 " />
-        <span>{email}</span>
+        <Link href={`mailto:${email}`}>{email}</Link>
       </div>
       <div className="flex items-center mb-4">
         <FaMapMarkerAlt className="mr-3 " />
-        <span>{address}</span>
+        <Link target='_blank' href={"https://maps.app.goo.gl/ZMFEiHmxCGEwrQnZ7"}>{address}</Link>
       </div>
     </div>
   );
