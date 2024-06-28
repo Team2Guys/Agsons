@@ -20,7 +20,8 @@ type TabContent = {
     description: string;
     image: any;
     downloadlink?: any;
-    websitelink?: any
+    websitelink?: any;
+    execl?: any;
   };
 };
 
@@ -34,7 +35,8 @@ const Brands: React.FC = () => {
         'Richmond has a well-established reputation among floor traders and wholesalers, having maintained a position as a top-tier brand for more than 20 years in the UK and the last 3 years in the Middle East. As manufacturers of the Richmond brand, we leave no attention to detail untouched. With over 2 decades of manufacturing experience using the latest technology with branding to create appealing and well constructed products. We have an extensive range of SPC flooring and LVT flooring. Please contact us if you’re a retailer, wholesaler or wish to be a distributor in your own country. We currently have a dealer network in the UK, Spain, Greece, South Africa, Kenya, and Zimbabwe. We would love to add more countries. ',
       image: rich,
       downloadlink: "/assets/Richmond.pdf",
-      websitelink:"https://richmondflooring.ae/ae-en"
+      websitelink:"https://richmondflooring.ae/ae-en",
+      execl: "/assets/Technical-Data-Sheet.xlsx"
     },
     tab2: {
       title: 'Sintrich Stone',
@@ -51,6 +53,7 @@ const Brands: React.FC = () => {
         'Polar Flooring was established in 2022 to cater for development projects. All our Polar Flooring in our SPC and LVT ranges still offer a manufacturer’s warranty but have been rigorously value engineered to create a contractor’s perfect solution in a competitive marketplace. Have comfort in the knowledge that the skeleton and quality of Polar Flooring have not been compromised to still be a high quality product. ',
       image: pol,
       downloadlink: "/assets/Polar.pdf",
+      execl: "/assets/Technical-Data-Sheet-Polar.xlsx",
       websitelink:"https://polarfloors.co.uk/"
     },
     tab4: {
@@ -171,8 +174,12 @@ const Brands: React.FC = () => {
                 <p className="mt-3 text-sm md:text-base  sm:mt-4">
                   {tabContent[activeTab].description}
                 </p>
-                <div className='flex gap-2 mt-5'>
+                <div className='flex flex-wrap gap-2 mt-5'>
                   <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Catalogue PDF</Link>
+                  {tabContent[activeTab].execl && (
+                    <Link href={tabContent[activeTab].execl} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</Link>
+                  )}
+                  
                   <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
                   <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
