@@ -18,7 +18,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
     <Link href={link} className='group relative'>
           <div>
             <Image
-              className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-full"
+              className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-96"
               width={400}
               height={400}
               src={imageUrl}

@@ -3,16 +3,6 @@ import Sintrich from '@images/logo/Sintrich logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Monster from '@images/logo/Monster logo.png';
 import Dulux from '@images/logo/Dulux logo.png';
-import richmond1 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -American walnut.jpg';
-import richmond2 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Premium oak.jpg';
-import richmond3 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Silver.jpg';
-import richmond4 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Twine.jpg';
-import richmond5 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -cappuccino.jpg';
-import HERRINGBONE1 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -01.jpg"
-import HERRINGBONE2 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -02.jpg"
-import HERRINGBONE3 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -03.jpg"
-import HERRINGBONE4 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -04.jpg"
-import HERRINGBONE5 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -05.jpg"
 import AMAZON from "@images/Sintrich/Alabaster Elegance/AMAZON GREEN/AMAZON GREEN.jpg";
 import Azul from "@images/Sintrich/Alabaster Elegance/Azul Macaubas/Azul Macaubas.jpg";
 import Bolivia from "@images/Sintrich/Alabaster Elegance/Bolivia Blue/Bolivia Blue.jpg";
@@ -119,15 +109,6 @@ import Walnut from "@images/Polar LVT/Polar LVT-US Walnut.jpg";
 import Vintage from "@images/Polar LVT/Polar LVT-Vintage Timber.jpg";
 import Weathered from "@images/Polar LVT/Polar LVT-Weathered Oak.jpg";
 import wash from "@images/Polar LVT/Polar LVT-White wash.jpg";
-import richmond6 from '@images/Richmond LVT comfort/Richmond LVT comfort- Twine.jpg';
-import richmond7 from '@images/Richmond LVT comfort/Richmond LVT comfort-American Walnut.jpg';
-import richmond8 from '@images/Richmond LVT comfort/Richmond LVT comfort-Cappuccino.jpg';
-import richmond9 from '@images/Richmond LVT comfort/Richmond LVT comfort-Forest.jpg';
-import richmond10 from '@images/Richmond LVT comfort/Richmond LVT comfort-Mahogany.jpg';
-import richmond11 from '@images/Richmond LVT comfort/Richmond LVT comfort-Premium oak.jpg';
-import richmond12 from '@images/Richmond LVT comfort/Richmond LVT comfort-Shadow oak.jpg';
-import richmond13 from '@images/Richmond LVT comfort/Richmond LVT comfort-Silver.jpg';
-
 import FORMULATED from "@images/Monster/Flooring Glue/FORMULATED FLOORING GLUE R10.jpg"
 import MULTIPURPOSE from "@images/Monster/MULTIPURPOSE SILICONE/MULTIPURPOSE SILICONE.jpg"
 import R200 from "@images/Monster/Nail Free Glue/MAX POWER R200/Nail Free Glue MAX POWER R200.jpg"
@@ -160,6 +141,43 @@ import POLARSPC9 from "@/assets/images/Polar SPC/Polar SPC -White wash.jpg"
 import POLARSPC10 from "@/assets/images/Polar SPC/Polar SPC Rustic oak.jpg"
 
 
+import SPC1 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- American Walnut.jpg"
+import SPC2 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Cappuccino.jpg"
+import SPC3 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Cherry.jpg"
+import SPC4 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Espresso Noir.jpg"
+import SPC5 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- FOREST.jpg"
+import SPC6 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- MAHOGANY.jpg"
+import SPC7 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK HISTORY.jpg"
+import SPC8 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK.jpg"
+import SPC9 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Premium Oak.jpg"
+import SPC10 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Silver.jpg"
+import PRIME1 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- American Walnut.jpg"
+import PRIME2 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Cappuccino.jpg"
+import PRIME3 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Espresso Noir.jpg"
+import PRIME4 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- OAK HISTORY.jpg"
+import PRIME5 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Premium Oak.jpg"
+import HERRINGBONE1 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - Cappuccino.jpg"
+import HERRINGBONE2 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - FOREST.jpg"
+import HERRINGBONE3 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - MAHOGANY.jpg"
+import HERRINGBONE4 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - OAK.jpg"
+import HERRINGBONE5 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone -Silver.jpg"
+import HERRINGBONE6 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone- Premium Oak.jpg"
+import COMFORT1 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- American Walnut.jpg"
+import COMFORT2 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Cappuccino.jpg"
+import COMFORT3 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Forest.jpg"
+import COMFORT4 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Mahogany.jpg"
+import COMFORT5 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Premium Oak.jpg"
+import COMFORT6 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Shadow Oak.jpg"
+import COMFORT7 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Silver.jpg"
+import COMFORT8 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Twine.jpg"
+import LUXURY1 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Comfort- Shadow Oak.jpg"
+import LUXURY2 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- American Walnut.jpg"
+import LUXURY3 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Cappuccino.jpg"
+import LUXURY4 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Premium Oak.jpg"
+import LUXURY5 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Silver.jpg"
+
+
+
 
 interface Product {
   title: string;
@@ -178,6 +196,118 @@ const tabContent: Record<string, TabContent> = {
   tab1: {
     logo: Richmond,
     products: [
+
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- American Walnut',
+        imageUrl: SPC1,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Cappuccino',
+        imageUrl: SPC2,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Cherry',
+        imageUrl: SPC3,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Espresso Noir',
+        imageUrl: SPC4,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- FOREST',
+        imageUrl: SPC5,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- MAHOGANY',
+        imageUrl: SPC6,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- OAK HISTORY',
+        imageUrl: SPC7,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- OAK',
+        imageUrl: SPC8,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Premium Oak',
+        imageUrl: SPC9,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Silver',
+        imageUrl: SPC10,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+
+
+
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- American Walnut',
+        imageUrl: PRIME1,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- Cappuccino',
+        imageUrl: PRIME2,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- Espresso Noir',
+        imageUrl: PRIME3,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- OAK HISTORY',
+        imageUrl: PRIME4,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- Premium Oak',
+        imageUrl: PRIME5,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+   
+    
+
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
         title: 'SPC Herringbone - Cappuccino',
@@ -187,14 +317,14 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone - MAHOGANY',
+        title: 'SPC Herringbone - FOREST',
         imageUrl: HERRINGBONE2,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone- Premium Oak',
+        title: 'SPC Herringbone - MAHOGANY',
         imageUrl: HERRINGBONE3,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
@@ -208,102 +338,111 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone -Silver',
         imageUrl: HERRINGBONE5,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone- Premium Oak',
+        imageUrl: HERRINGBONE6,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
       },
 
 
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort- Twine',
-        imageUrl: richmond6,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- American Walnut',
+        imageUrl: COMFORT1,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-American Walnut',
-        imageUrl: richmond7,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Cappuccino',
+        imageUrl: COMFORT2,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Cappuccino',
-        imageUrl: richmond8,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Forest',
+        imageUrl: COMFORT3,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Forest',
-        imageUrl: richmond9,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Mahogany',
+        imageUrl: COMFORT4,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Mahogany',
-        imageUrl: richmond10,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Premium Oak',
+        imageUrl: COMFORT5,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Premium Oak',
-        imageUrl: richmond10,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Shadow Oak',
+        imageUrl: COMFORT6,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Shadow oak',
-        imageUrl: richmond11,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Silver',
+        imageUrl: COMFORT7,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
       {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Silver',
-        imageUrl: richmond12,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Twine',
+        imageUrl: COMFORT8,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
 
+  
 
       {
-        subtitle: 'Richmond LVT Luxury',
-        title: 'Richmond LVT Luxury -American walnut',
-        imageUrl: richmond1,
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Comfort- Shadow Oak',
+        imageUrl: LUXURY1,
         link: 'product',
         size:"1220mm x 228mm x 6mm"
       },
       {
-        subtitle: 'Richmond LVT Luxury',
-        title: 'Richmond LVT Luxury -Premium oak',
-        imageUrl: richmond2,
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Luxury- American Walnut',
+        imageUrl: LUXURY2,
         link: 'product',
         size:"1220mm x 228mm x 6mm"
       },
       {
-        subtitle: 'Richmond LVT Luxury',
-        title: 'Richmond LVT Luxury -Silver',
-        imageUrl: richmond3,
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Luxury- Cappuccino',
+        imageUrl: LUXURY3,
         link: 'product',
         size:"1220mm x 228mm x 6mm"
       },
       {
-        subtitle: 'Richmond LVT Luxury',
-        title: 'Richmond LVT Luxury -Twine',
-        imageUrl: richmond4,
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Luxury- Premium Oak',
+        imageUrl: LUXURY4,
         link: 'product',
+        size:"1220mm x 228mm x 6mm"
       },
       {
-        subtitle: 'Richmond LVT Luxury',
-        title: 'Richmond LVT Luxury -cappuccino',
-        imageUrl: richmond5,
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Luxury- Silver',
+        imageUrl: LUXURY5,
         link: 'product',
         size:"1220mm x 228mm x 6mm"
       },
@@ -954,7 +1093,6 @@ const tabContent: Record<string, TabContent> = {
         imageUrl:POLARSPC10,
         link: 'product',
       },
-
 
 
 
