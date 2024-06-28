@@ -174,12 +174,12 @@ const Brands: React.FC = () => {
                 <p className="mt-3 text-sm md:text-base  sm:mt-4">
                   {tabContent[activeTab].description}
                 </p>
+
                 <div className='flex flex-wrap gap-2 mt-5'>
-                  <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Catalogue PDF</Link>
+                  <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:xtext-base px-2  md:px-4 py-2 text-white'>Catalogue PDF</Link>
                   {tabContent[activeTab].execl && (
                     <Link href={tabContent[activeTab].execl} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</Link>
                   )}
-                  
                   <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
                   <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
