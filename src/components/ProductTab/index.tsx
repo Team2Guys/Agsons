@@ -118,6 +118,7 @@ const ProductTab: React.FC = () => {
                 subtitle={product.subtitle}
                 imageUrl={product.imageUrl}
                 link={product.link}
+                size={product.size}
               />
             ))}
           </div>

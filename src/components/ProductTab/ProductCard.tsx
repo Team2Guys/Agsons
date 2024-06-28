@@ -9,9 +9,10 @@ interface ProductCardProps {
   subtitle: string;
   imageUrl: string;
   link: string;
+  size?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size}) => {
   return (
     <>
     <Link href={link} className='group relative'>
@@ -26,14 +27,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
             />
       
           </div>
-            <Link href={`/${link}`} className='text-center flex justify-center translate-y-16 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 group-hover:transition group-hover:duration-300'>
-          <div className='bg-black rounded-full items-center flex justify-between w-48 p-2 absolute bottom-3'>
-            <p className='text-white text-lg px-2'>View Detail </p>
-            <div className='border rounded-full flex items-center justify-center w-8 h-8 bg-white'>
-             <MdKeyboardArrowRight className='text-black' size={25} />
-            </div>
+            <div className=' flex justify-center'>
+                <div className='bg-transparent backdrop-blur-3xl   w-full p-2 absolute bottom-[60px]'>
+                  <p className='text-white text-lg px-2'><span className='font-bold'>Size: </span>{size}</p>
+                </div>
           </div>
-          </Link>
           <div className='pt-3'>
           <h2 className='font-semibold text-xs md:text-sm'>{subtitle}</h2>
           <p className='text-base md:text-lg font-semibold'> {title}</p>

@@ -8,6 +8,11 @@ import richmond2 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Premium 
 import richmond3 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Silver.jpg';
 import richmond4 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -Twine.jpg';
 import richmond5 from '@images/Richmond LVT Luxury/Richmond LVT Luxury -cappuccino.jpg';
+import HERRINGBONE1 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -01.jpg"
+import HERRINGBONE2 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -02.jpg"
+import HERRINGBONE3 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -03.jpg"
+import HERRINGBONE4 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -04.jpg"
+import HERRINGBONE5 from "@images/RICHMOND SPC HERRINGBONE/RICHMOND SPC HERRINGBONE -05.jpg"
 import AMAZON from "@images/Sintrich/Alabaster Elegance/AMAZON GREEN/AMAZON GREEN.jpg";
 import Azul from "@images/Sintrich/Alabaster Elegance/Azul Macaubas/Azul Macaubas.jpg";
 import Bolivia from "@images/Sintrich/Alabaster Elegance/Bolivia Blue/Bolivia Blue.jpg";
@@ -137,11 +142,31 @@ import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF 
 import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
+import POLARHERRINGBONE1 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE1.jpg"
+import POLARHERRINGBONE2 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE2.jpg"
+import POLARHERRINGBONE3 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE3.jpg"
+import POLARHERRINGBONE4 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE4.jpg"
+import POLARHERRINGBONE5 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE5.jpg"
+import POLARHERRINGBONE6 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE6.jpg"
+import POLARSPC1 from "@/assets/images/Polar SPC/Polar SPC -Antique.jpg"
+import POLARSPC2 from "@/assets/images/Polar SPC/Polar SPC -Cherry.jpg"
+import POLARSPC3 from "@/assets/images/Polar SPC/Polar SPC -Chestnut.jpg"
+import POLARSPC4 from "@/assets/images/Polar SPC/Polar SPC -Classic Oak.jpg"
+import POLARSPC5 from "@/assets/images/Polar SPC/Polar SPC -Oak History.jpg"
+import POLARSPC6 from "@/assets/images/Polar SPC/Polar SPC -Prarie.jpg"
+import POLARSPC7 from "@/assets/images/Polar SPC/Polar SPC -US walnut.jpg"
+import POLARSPC8 from "@/assets/images/Polar SPC/Polar SPC -Weathered Oak.jpg"
+import POLARSPC9 from "@/assets/images/Polar SPC/Polar SPC -White wash.jpg"
+import POLARSPC10 from "@/assets/images/Polar SPC/Polar SPC Rustic Oak.jpg"
+
+
+
 interface Product {
   title: string;
   subtitle: string;
   imageUrl: any;
   link: string;
+  size?: string;
 }
 
 interface TabContent {
@@ -154,22 +179,120 @@ const tabContent: Record<string, TabContent> = {
     logo: Richmond,
     products: [
       {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone - Cappuccino',
+        imageUrl: HERRINGBONE1,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone - MAHOGANY',
+        imageUrl: HERRINGBONE2,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone- Premium Oak',
+        imageUrl: HERRINGBONE3,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone - OAK',
+        imageUrl: HERRINGBONE4,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'RICHMOND SPC HERRINGBONE',
+        imageUrl: HERRINGBONE5,
+        link: 'product',
+        size:"640mm x 128mm x 5.5mm"
+      },
+
+
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort- Twine',
+        imageUrl: richmond6,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-American Walnut',
+        imageUrl: richmond7,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Cappuccino',
+        imageUrl: richmond8,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Forest',
+        imageUrl: richmond9,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Mahogany',
+        imageUrl: richmond10,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Premium Oak',
+        imageUrl: richmond10,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Shadow oak',
+        imageUrl: richmond11,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'Richmond LVT comfort',
+        title: 'Richmond LVT comfort-Silver',
+        imageUrl: richmond12,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+
+
+      {
         subtitle: 'Richmond LVT Luxury',
         title: 'Richmond LVT Luxury -American walnut',
         imageUrl: richmond1,
         link: 'product',
+        size:"1220mm x 228mm x 6mm"
       },
       {
         subtitle: 'Richmond LVT Luxury',
         title: 'Richmond LVT Luxury -Premium oak',
         imageUrl: richmond2,
         link: 'product',
+        size:"1220mm x 228mm x 6mm"
       },
       {
         subtitle: 'Richmond LVT Luxury',
         title: 'Richmond LVT Luxury -Silver',
         imageUrl: richmond3,
         link: 'product',
+        size:"1220mm x 228mm x 6mm"
       },
       {
         subtitle: 'Richmond LVT Luxury',
@@ -182,55 +305,9 @@ const tabContent: Record<string, TabContent> = {
         title: 'Richmond LVT Luxury -cappuccino',
         imageUrl: richmond5,
         link: 'product',
+        size:"1220mm x 228mm x 6mm"
       },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort- Twine',
-        imageUrl: richmond6,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-American Walnut',
-        imageUrl: richmond7,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Cappuccino',
-        imageUrl: richmond8,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Forest',
-        imageUrl: richmond9,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Mahogany',
-        imageUrl: richmond10,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Premium oak',
-        imageUrl: richmond10,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Shadow oak',
-        imageUrl: richmond11,
-        link: 'product',
-      },
-      {
-        subtitle: 'Richmond LVT comfort',
-        title: 'Richmond LVT comfort-Silver',
-        imageUrl: richmond12,
-        link: 'product',
-      },
+     
     ],
   },
   tab2: {
@@ -818,62 +895,165 @@ const tabContent: Record<string, TabContent> = {
     logo: Polar,
     products: [
       {
+        title: 'Polar SPC -Antique',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC1,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Cherry',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC2,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Chestnut',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC3,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Classic Oak',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC4,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Oak History',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC5,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Prarie',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC6,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -US Walnut',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC7,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -Weathered Oak',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC8,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC -White wash',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC9,
+        link: 'product',
+      },
+      {
+        title: 'Polar SPC Rustic Oak',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC10,
+        link: 'product',
+      },
+
+
+
+
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE1,
+        link: 'product',
+      },
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE2,
+        link: 'product',
+      },
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE3,
+        link: 'product',
+      },
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE4,
+        link: 'product',
+      },
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE5,
+        link: 'product',
+      },
+      {
+        title: 'POLAR HERRINGBONE',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE6,
+        link: 'product',
+      },
+
+
+
+      {
         title: 'Polar LVT-Antique',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl:Antique,
         link: 'product',
       },
       {
         title: 'Polar LVT-Cherry',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl:Cherry,
         link: 'product',
       },
       {
         title: 'Polar LVT-Chestnut',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Chestnut,
         link: 'product',
       },
       {
         title: 'Polar LVT-Classic Oak',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Classic,
         link: 'product',
       },
       {
         title: 'Polar LVT-Oak History',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: History,
         link: 'product',
       },
       {
         title: 'Polar LVT-Prarie',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Prarie,
         link: 'product',
       },
       {
         title: 'Polar LVT-US Walnut',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Walnut,
         link: 'product',
       },
       {
         title: 'Polar LVT-Vintage Timber',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Vintage,
         link: 'product',
       },
       {
         title: 'Polar LVT-Weathered Oak',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: Weathered,
         link: 'product',
       },
       {
         title: 'Polar LVT-White wash',
-        subtitle: 'Polar LVT',
+        subtitle: 'POLAR LVT FLOORING',
         imageUrl: wash,
         link: 'product',
       },
