@@ -122,16 +122,16 @@ import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF 
 import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
-import Antique from "@images/Polar_LVT/Antique.jpeg";
-import Cherry from "@images/Polar_LVT/Polar SPC-Cherry.jpeg";
-import Chestnut from "@images/Polar_LVT/Polar LVT- Chestnut.jpeg";
-import Classic from "@images/Polar_LVT/Polar LVT- Classic OAK.jpeg";
-import History from "@images/Polar_LVT/Polar LVT- History Oak.jpeg";
-import Prarie from "@images/Polar_LVT/Polar LVT- Prarie.jpeg";
-import Walnut from "@images/Polar_LVT/Polar LVT- American Walnut.jpeg";
-import Vintage from "@images/Polar_LVT/Polar LVT- Vintage Timber.jpeg";
-import Weathered from "@images/Polar_LVT/Polar LVT- Weathered Oak.jpeg";
-import wash from "@images/Polar_LVT/Polar LVT- White Wash.jpeg";
+import Antique from "@images/POLAR0_LVT/Antique.jpeg";
+import Cherry from "@images/POLAR0_LVT/Polar SPC-Cherry.jpeg";
+import Chestnut from "@images/POLAR0_LVT/Polar LVT- Chestnut.jpeg";
+import Classic from "@images/POLAR0_LVT/Polar LVT- Classic OAK.jpeg";
+import History1 from "@images/POLAR0_LVT/Polar LVT- History Oak.jpeg";
+import Prarie from "@images/POLAR0_LVT/Polar LVT- Prarie.jpeg";
+import Walnut from "@images/POLAR0_LVT/Polar LVT- American Walnut.jpeg";
+import Vintage from "@images/POLAR0_LVT/Polar LVT- Vintage Timber.jpeg";
+import Weathered from "@images/POLAR0_LVT/Polar LVT- Weathered Oak.jpeg";
+import wash from "@images/POLAR0_LVT/Polar LVT- White Wash.jpeg";
 
 import POLARHERRINGBONE1 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
 import POLARHERRINGBONE2 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
@@ -1325,7 +1325,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar LVT- History OAK',
         subtitle: 'POLAR LVT FLOORING',
-        imageUrl: History,
+        imageUrl: History1,
         link: 'product',
         size:"Size: 1220mm x 180mm x 4mm"
       },
