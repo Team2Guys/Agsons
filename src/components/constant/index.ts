@@ -122,16 +122,16 @@ import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF 
 import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
-import Antique from "@images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
-import Cherry from "@images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
-import Chestnut from "@images/Polor/Polar LVT/Polar LVT- Chestnut.jpeg";
-import Classic from "@images/Polor/Polar LVT/Polar LVT- Classic OAK.jpeg";
-import History from "@images/Polor/Polar LVT/Polar LVT- History Oak.jpeg";
-import Prarie from "@images/Polor/Polar LVT/Polar LVT- Prarie.jpeg";
-import Walnut from "@images/Polor/Polar LVT/Polar LVT- American Walnut.jpeg";
-import Vintage from "@images/Polor/Polar LVT/Polar LVT- Vintage Timber.jpeg";
-import Weathered from "@images/Polor/Polar LVT/Polar LVT- Weathered Oak.jpeg";
-import wash from "@images/Polor/Polar LVT/Polar LVT- White Wash.jpeg";
+import Antique from "@images/Polar_LVT/Antique.jpeg";
+import Cherry from "@images/Polar_LVT/Polar SPC-Cherry.jpeg";
+import Chestnut from "@images/Polar_LVT/Polar LVT- Chestnut.jpeg";
+import Classic from "@images/Polar_LVT/Polar LVT- Classic OAK.jpeg";
+import History from "@images/Polar_LVT/Polar LVT- History Oak.jpeg";
+import Prarie from "@images/Polar_LVT/Polar LVT- Prarie.jpeg";
+import Walnut from "@images/Polar_LVT/Polar LVT- American Walnut.jpeg";
+import Vintage from "@images/Polar_LVT/Polar LVT- Vintage Timber.jpeg";
+import Weathered from "@images/Polar_LVT/Polar LVT- Weathered Oak.jpeg";
+import wash from "@images/Polar_LVT/Polar LVT- White Wash.jpeg";
 
 import POLARHERRINGBONE1 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
 import POLARHERRINGBONE2 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
@@ -1307,7 +1307,6 @@ const tabContent: Record<string, TabContent> = {
 
 
 // ----------------------------------------------------------------POLAR LVT FLOORING
-
 
       {
         title: 'Polar LVT-Antique',
