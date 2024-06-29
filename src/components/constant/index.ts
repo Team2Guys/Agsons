@@ -100,7 +100,6 @@ import Polaris from "@images/Sintrich/Opulent Legacy Stone/Polaris Statuario.jpg
 
 
 
-
 import AMBERGREY from "@images/Sintrich/Unveilings/AMBER GREY/AMBER GREY.jpg";
 import Frappuccino from "@images/Sintrich/Unveilings/Frappuccino/Frappuccino.jpg";
 import RosaCrystal from "@images/Sintrich/Unveilings/Rosa Crystal/Rosa Crystal.jpg";
