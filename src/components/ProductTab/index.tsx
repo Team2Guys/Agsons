@@ -119,6 +119,8 @@ const ProductTab: React.FC = () => {
                 imageUrl={product.imageUrl}
                 link={product.link}
                 size={product.size}
+                size2={product.size2}
+                available={product.available}
               />
             ))}
           </div>

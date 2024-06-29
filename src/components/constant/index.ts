@@ -92,6 +92,15 @@ import StatuarioVenatino from "@images/Sintrich/Opulent Legacy Stone/Statuario V
 import StatuarioVenato from "@images/Sintrich/Opulent Legacy Stone/Statuario Venato/Statuario Venato.png";
 import StatuarioWhite from "@images/Sintrich/Opulent Legacy Stone/Statuario White/Statuario White.png";
 import VENUSWHITE from "@images/Sintrich/Opulent Legacy Stone/VENUS WHITE (CALACATTA)/VENUS WHITE (CALACATTA).jpg";
+import Gotland from "@images/Sintrich/Opulent Legacy Stone/Gotland Walnut.jpg";
+import Woodbreak from "@images/Sintrich/Opulent Legacy Stone/Woodbreak Oak.jpg";
+import Calacatta from "@images/Sintrich/Opulent Legacy Stone/Calacatta Polido.jpg";
+import NERO from "@images/Sintrich/Opulent Legacy Stone/Nero Margiua.jpg";
+import Polaris from "@images/Sintrich/Opulent Legacy Stone/Polaris Statuario.jpg";
+
+
+
+
 import AMBERGREY from "@images/Sintrich/Unveilings/AMBER GREY/AMBER GREY.jpg";
 import Frappuccino from "@images/Sintrich/Unveilings/Frappuccino/Frappuccino.jpg";
 import RosaCrystal from "@images/Sintrich/Unveilings/Rosa Crystal/Rosa Crystal.jpg";
@@ -99,16 +108,7 @@ import SUPERWHITE from "@images/Sintrich/Unveilings/SUPER WHITE/SUPER WHITE.jpg"
 import SilkRoad from "@images/Sintrich/Unveilings/Silk Road/Silk Road.jpg";
 import TajMahal from "@images/Sintrich/Unveilings/Taj Mahal/Taj Mahal.jpg";
 import VanGogh from "@images/Sintrich/Unveilings/Van Gogh Grey/Van Gogh Grey.jpg";
-import Antique from "@images/Polar LVT/Polar LVT-Antique.jpg";
-import Cherry from "@images/Polar LVT/Polar LVT-Cherry.jpg";
-import Chestnut from "@images/Polar LVT/Polar LVT-Chestnut.jpg";
-import Classic from "@images/Polar LVT/Polar LVT-Classic Oak.jpg";
-import History from "@images/Polar LVT/Polar LVT-Oak History.jpg";
-import Prarie from "@images/Polar LVT/Polar LVT-Prarie.jpg";
-import Walnut from "@images/Polar LVT/Polar LVT-US Walnut.jpg";
-import Vintage from "@images/Polar LVT/Polar LVT-Vintage Timber.jpg";
-import Weathered from "@images/Polar LVT/Polar LVT-Weathered Oak.jpg";
-import wash from "@images/Polar LVT/Polar LVT-White wash.jpg";
+
 import FORMULATED from "@images/Monster/Flooring Glue/FORMULATED FLOORING GLUE R10.jpg"
 import MULTIPURPOSE from "@images/Monster/MULTIPURPOSE SILICONE/MULTIPURPOSE SILICONE.jpg"
 import R200 from "@images/Monster/Nail Free Glue/MAX POWER R200/Nail Free Glue MAX POWER R200.jpg"
@@ -123,22 +123,33 @@ import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF 
 import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
-import POLARHERRINGBONE1 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE1.jpg"
-import POLARHERRINGBONE2 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE2.jpg"
-import POLARHERRINGBONE3 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE3.jpg"
-import POLARHERRINGBONE4 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE4.jpg"
-import POLARHERRINGBONE5 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE5.jpg"
-import POLARHERRINGBONE6 from "@/assets/images/Polar herringbone/POLAR HERRINGBONE6.jpg"
-import POLARSPC1 from "@/assets/images/Polar SPC/Polar SPC -Antique.jpg"
-import POLARSPC2 from "@/assets/images/Polar SPC/Polar SPC -Cherry.jpg"
-import POLARSPC3 from "@/assets/images/Polar SPC/Polar SPC -Chestnut.jpg"
-import POLARSPC4 from "@/assets/images/Polar SPC/Polar SPC -Classic Oak.jpg"
-import POLARSPC5 from "@/assets/images/Polar SPC/Polar SPC -Oak History.jpg"
-import POLARSPC6 from "@/assets/images/Polar SPC/Polar SPC -Prarie.jpg"
-import POLARSPC7 from "@/assets/images/Polar SPC/Polar SPC -US walnut.jpg"
-import POLARSPC8 from "@/assets/images/Polar SPC/Polar SPC -Weathered Oak.jpg"
-import POLARSPC9 from "@/assets/images/Polar SPC/Polar SPC -White wash.jpg"
-import POLARSPC10 from "@/assets/images/Polar SPC/Polar SPC Rustic oak.jpg"
+
+import POLARSPC1 from "@/assets/images/Polor/Polar SPC/Polar SPC- Antique.jpeg"
+import POLARSPC2 from "@/assets/images/Polor/Polar SPC/Polar SPC- Cherry.jpeg"
+import POLARSPC3 from "@/assets/images/Polor/Polar SPC/Polar SPC- Chestnut.jpeg"
+import POLARSPC4 from "@/assets/images/Polor/Polar SPC/Polar SPC- Classic OAK.jpeg"
+import POLARSPC5 from "@/assets/images/Polor/Polar SPC/Polar SPC- OAK HISTORY.jpeg"
+import POLARSPC6 from "@/assets/images/Polor/Polar SPC/SPC Eco- Prarie.jpeg"
+import POLARSPC7 from "@/assets/images/Polor/Polar SPC/Polar SPC- American Walnut.jpeg"
+import POLARSPC8 from "@/assets/images/Polor/Polar SPC/Polar SPC- Weathered Oak.jpeg"
+import POLARSPC9 from "@/assets/images/Polor/Polar SPC/Polar SPC- White Wash.jpeg"
+import POLARSPC10 from "@/assets/images/Polor/Polar SPC/Polar SPC- Rustic Oak.jpeg"
+import Antique from "@/assets/images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
+import Cherry from "@/assets/images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
+import Chestnut from "@/assets/images/Polor/Polar LVT/Polar LVT- Chestnut.jpeg";
+import Classic from "@/assets/images/Polor/Polar LVT/Polar LVT- Classic OAK.jpeg";
+import History from "@/assets/images/Polor/Polar LVT/Polar LVT- History Oak.jpeg";
+import Prarie from "@/assets/images/Polor/Polar LVT/Polar LVT- Prarie.jpeg";
+import Walnut from "@/assets/images/Polor/Polar LVT/Polar LVT- American Walnut.jpeg";
+import Vintage from "@/assets/images/Polor/Polar LVT/Polar LVT- Vintage Timber.jpeg";
+import Weathered from "@/assets/images/Polor/Polar LVT/Polar LVT- Weathered Oak.jpeg";
+import wash from "@/assets/images/Polor/Polar LVT/Polar LVT- White Wash.jpeg";
+import POLARHERRINGBONE1 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
+import POLARHERRINGBONE2 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
+import POLARHERRINGBONE3 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Classic Oak.jpeg"
+import POLARHERRINGBONE4 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- US Walnut.jpeg"
+import POLARHERRINGBONE5 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Weathered Oak.jpeg"
+import POLARHERRINGBONE6 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- White Wash.jpeg"
 
 
 import SPC1 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- American Walnut.jpg"
@@ -162,19 +173,19 @@ import HERRINGBONE3 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC 
 import HERRINGBONE4 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - OAK.jpg"
 import HERRINGBONE5 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone -Silver.jpg"
 import HERRINGBONE6 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone- Premium Oak.jpg"
-import COMFORT1 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- American Walnut.jpg"
-import COMFORT2 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Cappuccino.jpg"
-import COMFORT3 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Forest.jpg"
-import COMFORT4 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Mahogany.jpg"
-import COMFORT5 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Premium Oak.jpg"
-import COMFORT6 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Shadow Oak.jpg"
-import COMFORT7 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Silver.jpg"
-import COMFORT8 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Twine.jpg"
-import LUXURY1 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Comfort- Shadow Oak.jpg"
-import LUXURY2 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- American Walnut.jpg"
-import LUXURY3 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Cappuccino.jpg"
-import LUXURY4 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Premium Oak.jpg"
-import LUXURY5 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Silver.jpg"
+import COMFORT1 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- American Walnut.jpeg"
+import COMFORT2 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Cappuccino.jpeg"
+import COMFORT3 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Forest.jpeg"
+import COMFORT4 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Mahogany.jpeg"
+import COMFORT5 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Premium Oak.jpeg"
+import COMFORT6 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Shadow Oak.jpeg"
+import COMFORT7 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Silver.jpeg"
+import COMFORT8 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Twine.jpeg"
+import LUXURY1 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Comfort- Shadow Oak.jpeg"
+import LUXURY2 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- American Walnut.jpeg"
+import LUXURY3 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Cappuccino.jpeg"
+import LUXURY4 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Premium Oak.jpeg"
+import LUXURY5 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Silver.jpeg"
 
 
 
@@ -185,6 +196,8 @@ interface Product {
   imageUrl: any;
   link: string;
   size?: string;
+  size2?: string;
+  available?: string;
 }
 
 interface TabContent {
@@ -196,53 +209,11 @@ const tabContent: Record<string, TabContent> = {
   tab1: {
     logo: Richmond,
     products: [
-
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- American Walnut',
-        imageUrl: SPC1,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
+      //  ------------------------------------------------------------------------------RICHMOND ECO SPC
       {
         subtitle: 'RICHMOND ECO SPC',
         title: 'SPC Eco- Cappuccino',
         imageUrl: SPC2,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- Cherry',
-        imageUrl: SPC3,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- Espresso Noir',
-        imageUrl: SPC4,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- FOREST',
-        imageUrl: SPC5,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- MAHOGANY',
-        imageUrl: SPC6,
-        link: 'product',
-        size:"1220mm x 183mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND ECO SPC',
-        title: 'SPC Eco- OAK HISTORY',
-        imageUrl: SPC7,
         link: 'product',
         size:"1220mm x 183mm x 5.5mm"
       },
@@ -255,8 +226,36 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- OAK HISTORY',
+        imageUrl: SPC7,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- MAHOGANY',
+        imageUrl: SPC6,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- FOREST',
+        imageUrl: SPC5,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
         title: 'SPC Eco- Premium Oak',
         imageUrl: SPC9,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Espresso Noir',
+        imageUrl: SPC4,
         link: 'product',
         size:"1220mm x 183mm x 5.5mm"
       },
@@ -267,9 +266,24 @@ const tabContent: Record<string, TabContent> = {
         link: 'product',
         size:"1220mm x 183mm x 5.5mm"
       },
-
-
-
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- Cherry',
+        imageUrl: SPC3,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+      {
+        subtitle: 'RICHMOND ECO SPC',
+        title: 'SPC Eco- American Walnut',
+        imageUrl: SPC1,
+        link: 'product',
+        size:"1220mm x 183mm x 5.5mm"
+      },
+     
+    
+//  ------------------------------------------------------------------------------RICHMOND SPC PRIME
+      
       {
         subtitle: 'RICHMOND SPC PRIME',
         title: 'SPC Prime- American Walnut',
@@ -286,18 +300,19 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND SPC PRIME',
-        title: 'SPC Prime- Espresso Noir',
-        imageUrl: PRIME3,
-        link: 'product',
-        size:"1524mm x 228mm x 6.5mm"
-      },
-      {
-        subtitle: 'RICHMOND SPC PRIME',
         title: 'SPC Prime- OAK HISTORY',
         imageUrl: PRIME4,
         link: 'product',
         size:"1524mm x 228mm x 6.5mm"
       },
+      {
+        subtitle: 'RICHMOND SPC PRIME',
+        title: 'SPC Prime- Espresso Noir',
+        imageUrl: PRIME3,
+        link: 'product',
+        size:"1524mm x 228mm x 6.5mm"
+      },
+     
       {
         subtitle: 'RICHMOND SPC PRIME',
         title: 'SPC Prime- Premium Oak',
@@ -306,6 +321,7 @@ const tabContent: Record<string, TabContent> = {
         size:"1524mm x 228mm x 6.5mm"
       },
    
+//  ------------------------------------------------------------------------------RICHMOND SPC HERRINGBONE
     
 
       {
@@ -317,15 +333,8 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone - FOREST',
-        imageUrl: HERRINGBONE2,
-        link: 'product',
-        size:"640mm x 128mm x 5.5mm"
-      },
-      {
-        subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone - MAHOGANY',
-        imageUrl: HERRINGBONE3,
+        title: 'SPC Herringbone- Premium Oak',
+        imageUrl: HERRINGBONE6,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
       },
@@ -338,27 +347,26 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone -Silver',
-        imageUrl: HERRINGBONE5,
+        title: 'SPC Herringbone - MAHOGANY',
+        imageUrl: HERRINGBONE3,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
       },
       {
         subtitle: 'RICHMOND SPC HERRINGBONE',
-        title: 'SPC Herringbone- Premium Oak',
-        imageUrl: HERRINGBONE6,
+        title: 'SPC Herringbone - FOREST',
+        imageUrl: HERRINGBONE2,
         link: 'product',
         size:"640mm x 128mm x 5.5mm"
       },
-
-
       {
-        subtitle: 'RICHMOND LVT COMFORT',
-        title: 'LVT Comfort- American Walnut',
-        imageUrl: COMFORT1,
+        subtitle: 'RICHMOND SPC HERRINGBONE',
+        title: 'SPC Herringbone -Silver',
+        imageUrl: HERRINGBONE5,
         link: 'product',
-        size:"1220mm x 180mm x 5mm"
+        size:"640mm x 128mm x 5.5mm"
       },
+//  ------------------------------------------------------------------------------RICHMOND LVT COMFORT
       {
         subtitle: 'RICHMOND LVT COMFORT',
         title: 'LVT Comfort- Cappuccino',
@@ -368,8 +376,15 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND LVT COMFORT',
-        title: 'LVT Comfort- Forest',
-        imageUrl: COMFORT3,
+        title: 'LVT Comfort- Shadow Oak',
+        imageUrl: COMFORT6,
+        link: 'product',
+        size:"1220mm x 180mm x 5mm"
+      },
+      {
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Twine',
+        imageUrl: COMFORT8,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
@@ -389,13 +404,6 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND LVT COMFORT',
-        title: 'LVT Comfort- Shadow Oak',
-        imageUrl: COMFORT6,
-        link: 'product',
-        size:"1220mm x 180mm x 5mm"
-      },
-      {
-        subtitle: 'RICHMOND LVT COMFORT',
         title: 'LVT Comfort- Silver',
         imageUrl: COMFORT7,
         link: 'product',
@@ -403,28 +411,19 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND LVT COMFORT',
-        title: 'LVT Comfort- Twine',
-        imageUrl: COMFORT8,
+        title: 'LVT Comfort- American Walnut',
+        imageUrl: COMFORT1,
         link: 'product',
         size:"1220mm x 180mm x 5mm"
       },
-
-  
-
       {
-        subtitle: 'RICHMOND LVT LUXURY',
-        title: 'LVT Comfort- Shadow Oak',
-        imageUrl: LUXURY1,
+        subtitle: 'RICHMOND LVT COMFORT',
+        title: 'LVT Comfort- Forest',
+        imageUrl: COMFORT3,
         link: 'product',
-        size:"1220mm x 228mm x 6mm"
+        size:"1220mm x 180mm x 5mm"
       },
-      {
-        subtitle: 'RICHMOND LVT LUXURY',
-        title: 'LVT Luxury- American Walnut',
-        imageUrl: LUXURY2,
-        link: 'product',
-        size:"1220mm x 228mm x 6mm"
-      },
+//  ------------------------------------------------------------------------------RICHMOND LVT LUXURY
       {
         subtitle: 'RICHMOND LVT LUXURY',
         title: 'LVT Luxury- Cappuccino',
@@ -441,8 +440,23 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Luxury- American Walnut',
+        imageUrl: LUXURY2,
+        link: 'product',
+        size:"1220mm x 228mm x 6mm"
+      },
+      {
+        subtitle: 'RICHMOND LVT LUXURY',
         title: 'LVT Luxury- Silver',
         imageUrl: LUXURY5,
+        link: 'product',
+        size:"1220mm x 228mm x 6mm"
+      },
+
+      {
+        subtitle: 'RICHMOND LVT LUXURY',
+        title: 'LVT Comfort- Shadow Oak',
+        imageUrl: LUXURY1,
         link: 'product',
         size:"1220mm x 228mm x 6mm"
       },
@@ -452,6 +466,283 @@ const tabContent: Record<string, TabContent> = {
   tab2: {
     logo: Sintrich,
     products: [
+      {
+        title: 'Calacatta Bianco',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: CalacattaBianco,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+      },
+      {
+        title: 'Calacatta White',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: CalacattaWhite,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+
+      },
+      {
+        title: 'Calacatta Gold',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: CalacattaGold,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (Silk , POLISHED)",
+        size2:"3200mm x 1600mm x 12mm (MATT)"
+
+      },
+      {
+        title: 'Bulgari Calacatta Viola',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: BULGARICALACATTAVIOLA,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+
+      },
+      {
+        title: 'Roman Travertine',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: RomanTravertine,
+        link: 'product',
+        size:"3200mm x 1600mm x 5.5mm (MATT)",
+        size2:"3200mm x 1600mm x 12mm (MATT)"
+
+      },
+      {
+        title: 'Palissandro Blue',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Palissandro,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+
+      },
+      {
+        title: 'Freezing Emeral',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Freezing,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+      },
+      {
+        title: 'Prada Green',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: PRADA,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)"
+      },
+      {
+        title: 'Galaxy Black',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: GalaxyBlack,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)",
+        size2:"3200mm x 1600mm x 12mm (MATT)"
+
+      },
+      {
+        title: 'Napoleon Black',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: NAPOLEON,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Patagonia',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: PATAGONIA,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Calacatta Royal',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: CalacattaRoyal,
+        link: 'product',
+        size:"2700mm x 1200mm x 6mm (POLISHED)",
+        size2:"2700mm x 1200mm x 6mm (MATT)",
+
+      },
+      {
+        title: 'Statuario Oro',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: StatuarioOro,
+        link: 'product',
+        size:"2700mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Frappuccino',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Frappuccino,
+        link: 'product',
+        size:"2700mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Rosa Crystal',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: RosaCrystal,
+        link: 'product',
+        size:"2700mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Silk Road',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: SilkRoad,
+        link: 'product',
+        size:"2700mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Sandy Grey Cream',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: SANDY,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+        size2:"2700mm x 1200mm x 6mm (MATT)",
+
+      },
+      {
+        title: 'Amber Grey',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: AMBERGREY,
+        link: 'product',
+        size:"2600mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Calacatta Extra',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: CalacattaExtra,
+        link: 'product',
+        size:"2600mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Iron Grey',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: IRON,
+        link: 'product',
+        size:"2600mm x 1200mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Gotland Walnut (Mould)',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Gotland,
+        link: 'product',
+        size:"3000mm x 1200mm x 6mm (MATT)",
+
+      },
+      {
+        title: 'Woodbreak Oak (Mould)',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Woodbreak,
+        link: 'product',
+        size:"3000mm x 1200mm x 6mm (MATT)",
+
+      },
+      {
+        title: 'Pure White',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: PUREWHITE,
+        link: 'product',
+        size:"3200mm x 1600mm x 6mm (POLISHED)",
+
+      },
+      {
+        title: 'Platinum Leica',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Platinum,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+
+      },
+      {
+        title: 'Calacatta Polido',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Calacatta,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+        size2:"3200mm x 1600mm x 12mm (POLISHED)",
+
+      },
+      {
+        title: 'Panda White',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: PANDAWHITE,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (POLISHED)",
+
+      },
+      {
+        title: 'Bulgari White',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: BULGARI,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+
+      },
+      {
+        title: 'Venus White',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: VENUSWHITE,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (POLISHED)",
+
+      },
+      {
+        title: 'Nero Margiua',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: NERO,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (POLISHED)",
+
+      },
+      {
+        title: 'Polaris Statuario',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Polaris,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (POLISHED)",
+        size2:"3200mm x 1600mm x 12mm (MATT)",
+
+      },
+      {
+        title: 'Taj Mahal',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: TajMahal,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (SILK (SOFT))",
+
+      },
+      {
+        title: 'Van Gogh Grey (Coloured Body)',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: VanGogh,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (SILK (SOFT))",
+
+      },
+      {
+        title: 'Sandy Grey Dark',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: SANDYGREY,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+
+      },
+      {
+        title: 'Arden Gold',
+        subtitle: 'OPULENT LEGACY STONE',
+        imageUrl: Arden,
+        link: 'product',
+        size:"3200mm x 1600mm x 12mm (MATT)",
+
+      },
+
       {
         title: 'AMAZON GREEN',
         subtitle: 'Alabaster Elegance',
@@ -477,29 +768,12 @@ const tabContent: Record<string, TabContent> = {
         link: 'product',
       },
       {
-        title: 'Freezing Emeral',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: Freezing,
-        link: 'product',
-      },
-      {
         title: 'Frozen Fox',
         subtitle: 'Alabaster Elegance',
         imageUrl: Frozen,
         link: 'product',
       },
-      {
-        title: 'PATAGONIA',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: PATAGONIA,
-        link: 'product',
-      },
-      {
-        title: 'PRADA GREEN',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: PRADA,
-        link: 'product',
-      },
+     
       {
         title: 'PULM BLOSSOM',
         subtitle: 'Alabaster Elegance',
@@ -526,613 +800,514 @@ const tabContent: Record<string, TabContent> = {
       },
       {
         title: 'Blue Onyx',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Blue,
         link: 'product',
       },
       {
         title: 'Ice Blue',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Ice,
         link: 'product',
       },
       {
         title: 'Iceberg Onyx',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Iceberg,
         link: 'product',
       },
       {
         title: 'Onyx Verde',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Onyx,
         link: 'product',
       },
       {
         title: 'Poetic White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Poetic,
         link: 'product',
       },
       {
         title: 'Roman Onyx',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Roman,
         link: 'product',
       },
       {
         title: 'Rose Pink',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Rose,
         link: 'product',
       },
       {
         title: 'Snow White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Antique Reliefs',
         imageUrl: Snow,
         link: 'product',
       },
       {
         title: 'PURE BLACK',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Classical Hues',
         imageUrl: PURE,
         link: 'product',
       },
       {
         title: 'PURE GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Classical Hues',
         imageUrl: PUREGREY,
         link: 'product',
       },
-      {
-        title: 'PURE WHITE',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: PUREWHITE,
-        link: 'product',
-      },
+      
       {
         title: 'BLACK AGATE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Gems Of The Past',
         imageUrl: BLACK,
         link: 'product',
       },
       {
         title: 'BLUE AGATE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Gems Of The Past',
         imageUrl: BLUE,
         link: 'product',
       },
       {
         title: 'Crystal White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Gems Of The Past',
         imageUrl: Crystal,
         link: 'product',
       },
       {
         title: 'FLUORITE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Gems Of The Past',
         imageUrl: FLUORITE,
         link: 'product',
       },
       {
         title: 'Arden Gold',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Arden,
         link: 'product',
       },
       {
         title: 'Bulgaria Dark Grey',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Bulgaria,
         link: 'product',
       },
       {
         title: 'Bulgaria Medium Grey',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: BulgariaMedium,
         link: 'product',
       },
       {
         title: 'CARTIER GOLD',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: CARTIER,
         link: 'product',
       },
       {
         title: 'BCICILI GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: CICILI,
         link: 'product',
       },
       {
         title: 'Crema Marfil Extra',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Crema,
         link: 'product',
       },
       {
         title: 'Florentines Ash',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Florentines,
         link: 'product',
       },
       {
         title: 'GRAPHITE GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: GRAPHITE,
         link: 'product',
       },
-      {
-        title: 'IRON GREY',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: IRON,
-        link: 'product',
-      },
+      
       {
         title: 'LATTE ASH',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: LATTE,
         link: 'product',
       },
       {
         title: 'Latte',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Latte,
         link: 'product',
       },
       {
         title: 'MASERATI GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: MASERATI,
         link: 'product',
       },
       {
         title: 'MIRAGE BEIGE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: MIRAGE,
         link: 'product',
       },
       {
         title: 'Magnolias Extra',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Magnolias,
         link: 'product',
       },
       {
         title: 'Mondotte',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Mondotte,
         link: 'product',
       },
       {
         title: 'Naples Gold',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Naples,
         link: 'product',
       },
       {
         title: 'Nero Marguina',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Nero,
         link: 'product',
       },
       {
         title: 'PIETRA GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: PIETRA,
         link: 'product',
       },
       {
         title: 'PISA GREY',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: PISA,
         link: 'product',
       },
-      {
-        title: 'Palissandro Blue',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: Palissandro,
-        link: 'product',
-      },
+      
       {
         title: 'Persian Portoro',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Persian,
         link: 'product',
       },
       {
         title: 'Petrus',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Petrus,
         link: 'product',
       },
-      {
-        title: 'Platinum Leica',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: Platinum,
-        link: 'product',
-      },
-      {
-        title: 'Roman Travertine',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: RomanTravertine,
-        link: 'product',
-      },
+      
+     
       {
         title: 'Serpeggiante White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Serpeggiante,
         link: 'product',
       },
       {
         title: 'TRAVERTINO CLASSICO',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: TRAVERTINO,
         link: 'product',
       },
       {
         title: 'Travertine Golden',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: Travertine,
         link: 'product',
       },
       {
         title: 'ULTRAMAN',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: ULTRAMAN,
         link: 'product',
       },
       {
         title: 'YABO WHITE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Marble Of The Ancients',
         imageUrl: YABO,
         link: 'product',
       },
+
+
+
+
       {
         title: 'Corten',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: Corten,
         link: 'product',
       },
       {
         title: 'IRON COPPER',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: IRONCOPPER,
         link: 'product',
       },
       {
         title: 'Lamina Dark Grey',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: Lamina,
         link: 'product',
       },
       {
         title: 'Lamina Medium Grey',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: LaminaMedium,
         link: 'product',
-      },
-      {
-        title: 'NAPOLEON BLACK',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: NAPOLEON,
-        link: 'product',
-      },
-      {
-        title: 'SANDY GREY CREAM',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: SANDY,
-        link: 'product',
-      },
-      {
-        title: 'SANDY GREY DARK',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: SANDYGREY,
-        link: 'product',
-      },
+      },      
       {
         title: 'SANDY GREY LIGHT',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: SANDYGREYLIGHT,
         link: 'product',
       },
       {
         title: 'SANDY GREY MED',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Obsidian Dynasty',
         imageUrl: SANDYGREYMED,
         link: 'product',
       },
+
+
+
       {
-        title: 'ALASKA WHITE',
-        subtitle: 'Alabaster Elegance',
+        title: 'ALASKA WHITE (CALACATTA)',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: ALASKA,
         link: 'product',
       },
       {
         title: 'ARISTON WHITE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: ARISTON,
         link: 'product',
       },
       {
         title: 'Arabescato Vagli',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: Arabescato,
         link: 'product',
       },
-      {
-        title: 'BULGARI WHITE',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: BULGARI,
-        link: 'product',
-      },
+      
       {
         title: 'BULGARI- CALACATTA CLASSICO',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: BULGARICALACATTA,
         link: 'product',
-      },
-      {
-        title: 'BULGARI- CALACATTA VIOLA',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: BULGARICALACATTAVIOLA,
-        link: 'product',
-      },
-      {
-        title: 'Calacatta Bianco',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: CalacattaBianco,
-        link: 'product',
-      },
-      {
-        title: 'Calacatta Extra',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: CalacattaExtra,
-        link: 'product',
-      },
-      {
-        title: 'Calacatta Gold',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: CalacattaGold,
-        link: 'product',
-      },
+      },    
+      
       {
         title: 'Calacatta Gold Extra',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: CalacattaGoldExtra,
         link: 'product',
       },
-      {
-        title: 'Calacatta Royal',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: CalacattaRoyal,
-        link: 'product',
-      },
+      
       {
         title: 'Calacatta Supremo',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: CalacattaSupremo,
         link: 'product',
       },
-      {
-        title: 'Calacatta White',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: CalacattaWhite,
-        link: 'product',
-      },
+     
       {
         title: 'Dolomit',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: Dolomit,
         link: 'product',
       },
-      {
-        title: 'Galaxy Black',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: GalaxyBlack,
-        link: 'product',
-      },
-      {
-        title: 'PANDA WHITE',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: PANDAWHITE,
-        link: 'product',
-      },
+    
+      
       {
         title: 'POLARIS (STATUARIO WHITE)',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: POLARIS,
         link: 'product',
       },
       {
         title: 'Painting White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: PaintingWhite,
         link: 'product',
       },
       {
         title: 'Statuario Altissimo',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: StatuarioAltissimo,
         link: 'product',
       },
-      {
-        title: 'Statuario Oro',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: StatuarioOro,
-        link: 'product',
-      },
+      
       {
         title: 'Statuario Venatino',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: StatuarioVenatino,
         link: 'product',
       },
       {
         title: 'Statuario Venato',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: StatuarioVenato,
         link: 'product',
       },
       {
         title: 'Statuario White',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: StatuarioWhite,
         link: 'product',
-      },
-      {
-        title: 'VENUS WHITE (CALACATTA)',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: VENUSWHITE,
-        link: 'product',
-      },
-      {
-        title: 'AMBER GREY',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: AMBERGREY,
-        link: 'product',
-      },
-      {
-        title: 'Frappuccino',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: Frappuccino,
-        link: 'product',
-      },
-      {
-        title: 'Rosa Crystal',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: RosaCrystal,
-        link: 'product',
-      },
+      },    
       {
         title: 'SUPER WHITE',
-        subtitle: 'Alabaster Elegance',
+        subtitle: 'Opulent Legacy Stone',
         imageUrl: SUPERWHITE,
         link: 'product',
       },
-      {
-        title: 'Silk Road',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: SilkRoad,
-        link: 'product',
-      },
-      {
-        title: 'Van Gogh Grey',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: VanGogh,
-        link: 'product',
-      },
-      {
-        title: 'Taj Mahal',
-        subtitle: 'Alabaster Elegance',
-        imageUrl: TajMahal,
-        link: 'product',
-      },
+      
+     
+      
     ],
   },
   tab3: {
     logo: Polar,
     products: [
+      // ----------------------------------------------------------------POLAR SPC
       {
         title: 'Polar SPC -Antique',
         subtitle: 'Polar SPC',
         imageUrl:POLARSPC1,
         link: 'product',
-      },
-      {
-        title: 'Polar SPC -Cherry',
-        subtitle: 'Polar SPC',
-        imageUrl:POLARSPC2,
-        link: 'product',
-      },
-      {
-        title: 'Polar SPC -Chestnut',
-        subtitle: 'Polar SPC',
-        imageUrl:POLARSPC3,
-        link: 'product',
+        size:"1220mm x 183mm x 4mm"
       },
       {
         title: 'Polar SPC -Classic Oak',
         subtitle: 'Polar SPC',
         imageUrl:POLARSPC4,
         link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
       },
       {
-        title: 'Polar SPC -Oak History',
+        title: 'Polar SPC -OAK History',
         subtitle: 'Polar SPC',
         imageUrl:POLARSPC5,
         link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
+      },
+      {
+        title: 'Polar SPC -Weathered OAK',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC8,
+        link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
       },
       {
         title: 'Polar SPC -Prarie',
         subtitle: 'Polar SPC',
         imageUrl:POLARSPC6,
         link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
       },
       {
-        title: 'Polar SPC -US Walnut',
+        title: 'Polar SPC -Chestnut',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC7,
+        imageUrl:POLARSPC3,
         link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
       },
       {
-        title: 'Polar SPC -Weathered Oak',
-        subtitle: 'Polar SPC',
-        imageUrl:POLARSPC8,
-        link: 'product',
-      },
-      {
-        title: 'Polar SPC -White wash',
-        subtitle: 'Polar SPC',
-        imageUrl:POLARSPC9,
-        link: 'product',
-      },
-      {
-        title: 'Polar SPC Rustic Oak',
+        title: 'Polar SPC Rustic OAK',
         subtitle: 'Polar SPC',
         imageUrl:POLARSPC10,
         link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
+      },
+      {
+        title: 'Polar SPC -White Wash',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC9,
+        link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
+      },
+      {
+        title: 'Polar SPC -Cherry',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC2,
+        link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
+      },
+      {
+        title: 'Polar SPC- American Walnut',
+        subtitle: 'Polar SPC',
+        imageUrl:POLARSPC7,
+        link: 'product',
+        size:"1220mm x 183mm x 4mm"
+
       },
 
-
+      // ----------------------------------------------------------------POLAR SPC HERRINGBONE
 
       {
-        title: 'POLAR HERRINGBONE',
+        title: 'POLAR SPC HB- Antique',
         subtitle: 'POLAR SPC HERRINGBONE',
         imageUrl:POLARHERRINGBONE1,
         link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
       },
       {
-        title: 'POLAR HERRINGBONE',
-        subtitle: 'POLAR SPC HERRINGBONE',
-        imageUrl:POLARHERRINGBONE2,
-        link: 'product',
-      },
-      {
-        title: 'POLAR HERRINGBONE',
+        title: 'POLAR SPC HB- Classic OAK',
         subtitle: 'POLAR SPC HERRINGBONE',
         imageUrl:POLARHERRINGBONE3,
         link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
       },
       {
-        title: 'POLAR HERRINGBONE',
-        subtitle: 'POLAR SPC HERRINGBONE',
-        imageUrl:POLARHERRINGBONE4,
-        link: 'product',
-      },
-      {
-        title: 'POLAR HERRINGBONE',
-        subtitle: 'POLAR SPC HERRINGBONE',
-        imageUrl:POLARHERRINGBONE5,
-        link: 'product',
-      },
-      {
-        title: 'POLAR HERRINGBONE',
+        title: 'POLAR SPC HB- White Wash',
         subtitle: 'POLAR SPC HERRINGBONE',
         imageUrl:POLARHERRINGBONE6,
         link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
+      },
+      {
+        title: 'POLAR SPC HB- Weathered OAK',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE5,
+        link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
+      },
+      {
+        title: 'POLAR SPC HB- Chestnut',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE2,
+        link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
+      },
+      {
+        title: 'POLAR SPC HB- American Walnut',
+        subtitle: 'POLAR SPC HERRINGBONE',
+        imageUrl:POLARHERRINGBONE4,
+        link: 'product',
+        size:"Size: 640mm x 128mm x 4mm"
       },
 
+
+
+// ----------------------------------------------------------------POLAR LVT FLOORING
 
 
       {
@@ -1140,62 +1315,72 @@ const tabContent: Record<string, TabContent> = {
         subtitle: 'POLAR LVT FLOORING',
         imageUrl:Antique,
         link: 'product',
-      },
-      {
-        title: 'Polar LVT-Cherry',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl:Cherry,
-        link: 'product',
-      },
-      {
-        title: 'Polar LVT-Chestnut',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl: Chestnut,
-        link: 'product',
-      },
-      {
-        title: 'Polar LVT-Classic Oak',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl: Classic,
-        link: 'product',
-      },
-      {
-        title: 'Polar LVT-Oak History',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl: History,
-        link: 'product',
-      },
-      {
-        title: 'Polar LVT-Prarie',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl: Prarie,
-        link: 'product',
-      },
-      {
-        title: 'Polar LVT-US Walnut',
-        subtitle: 'POLAR LVT FLOORING',
-        imageUrl: Walnut,
-        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
       },
       {
         title: 'Polar LVT-Vintage Timber',
         subtitle: 'POLAR LVT FLOORING',
         imageUrl: Vintage,
         link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
       },
       {
-        title: 'Polar LVT-Weathered Oak',
+        title: 'Polar LVT- History OAK',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl: History,
+        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
+      },
+      {
+        title: 'Polar LVT-Weathered OAK',
         subtitle: 'POLAR LVT FLOORING',
         imageUrl: Weathered,
         link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
       },
       {
-        title: 'Polar LVT-White wash',
+        title: 'Polar LVT-Classic OAK',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl: Classic,
+        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
+      },
+      {
+        title: 'Polar LVT-Chestnut',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl: Chestnut,
+        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
+      },
+      {
+        title: 'Polar LVT-White Wash',
         subtitle: 'POLAR LVT FLOORING',
         imageUrl: wash,
         link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
       },
-     
+      {
+        title: 'Polar LVT- American Walnut',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl: Walnut,
+        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
+      },
+      {
+        title: 'Polar LVT-Prarie',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl: Prarie,
+        link: 'product',
+        size:"Size: 1220mm x 180mm x 4mm"
+      },
+      {
+        title: 'Polar LVT-Cherry',
+        subtitle: 'POLAR LVT FLOORING',
+        imageUrl:Cherry,
+        link: 'product',
+        size:"Size: 1220mm x 183mm x 4mm"
+      },
+
     ],
   },
   tab4: {
@@ -1244,46 +1429,57 @@ const tabContent: Record<string, TabContent> = {
     logo: Dulux,
     products: [
       {
-        title: 'DULUX INSPIRE',
-        subtitle: 'DULUX EXTERIOR RANGE',
-        imageUrl: INSPIRE,
-        link: 'product',
-      },
-      {
-        title: 'DULUX WEATHERSHIELD POWERFLEXX',
-        subtitle: 'DULUX EXTERIOR RANGE',
-        imageUrl: POWERFLEXX,
-        link: 'product',
-      },
-      {
-        title: 'DULUX WEATHERSHIELD',
-        subtitle: 'DULUX EXTERIOR RANGE',
-        imageUrl: WEATHERSHIELD,
-        link: 'product',
-      },
-      {
         title: 'DULUX AMBIANCE',
         subtitle: 'DULUX INTERIOR RANGE',
         imageUrl: AMBIANCE,
         link: 'product',
-      },
-      {
-        title: 'DULUX COLOURS OF THE WORLD',
-        subtitle: 'DULUX INTERIOR RANGE',
-        imageUrl: COLOURS,
-        link: 'product',
+        available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+        
       },
       {
         title: 'DULUX EASY CLEAN',
         subtitle: 'DULUX INTERIOR RANGE',
         imageUrl: CLEAN,
         link: 'product',
+        available:"18L, 16.5L, 4L, 1L (SILK)"
+      },
+      {
+        title: 'DULUX COLOURS OF THE WORLD',
+        subtitle: 'DULUX INTERIOR RANGE',
+        imageUrl: COLOURS,
+        link: 'product',
+        available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+
       },
       {
         title: 'DULUX INSPIRE INTERIOR',
         subtitle: 'DULUX INTERIOR RANGE',
         imageUrl: RANGE,
         link: 'product',
+        available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+
+      },
+      {
+        title: 'DULUX WEATHERSHIELD POWERFLEXX',
+        subtitle: 'DULUX EXTERIOR RANGE',
+        imageUrl: POWERFLEXX,
+        link: 'product',
+        available:"18L, 16.5L, 4L, 1L (SILK)"
+      },
+      {
+        title: 'DULUX WEATHERSHIELD',
+        subtitle: 'DULUX EXTERIOR RANGE',
+        imageUrl: WEATHERSHIELD,
+        link: 'product',
+        available:"18L, 16.5L, 4L, 1L (MATT, GLOSS)"
+
+      },
+      {
+        title: 'DULUX INSPIRE EXTERIOR',
+        subtitle: 'DULUX INSPIRE',
+        imageUrl: INSPIRE,
+        link: 'product',
+        available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
       },
      
     ],

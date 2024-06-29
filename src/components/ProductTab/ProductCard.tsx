@@ -10,9 +10,11 @@ interface ProductCardProps {
   imageUrl: string;
   link: string;
   size?: string;
+  size2?: string;
+  available?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size}) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available}) => {
   return (
     <>
     <Link href={link} className='group relative'>
@@ -27,11 +29,27 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
             />
       
           </div>
-            <div className=' flex justify-center'>
+          {
+            available?.length && 
+            <div className=' flex items-center justify-center'>
                 <div className='bg-transparent backdrop-blur-3xl   w-full p-2 absolute bottom-[60px]'>
-                  <p className='text-white text-lg px-2'><span className='font-bold'>Size: </span>{size}</p>
+                  <p className='text-white text-sm px-2'><span className='font-bold'>Available: </span>{available}</p>
+                  
                 </div>
-          </div>
+              </div>
+              }
+         {
+            size?.length && 
+            <div className=' flex items-center justify-center'>
+                <div className='bg-transparent backdrop-blur-3xl   w-full p-2 absolute bottom-[60px]'>
+                  <p className='text-white text-sm px-2'><span className='font-bold'>Size: </span>{size}</p>
+                  {
+                    size2?.length && 
+                  <p className='text-white text-sm px-2'><span className='font-bold'>Size: </span>{size2}</p>
+                  }
+                </div>
+              </div>
+              }
           <div className='pt-3'>
           <h2 className='font-semibold text-xs md:text-sm'>{subtitle}</h2>
           <p className='text-base md:text-lg font-semibold'> {title}</p>
