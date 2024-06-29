@@ -122,18 +122,6 @@ import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF 
 import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
-
-import POLARSPC1 from "@images/Polar SPC/Antique.webp"
-import POLARSPC2 from "@images/Polar SPC/Cherry.webp"
-import POLARSPC3 from "@images/Polar SPC/Chestnut.webp"
-import POLARSPC4 from "@images/Polar SPC/Classic OAK.webp"
-import POLARSPC5 from "@images/Polar SPC/OAK HISTORY.webp"
-import POLARSPC6 from "@images/Polar SPC/Prarie.webp"
-import POLARSPC7 from "@images/Polar SPC/American Walnut.webp"
-import POLARSPC8 from "@images/Polar SPC/Weathered Oak.webp"
-import POLARSPC9 from "@images/Polar SPC/White Wash.webp"
-import POLARSPC10 from "@images/Polar SPC/Rustic Oak.webp"
-
 import Antique from "@images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
 import Cherry from "@images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
 import Chestnut from "@images/Polor/Polar LVT/Polar LVT- Chestnut.jpeg";
@@ -151,6 +139,16 @@ import POLARHERRINGBONE4 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB-
 import POLARHERRINGBONE5 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Weathered Oak.jpeg"
 import POLARHERRINGBONE6 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- White Wash.jpeg"
 
+import SPCP1 from "@images/Polar SPC/Antique.webp"
+import SPCP2 from "@images/Polar SPC/Cherry.webp"
+import SPCP3 from "@images/Polar SPC/Chestnut.webp"
+import SPCP4 from "@images/Polar SPC/Classic OAK.webp"
+import SPCP5 from "@images/Polar SPC/OAK HISTORY.webp"
+import SPCP6 from "@images/Polar SPC/Prarie.webp"
+import SPCP7 from "@images/Polar SPC/American Walnut.webp"
+import SPCP8 from "@images/Polar SPC/Weathered Oak.webp"
+import SPCP9 from "@images/Polar SPC/White Wash.webp"
+import SPCP10 from "@images/Polar SPC/Rustic Oak.webp"
 
 import SPC1 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- American Walnut.jpg"
 import SPC2 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Cappuccino.jpg"
@@ -1183,14 +1181,14 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -Antique',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC1,
+        imageUrl:SPCP1,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
       },
       {
         title: 'Polar SPC -Classic Oak',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC4,
+        imageUrl:SPCP4,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1198,7 +1196,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -OAK History',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC5,
+        imageUrl:SPCP5,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1206,7 +1204,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -Weathered OAK',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC8,
+        imageUrl:SPCP8,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1214,7 +1212,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -Prarie',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC6,
+        imageUrl:SPCP6,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1222,7 +1220,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -Chestnut',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC3,
+        imageUrl:SPCP3,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1230,7 +1228,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC Rustic OAK',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC10,
+        imageUrl:SPCP10,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1238,7 +1236,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -White Wash',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC9,
+        imageUrl:SPCP9,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1246,7 +1244,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC -Cherry',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC2,
+        imageUrl:SPCP2,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
@@ -1254,7 +1252,7 @@ const tabContent: Record<string, TabContent> = {
       {
         title: 'Polar SPC- American Walnut',
         subtitle: 'Polar SPC',
-        imageUrl:POLARSPC7,
+        imageUrl:SPCP7,
         link: 'product',
         size:"1220mm x 183mm x 4mm"
 
