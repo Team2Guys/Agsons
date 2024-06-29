@@ -123,15 +123,16 @@ import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jp
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
 
-import POLARSPC1 from "@/assets/images/Polor/Polar SPC/Polar SPC- Antique.jpeg"
-import POLARSPC2 from "@/assets/images/Polor/Polar SPC/Polar SPC- Cherry.jpeg"
-import POLARSPC3 from "@/assets/images/Polor/Polar SPC/Polar SPC- Chestnut.jpeg"
-import POLARSPC4 from "@/assets/images/Polor/Polar SPC/Polar SPC- Classic OAK.jpeg"
-import POLARSPC5 from "@/assets/images/Polor/Polar SPC/Polar SPC- OAK HISTORY.jpeg"
-import POLARSPC6 from "@/assets/images/Polor/Polar SPC/SPC Eco- Prarie.jpeg"
-import POLARSPC7 from "@/assets/images/Polor/Polar SPC/Polar SPC- American Walnut.jpeg"
-import POLARSPC8 from "@/assets/images/Polor/Polar SPC/Polar SPC- Weathered Oak.jpeg"
-import POLARSPC9 from "@/assets/images/Polor/Polar SPC/Polar SPC- White Wash.jpeg"
+import POLARSPC1 from "@/assets/images/Polor/Polar SPC/Antique.jpeg"
+import POLARSPC2 from "@/assets/images/Polor/Polar SPC/Cherry.jpeg"
+import POLARSPC3 from "@/assets/images/Polor/Polar SPC/Chestnut.jpeg"
+import POLARSPC4 from "@/assets/images/Polor/Polar SPC/Classic OAK.jpeg"
+import POLARSPC5 from "@/assets/images/Polor/Polar SPC/OAK HISTORY.jpeg"
+import POLARSPC6 from "@/assets/images/Polor/Polar SPC/Prarie.jpeg"
+import POLARSPC7 from "@/assets/images/Polor/Polar SPC/American Walnut.jpeg"
+import POLARSPC8 from "@/assets/images/Polor/Polar SPC/Weathered Oak.jpeg"
+import POLARSPC9 from "@/assets/images/Polor/Polar SPC/White Wash.jpeg"
+
 import POLARSPC10 from "@/assets/images/Polor/Polar SPC/Polar SPC- Rustic Oak.jpeg"
 import Antique from "@/assets/images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
 import Cherry from "@/assets/images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
