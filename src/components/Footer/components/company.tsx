@@ -21,7 +21,7 @@ const Company = () => {
             className=" hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             href="/product"
           >
-            product
+            Product
           </Link>
           <Link
             className=" hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -33,7 +33,7 @@ const Company = () => {
             className=" hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             href={pathName === '/' ? '#faq' : '/'}
           >
-            Faq
+            FAQs
           </Link>
         </ul>
       </nav>
