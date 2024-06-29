@@ -59,7 +59,10 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto py-12 p-2 md:mt-20" id='faq'>
+    <div className="max-w-4xl mx-auto py-12 p-2 md:mt-10" id='faq'>
+      <div className='h-20'>
+
+      </div>
       <h2 className="text-xl md:text-3xl font-extrabold mb-8 text-center">
         FREQUENTLY ASKED QUESTIONS
       </h2>

@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import img from "@images/about.jpeg"
+import img from "@images/about.jpg"
 const About = () => {
   return (
-    <div className='mt-20 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8' id='about'>
+    <div className='mt-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8' id='about'>
+      <div className='h-20'></div>
         <div className='text-center'>
             <h1 className='font-bold text-4xl'>ABOUT US</h1>
             <p className='font-semibold'>Quality You Trust, Innovation You Need, Sustainability We Ensure</p>
