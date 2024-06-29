@@ -63,13 +63,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
       </div>
 
       {isPreviewOpen && (
-        <div className='fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50'>
-          <div className='relative w-1/2 bg-white p-2 rounded-md text-end' onClick={e => e.stopPropagation()}>
+        <div className='fixed inset-0 bg-black bg-opacity-75 flex p-2 items-center justify-center z-50'>
+          <div className='relative w-full  md:w-1/2 bg-white p-2 rounded-md text-end' onClick={e => e.stopPropagation()}>
             <button onClick={handleClosePreview} className=' text-black text-2xl cursor-pointer z-20'>
               <MdClose className='cursor-pointer' />
             </button>
             <Image
-              className="object-cover w-full h-[600px]"
+              className="object-cover w-full md:h-[600px]"
               width={800}
               height={800}
               src={imageUrl}
