@@ -132,6 +132,7 @@ import Walnut from "@images/Polor/Polar LVT/Polar LVT- American Walnut.jpeg";
 import Vintage from "@images/Polor/Polar LVT/Polar LVT- Vintage Timber.jpeg";
 import Weathered from "@images/Polor/Polar LVT/Polar LVT- Weathered Oak.jpeg";
 import wash from "@images/Polor/Polar LVT/Polar LVT- White Wash.jpeg";
+
 import POLARHERRINGBONE1 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
 import POLARHERRINGBONE2 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
 import POLARHERRINGBONE3 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Classic Oak.jpeg"
