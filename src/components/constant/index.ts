@@ -123,69 +123,69 @@ import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jp
 import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
 
 
-import POLARSPC1 from "@/assets/images/Polar SPC/Antique.webp"
-import POLARSPC2 from "@/assets/images/Polar SPC/Cherry.webp"
-import POLARSPC3 from "@/assets/images/Polar SPC/Chestnut.webp"
-import POLARSPC4 from "@/assets/images/Polar SPC/Classic OAK.webp"
-import POLARSPC5 from "@/assets/images/Polar SPC/OAK HISTORY.webp"
-import POLARSPC6 from "@/assets/images/Polar SPC/Prarie.webp"
-import POLARSPC7 from "@/assets/images/Polar SPC/American Walnut.webp"
-import POLARSPC8 from "@/assets/images/Polar SPC/Weathered Oak.webp"
-import POLARSPC9 from "@/assets/images/Polar SPC/White Wash.webp"
-import POLARSPC10 from "@/assets/images/Polar SPC/Rustic Oak.webp"
+import POLARSPC1 from "@images/Polar SPC/Antique.webp"
+import POLARSPC2 from "@images/Polar SPC/Cherry.webp"
+import POLARSPC3 from "@images/Polar SPC/Chestnut.webp"
+import POLARSPC4 from "@images/Polar SPC/Classic OAK.webp"
+import POLARSPC5 from "@images/Polar SPC/OAK HISTORY.webp"
+import POLARSPC6 from "@images/Polar SPC/Prarie.webp"
+import POLARSPC7 from "@images/Polar SPC/American Walnut.webp"
+import POLARSPC8 from "@images/Polar SPC/Weathered Oak.webp"
+import POLARSPC9 from "@images/Polar SPC/White Wash.webp"
+import POLARSPC10 from "@images/Polar SPC/Rustic Oak.webp"
 
-import Antique from "@/assets/images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
-import Cherry from "@/assets/images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
-import Chestnut from "@/assets/images/Polor/Polar LVT/Polar LVT- Chestnut.jpeg";
-import Classic from "@/assets/images/Polor/Polar LVT/Polar LVT- Classic OAK.jpeg";
-import History from "@/assets/images/Polor/Polar LVT/Polar LVT- History Oak.jpeg";
-import Prarie from "@/assets/images/Polor/Polar LVT/Polar LVT- Prarie.jpeg";
-import Walnut from "@/assets/images/Polor/Polar LVT/Polar LVT- American Walnut.jpeg";
-import Vintage from "@/assets/images/Polor/Polar LVT/Polar LVT- Vintage Timber.jpeg";
-import Weathered from "@/assets/images/Polor/Polar LVT/Polar LVT- Weathered Oak.jpeg";
-import wash from "@/assets/images/Polor/Polar LVT/Polar LVT- White Wash.jpeg";
-import POLARHERRINGBONE1 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
-import POLARHERRINGBONE2 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
-import POLARHERRINGBONE3 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Classic Oak.jpeg"
-import POLARHERRINGBONE4 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- US Walnut.jpeg"
-import POLARHERRINGBONE5 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Weathered Oak.jpeg"
-import POLARHERRINGBONE6 from "@/assets/images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- White Wash.jpeg"
+import Antique from "@images/Polor/Polar LVT/Polar LVT- Antique.jpeg";
+import Cherry from "@images/Polor/Polar LVT/Polar SPC-Cherry.jpeg";
+import Chestnut from "@images/Polor/Polar LVT/Polar LVT- Chestnut.jpeg";
+import Classic from "@images/Polor/Polar LVT/Polar LVT- Classic OAK.jpeg";
+import History from "@images/Polor/Polar LVT/Polar LVT- History Oak.jpeg";
+import Prarie from "@images/Polor/Polar LVT/Polar LVT- Prarie.jpeg";
+import Walnut from "@images/Polor/Polar LVT/Polar LVT- American Walnut.jpeg";
+import Vintage from "@images/Polor/Polar LVT/Polar LVT- Vintage Timber.jpeg";
+import Weathered from "@images/Polor/Polar LVT/Polar LVT- Weathered Oak.jpeg";
+import wash from "@images/Polor/Polar LVT/Polar LVT- White Wash.jpeg";
+import POLARHERRINGBONE1 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Antique.jpeg"
+import POLARHERRINGBONE2 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Chestnut.jpeg"
+import POLARHERRINGBONE3 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Classic Oak.jpeg"
+import POLARHERRINGBONE4 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- US Walnut.jpeg"
+import POLARHERRINGBONE5 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- Weathered Oak.jpeg"
+import POLARHERRINGBONE6 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB- White Wash.jpeg"
 
 
-import SPC1 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- American Walnut.jpg"
-import SPC2 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Cappuccino.jpg"
-import SPC3 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Cherry.jpg"
-import SPC4 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Espresso Noir.jpg"
-import SPC5 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- FOREST.jpg"
-import SPC6 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- MAHOGANY.jpg"
-import SPC7 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK HISTORY.jpg"
-import SPC8 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK.jpg"
-import SPC9 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Premium Oak.jpg"
-import SPC10 from "@/assets/images/Richmond/RICHMOND ECO SPC/SPC Eco- Silver.jpg"
-import PRIME1 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- American Walnut.jpg"
-import PRIME2 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Cappuccino.jpg"
-import PRIME3 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Espresso Noir.jpg"
-import PRIME4 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- OAK HISTORY.jpg"
-import PRIME5 from "@/assets/images/Richmond/RICHMOND SPC PRIME/SPC Prime- Premium Oak.jpg"
-import HERRINGBONE1 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - Cappuccino.jpg"
-import HERRINGBONE2 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - FOREST.jpg"
-import HERRINGBONE3 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - MAHOGANY.jpg"
-import HERRINGBONE4 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - OAK.jpg"
-import HERRINGBONE5 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone -Silver.jpg"
-import HERRINGBONE6 from "@/assets/images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone- Premium Oak.jpg"
-import COMFORT1 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- American Walnut.jpeg"
-import COMFORT2 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Cappuccino.jpeg"
-import COMFORT3 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Forest.jpeg"
-import COMFORT4 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Mahogany.jpeg"
-import COMFORT5 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Premium Oak.jpeg"
-import COMFORT6 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Shadow Oak.jpeg"
-import COMFORT7 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Silver.jpeg"
-import COMFORT8 from "@/assets/images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Twine.jpeg"
-import LUXURY1 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Comfort- Shadow Oak.jpeg"
-import LUXURY2 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- American Walnut.jpeg"
-import LUXURY3 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Cappuccino.jpeg"
-import LUXURY4 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Premium Oak.jpeg"
-import LUXURY5 from "@/assets/images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Silver.jpeg"
+import SPC1 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- American Walnut.jpg"
+import SPC2 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Cappuccino.jpg"
+import SPC3 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Cherry.jpg"
+import SPC4 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Espresso Noir.jpg"
+import SPC5 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- FOREST.jpg"
+import SPC6 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- MAHOGANY.jpg"
+import SPC7 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK HISTORY.jpg"
+import SPC8 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- OAK.jpg"
+import SPC9 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Premium Oak.jpg"
+import SPC10 from "@images/Richmond/RICHMOND ECO SPC/SPC Eco- Silver.jpg"
+import PRIME1 from "@images/Richmond/RICHMOND SPC PRIME/SPC Prime- American Walnut.jpg"
+import PRIME2 from "@images/Richmond/RICHMOND SPC PRIME/SPC Prime- Cappuccino.jpg"
+import PRIME3 from "@images/Richmond/RICHMOND SPC PRIME/SPC Prime- Espresso Noir.jpg"
+import PRIME4 from "@images/Richmond/RICHMOND SPC PRIME/SPC Prime- OAK HISTORY.jpg"
+import PRIME5 from "@images/Richmond/RICHMOND SPC PRIME/SPC Prime- Premium Oak.jpg"
+import HERRINGBONE1 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - Cappuccino.jpg"
+import HERRINGBONE2 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - FOREST.jpg"
+import HERRINGBONE3 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - MAHOGANY.jpg"
+import HERRINGBONE4 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone - OAK.jpg"
+import HERRINGBONE5 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone -Silver.jpg"
+import HERRINGBONE6 from "@images/Richmond/RICHMOND SPC HERRINGBONE/SPC Herringbone- Premium Oak.jpg"
+import COMFORT1 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- American Walnut.jpeg"
+import COMFORT2 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Cappuccino.jpeg"
+import COMFORT3 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Forest.jpeg"
+import COMFORT4 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Mahogany.jpeg"
+import COMFORT5 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Premium Oak.jpeg"
+import COMFORT6 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Shadow Oak.jpeg"
+import COMFORT7 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Silver.jpeg"
+import COMFORT8 from "@images/Richmond/RICHMOND LVT COMFORT/LVT Comfort- Twine.jpeg"
+import LUXURY1 from "@images/Richmond/RICHMOND LVT LUXURY/LVT Comfort- Shadow Oak.jpeg"
+import LUXURY2 from "@images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- American Walnut.jpeg"
+import LUXURY3 from "@images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Cappuccino.jpeg"
+import LUXURY4 from "@images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Premium Oak.jpeg"
+import LUXURY5 from "@images/Richmond/RICHMOND LVT LUXURY/LVT Luxury- Silver.jpeg"
 
 
 
