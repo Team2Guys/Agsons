@@ -69,7 +69,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
               <MdClose className='cursor-pointer' />
             </button>
             <Image
-              className="object-cover w-full md:h-[600px]"
+              className="object-contain w-full md:h-[600px]"
               width={800}
               height={800}
               src={imageUrl}
