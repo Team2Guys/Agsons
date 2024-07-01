@@ -28,9 +28,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
       <div className='group relative'>
         <div onClick={handleImageClick} className='cursor-pointer'>
           <Image
-            className="h-72 w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-96"
-            width={400}
-            height={400}
+            className="h-48 w-full object-cover sm:h-64 md:h-full lg:w-full lg:h-96"
+            width={500}
+            height={500}
             src={imageUrl}
             alt="image"
             loading='lazy'
@@ -40,18 +40,18 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
           available?.length && 
           <div className=' flex items-center justify-center'>
             <div className='bg-black rounded-t-xl   w-full p-2 absolute bottom-[60px]'>
-              <p className='text-white text-sm px-2'><span className='font-bold'>Available: </span>{available}</p>
+              <p className='text-white text-xs px-2'><span className='font-bold'>Available: </span>{available}</p>
             </div>
           </div>
         }
         {
           size?.length && 
           <div className=' flex items-center justify-center'>
-            <div className='bg-black rounded-t-xl   w-full p-2 absolute bottom-[60px]'>
-              <p className='text-white text-sm px-2'><span className='font-bold'>Size: </span>{size}</p>
+            <div className='bg-black rounded-t-xl   w-full p-2 absolute bottom-[50px] md:bottom-[60px]'>
+              <p className='text-white text-xs px-2'><span className='font-bold'>Size: </span>{size}</p>
               {
                 size2?.length && 
-                <p className='text-white text-sm px-2'><span className='font-bold'>Size: </span>{size2}</p>
+                <p className='text-white text-xs px-2'><span className='font-bold'>Size: </span>{size2}</p>
               }
             </div>
           </div>

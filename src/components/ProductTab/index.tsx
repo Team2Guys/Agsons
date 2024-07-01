@@ -1,3 +1,4 @@
+//@ts-nocheck
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -6,6 +7,7 @@ import ProductCard from './ProductCard';
 
 const ProductTab: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('tab1');
+  const [nestedTab, setNestedTab] = useState<string>('nestedTab1');
   const [visibleCount, setVisibleCount] = useState<number>(9);
 
   const loadMore = () => {
@@ -31,87 +33,52 @@ const ProductTab: React.FC = () => {
         </div>
         <div className="text-center bg-primary pt-10 pb-10">
           <h2 className="text-xl md:text-6xl font-medium uppercase">
-            {activeTab === 'tab1'
-              ? 'Richmond Flooring'
-              : activeTab === 'tab2'
-              ? 'SINTRICH Stone'
-              : activeTab === 'tab3'
-              ? 'Polar Flooring'
-              : activeTab === 'tab4'
-              ? 'Monster Sealent'
-              : 'Dulux Paint'}
+            {tabContent[activeTab].title}
           </h2>
-          <div className="flex md:justify-evenly flex-wrap gap-2 mt-5 px-4">
-            <button
-              onClick={() => {
-                setActiveTab('tab1');
-                setVisibleCount(9);
-              }}
-              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
-                activeTab === 'tab1'
-                  ? 'bg-black text-white'
-                  : 'bg-primary border border-black'
-              }`}
-            >
-              Richmond Flooring
-            </button>
-            <button
-              onClick={() => {
-                setActiveTab('tab2');
-                setVisibleCount(9);
-              }}
-              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
-                activeTab === 'tab2'
-                  ? 'bg-black text-white'
-                  : 'bg-primary border border-black'
-              }`}
-            >
-              SINTRICH Stone
-            </button>
-            <button
-              onClick={() => {
-                setActiveTab('tab3');
-                setVisibleCount(9);
-              }}
-              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
-                activeTab === 'tab3'
-                  ? 'bg-black text-white'
-                  : 'bg-primary border border-black'
-              }`}
-            >
-              Polar Flooring
-            </button>
-            <button
-              onClick={() => {
-                setActiveTab('tab4');
-                setVisibleCount(9);
-              }}
-              className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ${
-                activeTab === 'tab4'
-                  ? 'bg-black text-white'
-                  : 'bg-primary border border-black'
-              }`}
-            >
-              Monster Sealent
-            </button>
-            <button
-              onClick={() => {
-                setActiveTab('tab5');
-                setVisibleCount(9);
-              }}
-              className={`px-4 py-2 font-medium text-sm md:text-lg rounded-full uppercase ${
-                activeTab === 'tab5'
-                  ? 'bg-black text-white'
-                  : 'bg-primary border border-black'
-              }`}
-            >
-              Dulux paint
-            </button>
+          <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-evenly flex-wrap gap-2 mt-5 ">
+            {Object.keys(tabContent).map((tabKey) => (
+              <button
+                key={tabKey}
+                onClick={() => {
+                  setActiveTab(tabKey);
+                  setVisibleCount(9);
+                  setNestedTab('nestedTab1'); // Reset nested tab
+                }}
+                className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ml-2 ${
+                  activeTab === tabKey
+                    ? 'bg-black text-white'
+                    : 'bg-primary border border-black'
+                }`}
+              >
+                {tabContent[tabKey].label}
+              </button>
+            ))}
           </div>
         </div>
-        <div className="mt-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mt-3 mb-10">
-            {tabContent[activeTab].products.slice(0, visibleCount).map((product: any, index: any) => (
+        <div className="">
+        <div className="text-center bg-secondary pt-5 pb-5">
+              <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-center flex-wrap gap-2">
+               
+              {Object.keys(tabContent[activeTab].nestedTabs).map((nestedKey) => (
+                <button
+                  key={nestedKey}
+                  onClick={() => {
+                    setNestedTab(nestedKey);
+                    setVisibleCount(9);
+                  }}
+                  className={`md:px-4 px-2 py-2 text-xs md:text-sm rounded-full uppercase ml-2 ${
+                    nestedTab === nestedKey
+                      ? 'bg-black text-white'
+                      : 'bg-secondary border border-black'
+                  }`}
+                >
+                  {tabContent[activeTab].nestedTabs[nestedKey].label}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mt-3 mb-10">
+            {tabContent[activeTab].nestedTabs[nestedTab].products.slice(0, visibleCount).map((product, index) => (
               <ProductCard
                 key={index}
                 title={product.title}
@@ -124,7 +91,7 @@ const ProductTab: React.FC = () => {
               />
             ))}
           </div>
-          {visibleCount < tabContent[activeTab].products.length && (
+          {visibleCount < tabContent[activeTab].nestedTabs[nestedTab].products.length && (
             <div className="text-center">
               <button
                 onClick={loadMore}
