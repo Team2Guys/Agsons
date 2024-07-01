@@ -14,16 +14,7 @@ const Hero: React.FC = () => {
         <p className="mt-3 text-sm sm:mt-5  sm:max-w-xl md:mt-5  lg:mx-0">
         Agsons offers top-quality building materials, speedy delivery, and unbeatable prices. Consolidate your sourcing with us and find everything you need in one place.
         </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className=" ">
-            <Link
-              href='#Contact'
-              className="w-full px-4 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black "
-            >
-              Get In Touch
-            </Link>
-          </div>
-        </div>
+       
       </div>
       <div className="mt-10 lg:mt-0 lg:ml-10 w-full lg:w-1/2 flex-shrink-0">
         <Image

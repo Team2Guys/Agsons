@@ -28,7 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
       <div className='group relative'>
         <div onClick={handleImageClick} className='cursor-pointer'>
           <Image
-            className="h-48 w-full object-cover sm:h-64 md:h-full lg:w-full lg:h-96"
+            className="h-48 w-full object-cover sm:h-64 sm:w-64  md:h-72 md:w-72 lg:w-96 lg:h-96"
             width={500}
             height={500}
             src={imageUrl}
