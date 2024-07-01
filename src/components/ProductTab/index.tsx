@@ -32,14 +32,14 @@ const ProductTab: React.FC = () => {
         <div className="text-center bg-primary pt-10 pb-10">
           <h2 className="text-xl md:text-6xl font-medium uppercase">
             {activeTab === 'tab1'
-              ? 'Richmond Luxury Vinyl Flooring'
+              ? 'Richmond Flooring'
               : activeTab === 'tab2'
-              ? 'SINTRICH Stone Vinyl Flooring'
+              ? 'SINTRICH Stone'
               : activeTab === 'tab3'
-              ? 'Polar Vinyl Flooring'
+              ? 'Polar Flooring'
               : activeTab === 'tab4'
-              ? 'Monster Sealent Vinyl Flooring'
-              : 'Dulux Pain Vinyl Flooring'}
+              ? 'Monster Sealent'
+              : 'Dulux Paint'}
           </h2>
           <div className="flex md:justify-evenly flex-wrap gap-2 mt-5 px-4">
             <button

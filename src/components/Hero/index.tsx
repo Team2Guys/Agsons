@@ -17,10 +17,10 @@ const Hero: React.FC = () => {
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className=" ">
             <Link
-              href={"/"}
+              href='#Contact'
               className="w-full px-4 py-3 border border-transparent text-base font-medium rounded-full text-white bg-black "
             >
-              Read More
+              Get In Touch
             </Link>
           </div>
         </div>
