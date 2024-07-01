@@ -5,7 +5,7 @@ import Image from 'next/image';
 import tabContent from '@components/constant/index';
 import ProductCard from './ProductCard';
 
-const ProductTab: React.FC = () => {
+const ProductTab: React.FC = ({className}) => {
   const [activeTab, setActiveTab] = useState<string>('tab1');
   const [nestedTab, setNestedTab] = useState<string>('nestedTab1');
   const [visibleCount, setVisibleCount] = useState<number>(9);
@@ -35,7 +35,7 @@ const ProductTab: React.FC = () => {
           <h2 className="text-xl md:text-6xl font-medium uppercase">
             {tabContent[activeTab].title}
           </h2>
-          <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-evenly flex-wrap gap-2 mt-5 ">
+          <div className={`overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-evenly flex-wrap gap-2 mt-5 ${className}`}>
             {Object.keys(tabContent).map((tabKey) => (
               <button
                 key={tabKey}

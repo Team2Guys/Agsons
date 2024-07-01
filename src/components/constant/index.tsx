@@ -197,10 +197,12 @@ interface Product {
   size?: string;
   size2?: string;
   available?: string;
+  className?: string;
 }
 
 interface TabContent {
   logo: any;
+  className?: string;
   products: Product[];
 }
 
@@ -1423,7 +1425,7 @@ const tabContent = {
     logo: Monster,
     nestedTabs: {
       nestedTab1: {
-        label: 'RICHMOND ECO SPC',
+        label: 'Monster Sealent',
         products: [
       {
         title: 'FORMULATED FLOORING GLUE R10',

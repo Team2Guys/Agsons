@@ -12,7 +12,7 @@ interface ProductCardProps {
   available?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available}) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available, }) => {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
 
   const handleImageClick = () => {
