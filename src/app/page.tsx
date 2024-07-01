@@ -18,7 +18,7 @@ export default function Home() {
       <Video />
       <About />
       <Accordion />
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       <ContactSection />
     </>
   );
