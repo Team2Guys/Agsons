@@ -26,7 +26,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
   return (
     <>
       <div className='group relative'>
-        <div onClick={handleImageClick} className='cursor-pointer'>
+        <div onClick={handleImageClick} className='cursor-pointer relative'>
           <Image
             className="h-48 w-full object-cover sm:h-64 sm:w-64  md:h-72 md:w-72 lg:w-96 lg:h-96"
             width={500}
@@ -35,8 +35,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
             alt="image"
             loading='lazy'
           />
-        </div>
-        {
+          <div className='absolute bottom-0 w-full'>
+          {
           available?.length && 
           <div className=' flex items-center justify-center'>
             <div className='bg-black   w-full p-2 '>
@@ -56,9 +56,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
             </div>
           </div>
         }
+          </div>
+        </div>
+     
         <div className='pt-3'>
           <h2 className='font-semibold text-xs md:text-sm'>{subtitle}</h2>
-          <p className='text-base md:text-lg font-semibold'> {title}</p>
+          <p className='text-sm md:text-lg font-semibold'> {title}</p>
         </div>
       </div>
 
