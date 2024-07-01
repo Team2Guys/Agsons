@@ -5,7 +5,7 @@ const Video: React.FC = () => {
 
 
   return (
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 mt-32">
     <div className="relative bg-gray-100 py-12 px-4">
         <div className="text-center">
           <h2 className="text-xl font-extrabold px-4 md:px-0  sm:text-4xl">

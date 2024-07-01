@@ -90,7 +90,7 @@ const Brands: React.FC = () => {
   };
 
   return (
-    <div className="bg-white py-12 mt-5 md:mt-20">
+    <div className="bg-white py-12 mt-20 md:mt-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-xl font-extrabold sm:text-4xl capitalize">
@@ -105,7 +105,7 @@ const Brands: React.FC = () => {
         </div>
 
         <div className="mt-10 overflow-y-auto overflow-hidden">
-          <div className="flex flex-wrap mt-2 md:justify-evenly gap-2">
+          <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:flex md:justify-evenly flex-wrap gap-2 space-x-2">
             <button
               onClick={() => setActiveTab('tab1')}
               className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
@@ -172,8 +172,8 @@ const Brands: React.FC = () => {
                   ))}
                 </div>
           <div className="mt-10">
-            <div className="flex flex-wrap md:flex-nowrap items-center  bg-primary py-2 px-2 md:py-10 md:px-10">
-              <div className="lg:w-1/2">
+            <div className="flex flex-wrap lg:flex-nowrap lg:items-center  bg-primary py-2 px-2 md:py-10 md:px-10">
+              <div className="w-full lg:w-1/2">
                 <Image
                   className="h-full w-full object-contain md:h-full lg:w-full lg:h-full"
                   width={500}
@@ -201,7 +201,7 @@ const Brands: React.FC = () => {
                     </>
                 )}
           
-                  
+  
                   <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
                   <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
