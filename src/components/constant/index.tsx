@@ -2,7 +2,7 @@ import Richmond from '@images/logo/Richmond logo.png';
 import Sintrich from '@images/logo/Sintrich logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Monster from '@images/logo/Monster logo.png';
-import Dulux from '@images/logo/Dulux logo.png';
+import Dulux from '@images/logo/Dulux logo.jpg';
 import AMAZON from "@images/Sintrich/Alabaster Elegance/AMAZON GREEN/AMAZON GREEN.jpg";
 import Azul from "@images/Sintrich/Alabaster Elegance/Azul Macaubas/Azul Macaubas.jpg";
 import Bolivia from "@images/Sintrich/Alabaster Elegance/Bolivia Blue/Bolivia Blue.jpg";

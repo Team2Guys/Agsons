@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Dulux from '@images/logo/Dulux logo.png';
+import Dulux from '@images/logo/Dulux logo.jpg';
 import Monster from '@images/logo/Monster logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Richmond from '@images/logo/Richmond logo.png';
