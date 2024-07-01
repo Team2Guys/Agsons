@@ -39,7 +39,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
         {
           available?.length && 
           <div className=' flex items-center justify-center'>
-            <div className='bg-black rounded-t-xl   w-full p-2 absolute bottom-[60px]'>
+            <div className='bg-black   w-full p-2 '>
               <p className='text-white text-xs px-2'><span className='font-bold'>Available: </span>{available}</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
         {
           size?.length && 
           <div className=' flex items-center justify-center'>
-            <div className='bg-black rounded-t-xl   w-full p-2 absolute bottom-[50px] md:bottom-[60px]'>
+            <div className='bg-black    w-full p-2 '>
               <p className='text-white text-xs px-2'><span className='font-bold'>Size: </span>{size}</p>
               {
                 size2?.length && 
