@@ -26,15 +26,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
   return (
     <>
       <div className='group relative'>
-        <div onClick={handleImageClick} className='cursor-pointer relative'>
+        <div onClick={handleImageClick} className='cursor-pointer relative hover:scale-105 duration-300 transition'>
           <Image
-            className="h-48 w-full object-cover sm:h-64 sm:w-64  md:h-72 md:w-72 lg:w-96 lg:h-96"
+            className="h-48 w-full object-cover sm:h-64 sm:w-64  md:h-72 md:w-72 lg:w-96 lg:h-96   "
             width={500}
             height={500}
             src={imageUrl}
             alt="image"
             loading='lazy'
           />
+          
           <div className='absolute bottom-0 w-full'>
           {
           available?.length && 
