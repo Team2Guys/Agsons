@@ -12,6 +12,9 @@ import monst from "@/assets/images/Monster.png"
 import pol from "@/assets/images/Polar.png"
 import sint from "@/assets/images/Sintrich.png"
 import dux from "@/assets/images/DULUX .png"
+import { Modal } from 'antd';
+import Table from '../Table';
+import PolarTable from '../Table/PolarTable';
 
 
 type TabContent = {
@@ -21,13 +24,25 @@ type TabContent = {
     image: any;
     downloadlink?: any;
     websitelink?: any;
-    execl?: any;
+    content?: any;
   };
 };
 
 const Brands: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('tab1');
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   const tabContent: TabContent = {
     tab1: {
       title: 'Richmond Flooring',
@@ -36,7 +51,7 @@ const Brands: React.FC = () => {
       image: rich,
       downloadlink: "/assets/Richmond.pdf",
       websitelink:"https://richmondflooring.ae/ae-en",
-      execl: "/assets/Technical-Data-Sheet.xlsx"
+      content: <Table/>
     },
     tab2: {
       title: 'Sintrich Stone',
@@ -53,8 +68,8 @@ const Brands: React.FC = () => {
         'Polar Flooring was established in 2022 to cater for development projects. All our Polar Flooring in our SPC and LVT ranges still offer a manufacturer’s warranty but have been rigorously value engineered to create a contractor’s perfect solution in a competitive marketplace. Have comfort in the knowledge that the skeleton and quality of Polar Flooring have not been compromised to still be a high quality product. ',
       image: pol,
       downloadlink: "/assets/Polar.pdf",
-      execl: "/assets/Technical-Data-Sheet-Polar.xlsx",
-      websitelink:"https://polarfloors.co.uk/"
+      websitelink:"https://polarfloors.co.uk/",
+      content: <PolarTable/> ,
     },
     tab4: {
       title: 'Monster Sealent',
@@ -177,9 +192,16 @@ const Brands: React.FC = () => {
 
                 <div className='flex flex-wrap gap-2 mt-5'>
                   <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Catalogue PDF</Link>
-                  {tabContent[activeTab].execl && (
-                    <Link href={tabContent[activeTab].execl} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</Link>
-                  )}
+                  {tabContent[activeTab].content && (
+                    <>
+                    <button onClick={showModal} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white '>Technical Details</button>
+                    <Modal title="" footer="" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} width={2000}>
+                      {tabContent[activeTab].content}
+                    </Modal>
+                    </>
+                )}
+          
+                  
                   <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
                   <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
