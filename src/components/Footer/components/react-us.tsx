@@ -9,7 +9,7 @@ const ReactUS = () => {
       <h1 className="text-xl font-bold">Reach US</h1>
       <div className="flex text-md gap-2">
         <FaPhoneAlt className="text-lg mt-1" />
-        <Link href={"tel:+971 4 385 2652"} className="">+971 4 385 2652</Link>
+        <Link href={"tel:+97142354018"} className="">+971 4 235 4018</Link>
       </div>
       <div className="flex text-md  gap-2">
         <IoMdMail className="text-lg mt-1" />

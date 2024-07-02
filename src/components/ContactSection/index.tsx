@@ -13,7 +13,7 @@ const ContactSection: React.FC = () => {
    <div className="max-w-screen-xl mx-auto p-4 sm:p-8 bg-gray-100 rounded-lg transition mt-20" >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
         <ContactInfo 
-          phone="+971 4 385 2652" 
+          phone="+971 4 235 4018" 
           email="info@agsons.ae" 
           address="Unit A12, J1 Warehouses, Jebel Ali Industrial 1, Dubai, UAE" 
         />
