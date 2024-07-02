@@ -55,7 +55,6 @@ const ExploreProduct = () => {
         <div className="mt-10 grid gap-6 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
           {projects.map((project, index) => (
             <Link href={project.link} key={index} className="group relative">
-              <div className="w-full  rounded-lg overflow-hidden">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -64,17 +63,12 @@ const ExploreProduct = () => {
                   priority
                   className="w-full h-64 object-cover rounded-md hover:scale-90 hover:rounded-md transition duration-300"
                 />
-              </div>
               <h3 className="mt-4 text-sm font-semibold text-center">{truncateText(project.title, 50)} </h3>
-             
-              <div className="mt-6 text-center">
-                <Link
-                  href={project.link}
-                  className="px-8 py-2 border-2 text-sm font-medium rounded-full bg-white border-black hover:bg-black hover:text-white"
+                <div
+                  className="px-8 py-2 mt-5 border-2 text-sm w-36 m-auto font-medium rounded-full bg-white border-black hover:bg-black hover:text-white"
                 >
                   View More
-                </Link>
-              </div>
+                </div>
             </Link>
           ))}
         </div>
