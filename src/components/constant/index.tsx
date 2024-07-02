@@ -1050,8 +1050,8 @@ const tabContent = {
     },
   },
   tab5: {
-    label: 'Dulux Paint',
-    title: 'Dulux Paint',
+    label: 'Dulux Paints',
+    title: 'Dulux Paints',
     logo: Dulux,
     nestedTabs: {
       nestedTab1: {
