@@ -11,7 +11,7 @@ import Arden from "@images/Sintrich/Marble Of The Ancients/Arden Gold/Arden Gold
 import IRON from "@images/Sintrich/Marble Of The Ancients/IRON GREY/IRON GREY.jpg";
 import Palissandro from "@images/Sintrich/Marble Of The Ancients/Palissandro Blue/Palissandro Blue.jpg";
 import Platinum from "@images/Sintrich/Marble Of The Ancients/Platinum Leica/Platinum Leica.jpg";
-import RomanTravertine from "@images/Sintrich/Marble Of The Ancients/Roman Travertine/Roman Travertine.jpg";
+import RomanTravertine from "@images/Sintrich/MN141BP261206-Roman Travertine.jpg";
 import NAPOLEON from "@images/Sintrich/Obsidian Dynasty/NAPOLEON BLACK/NAPOLEON BLACK.jpg";
 import SANDY from "@images/Sintrich/Obsidian Dynasty/SANDY GREY CREAM/SANDY GREY CREAM.jpg";
 import SANDYGREY from "@images/Sintrich/Obsidian Dynasty/SANDY GREY DARK/SANDY GREY DARK.jpg";
