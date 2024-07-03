@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       <div className="mt-10 lg:mt-0 lg:ml-10 w-full lg:w-1/2 flex-shrink-0">
         <Image
           className="h-full w-full object-cover sm:h-96 md:h-full lg:w-full lg:h-full"
-          src={Home}
+          src={Home} 
           width={500}
           height={500}
           alt="Home"
