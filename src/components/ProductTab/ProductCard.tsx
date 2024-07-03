@@ -41,7 +41,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
           newproduct && 
           <div className='absolute -top-[.6px] -left-[.7px]'>
           <Image
-            className=" h-20 w-20"
+            className="h-12 w-12 md:h-20 md:w-20"
             width={100}
             height={100}
             src={newproduct}
