@@ -130,6 +130,8 @@ import black from "@images/New series sintered stone slabs/Pure black.jpg"
 import Silver from "@images/New series sintered stone slabs/Silver Travertine.jpg"
 import Terra from "@images/New series sintered stone slabs/Terra cashmere.jpg"
 import Vela from "@images/New series sintered stone slabs/Vela natural.jpg"
+import newimages from '@images/new.png';
+
 
 
 
@@ -142,12 +144,14 @@ interface Product {
   size2?: string;
   available?: string;
   className?: string;
+  newproduct?:string;
 }
 
 interface TabContent {
   logo: any;
   className?: string;
   products: Product[];
+
 }
 
 const tabContent = {
@@ -162,13 +166,15 @@ const tabContent = {
           subtitle: 'RICHMOND ECO SPC',
           title: 'SPC Eco- Cappuccino',
           imageUrl: SPC2,
-          size:"1220mm x 183mm x 5.5mm"
+          size:"1220mm x 183mm x 5.5mm",
+
         },
         {
           subtitle: 'RICHMOND ECO SPC',
           title: 'SPC Eco- OAK',
           imageUrl: SPC8,
-          size:"1220mm x 183mm x 5.5mm"
+          size:"1220mm x 183mm x 5.5mm",
+
         },
         {
           subtitle: 'RICHMOND ECO SPC',
@@ -423,6 +429,98 @@ const tabContent = {
         label: 'OPULENT LEGACY STONE',
         products: [
           {
+            title: 'Ariston White',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Ariston,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+
+          },
+          {
+            title: 'Blanco',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Blanco,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Camel',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Camel,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Cleveland White',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Cleveland,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Gotland Natural',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: natural,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Maserati Greay',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Maserati,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Pure black',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: black,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Pure White',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Pure,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Silver Travertine',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Silver,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Terra Cashmere',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Terra,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+          {
+            title: 'Vela Natural',
+            subtitle: 'OPULENT LEGACY STONE',
+            imageUrl: Vela,
+            size:"3200mm x 1600mm x 5.5mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
+            newproduct : newimages,
+          },
+        
+
+
+          {
             title: 'Calacatta Bianco',
             subtitle: 'OPULENT LEGACY STONE',
             imageUrl: CalacattaBianco,
@@ -674,84 +772,7 @@ const tabContent = {
             size:"3200mm x 1600mm x 12mm (MATT)",
     
           },
-          {
-            title: 'Ariston White',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Ariston,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Blanco',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Blanco,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Camel',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Camel,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Cleveland White',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Cleveland,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Gotland Natural',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: natural,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Maserati Greay',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Maserati,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Pure black',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: black,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Pure White',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Pure,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Silver Travertine',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Silver,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Terra Cashmere',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Terra,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-          {
-            title: 'Vela Natural',
-            subtitle: 'OPULENT LEGACY STONE',
-            imageUrl: Vela,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
-          },
-        
+          
             
         ],
       },

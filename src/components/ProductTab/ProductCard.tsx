@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { MdClose } from 'react-icons/md';
-
+import newimages from '@images/new.png';
 interface ProductCardProps {
   title: string;
   subtitle: string;
@@ -10,9 +10,10 @@ interface ProductCardProps {
   size?: string;
   size2?: string;
   available?: string;
+  newproduct?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available, }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available,newproduct }) => {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
 
   const handleImageClick = () => {
@@ -35,7 +36,20 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
             alt="image"
             loading='lazy'
           />
-          
+       
+          {
+          newproduct && 
+          <div className='absolute -top-[.6px] -left-[.7px]'>
+          <Image
+            className=" h-20 w-20"
+            width={100}
+            height={100}
+            src={newproduct}
+            alt="image"
+            loading='lazy'
+          />
+          </div>
+        }
           <div className='absolute bottom-0 w-full'>
           {
           available?.length && 
