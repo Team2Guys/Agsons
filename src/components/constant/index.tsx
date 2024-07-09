@@ -56,7 +56,7 @@ import CLEAN from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX_EASY_CLEAN.jpg
 import RANGE from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX INSPIRE INTERIOR.jpg"
 
 import Antique from "@images/POLAR0_LVT/Antique.jpeg";
-import Cherry from "@images/POLAR0_LVT/Polar SPC-Cherry.jpeg";
+import Cherry from "@images/POLAR0_LVT/cherry.jpeg";
 import Chestnut from "@images/POLAR0_LVT/Polar LVT- Chestnut.jpeg";
 import Classic from "@images/POLAR0_LVT/Polar LVT- Classic OAK.jpeg";
 import History1 from "@images/POLAR0_LVT/Polar LVT- History Oak.jpeg";
