@@ -47,13 +47,13 @@ import R200 from "@images/Monster/Nail Free Glue/MAX POWER R200/Nail Free Glue M
 import R120 from "@images/Monster/Nail Free Glue/WEATHER MAX R120/Nail Free Glue WEATHER MAX R120.jpg"
 import Adhesive from "@images/Monster/Other Adhesive/Foam Master R007.jpg"
 import TILE from "@images/Monster/Tile Grout/TILE GROUT R300.jpg"
-import INSPIRE from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX INSPIRE.jpg"
-import POWERFLEXX from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX WEATHERSHIELD POWERFLEXX.jpg"
-import WEATHERSHIELD from "@images/Dulux Paints/DULUX EXTERIOR RANGE/DULUX WEATHERSHIELD.jpg"
-import AMBIANCE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX AMBIANCE.jpg"
-import COLOURS from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX COLOURS OF THE WORLD.jpg"
-import CLEAN from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX EASY CLEAN.jpg"
-import RANGE from "@images/Dulux Paints/DULUX INTERIOR RANGE/DULUX INSPIRE INTERIOR.jpg"
+import INSPIRE from "@images/DuluxPaints/DULUX_EXTERIOR_RANGE/DULUX INSPIRE.jpg"
+import POWERFLEXX from "@images/DuluxPaints/DULUX_EXTERIOR_RANGE/DULUX WEATHERSHIELD POWERFLEXX.jpg"
+import WEATHERSHIELD from "@images/DuluxPaints/DULUX_EXTERIOR_RANGE/DULUX WEATHERSHIELD.jpg"
+import AMBIANCE from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX AMBIANCE.jpg"
+import COLOURS from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX COLOURS OF THE WORLD.jpg"
+import CLEAN from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX_EASY_CLEAN.jpg"
+import RANGE from "@images/DuluxPaints/DULUX_INTERIOR_RANGE/DULUX INSPIRE INTERIOR.jpg"
 
 import Antique from "@images/POLAR0_LVT/Antique.jpeg";
 import Cherry from "@images/POLAR0_LVT/Polar SPC-Cherry.jpeg";
