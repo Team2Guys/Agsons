@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,15 +7,15 @@ import Monster from '@images/logo/Monster logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Richmond from '@images/logo/Richmond logo.png';
 import Sintrich from '@images/logo/Sintrich logo.png';
-import rich from "@/assets/images/Richmond Flooring.png"
-import monst from "@/assets/images/Monster.png"
-import pol from "@/assets/images/Polar.png"
-import sint from "@/assets/images/Sintrich.png"
-import dux from "@/assets/images/DULUX .png"
+import rich from "@/assets/images/Richmond Flooring.png";
+import monst from "@/assets/images/Monster.png";
+import pol from "@/assets/images/Polar.png";
+import sint from "@/assets/images/Sintrich.png";
+import dux from "@/assets/images/DULUX .png";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
-
+import { useRouter } from 'next/navigation';
 
 type TabContent = {
   [key: string]: {
@@ -29,6 +29,7 @@ type TabContent = {
 };
 
 const Brands: React.FC = () => {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState<string>('tab1');
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -43,6 +44,11 @@ const Brands: React.FC = () => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+  const changeTab = (tab: string) => {
+    setActiveTab(tab);
+    router.push(`/brands?tab=${tab}`);
+  };
+  
   const tabContent: TabContent = {
     tab1: {
       title: 'Richmond Flooring',
@@ -60,7 +66,6 @@ const Brands: React.FC = () => {
       image: sint,
       downloadlink: "/assets/SINTRICH.pdf",
       websitelink:"https://sintrich.com/ae-en"
-
     },
     tab3: {
       title: 'Polar Flooring',
@@ -94,85 +99,59 @@ const Brands: React.FC = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-xl font-extrabold sm:text-4xl capitalize">
-          Brands that we have built with quality always in mind
+            Brands that we have built with quality always in mind
           </h2>
-          <p className="mt-3 text-base md:text-lg sm:mt-4 font-semibold">
-          From the UK to the Middle East now, Agsons delivers 3 decades of experience in the property renovation sector
+          <p className="mt-3 sm:mt-4 text-sm md:text-base">
+          From the UK to the Middle East, Agsons brings three decades of experience in the property renovation sector.
           </p>
           <p className="text-sm md:text-base">
-          Our key clients would be architects, interior designers, fit out contractors, channel partners and of course the end user. All our products are offered with a manufacturer’s warranty with a no hassle policy.
+          Our key clients include architects, interior designers, fit-out contractors, channel partners, and, of course, end-users. All our products come with a manufacturer’s warranty and a no-hassle policy.
           </p>
         </div>
 
         <div className="mt-10 overflow-y-auto overflow-hidden">
           <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:flex md:justify-evenly flex-wrap gap-2 space-x-2">
-            <button
-              onClick={() => setActiveTab('tab1')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
-                activeTab === 'tab1'
-                  ? 'bg-black text-white'
-                  : 'bg-white  text-black'
-              }`}
-            >
-              Richmond Flooring
-            </button>
-            <button
-              onClick={() => setActiveTab('tab2')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
-                activeTab === 'tab2'
-                  ? 'bg-black text-white'
-                  : 'bg-white  text-black'
-              }`}
-            >
-              SINTRICH Stone
-            </button>
-            <button
-              onClick={() => setActiveTab('tab3')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
-                activeTab === 'tab3'
-                  ? 'bg-black text-white'
-                  : 'bg-white  text-black'
-              }`}
-            >
-              Polar Flooring
-            </button>
-            <button
-              onClick={() => setActiveTab('tab4')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
-                activeTab === 'tab4'
-                  ? 'bg-black text-white'
-                  : 'bg-white  text-black'
-              }`}
-            >
-              Monster Sealent
-            </button>
-            <button
-              onClick={() => setActiveTab('tab5')}
-              className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase ${
-                activeTab === 'tab5'
-                  ? 'bg-black text-white'
-                  : 'bg-white  text-black'
-              }`}
-            >
-              Dulux Paints
-            </button>
+            {Object.keys(tabContent).map((tab, index) => (
+              <button
+                key={index}
+                onMouseOver={() => setActiveTab(tab)}
+                className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase hover:bg-black hover:text-white ${
+                  activeTab === tab ? 'bg-black text-white' : 'bg-white text-black'
+                }`}
+              >
+                {tabContent[tab].title}
+              </button>
+            ))}
           </div>
- 
-          <div className='grid grid-cols-3  md:grid-cols-5 justify-items-center mt-5 max-w-screen-md mx-auto'>
-                  {Object.keys(tabContent).map((tab, index) => (
-                    <Image
-                      key={index}
-                      className={`border-b-2  ${activeTab === tab ? 'border-black' : 'border-transparent'}`}
-                      width={100}
-                      height={100}
-                      src={tab === 'tab1' ? Richmond : tab === 'tab2' ? Sintrich : tab === 'tab3' ? Polar : tab === 'tab4' ? Monster : Dulux}
-                      alt={tab === 'tab1' ? 'Richmond' : tab === 'tab2' ? 'Sintrich' : tab === 'tab3' ? 'Polar' : tab === 'tab4' ? 'Monster' : 'Dulux'}
-                      onClick={() => setActiveTab(tab)} // Add this line
-                    />
-                  ))}
-                </div>
+
+          <div className='grid grid-cols-3 md:grid-cols-5 justify-items-center mt-5 max-w-screen-md mx-auto'>
+            {Object.keys(tabContent).map((tab, index) => (
+              <Image
+                key={index}
+                className={`border-b-2 ${activeTab === tab ? 'border-black' : 'border-transparent'}`}
+                width={100}
+                height={100}
+                src={
+                  tab === 'tab1' ? Richmond :
+                  tab === 'tab2' ? Sintrich :
+                  tab === 'tab3' ? Polar :
+                  tab === 'tab4' ? Monster :
+                  Dulux
+                }
+                alt={
+                  tab === 'tab1' ? 'Richmond' :
+                  tab === 'tab2' ? 'Sintrich' :
+                  tab === 'tab3' ? 'Polar' :
+                  tab === 'tab4' ? 'Monster' :
+                  'Dulux'
+                }
+                onMouseOver={() => setActiveTab(tab)}
+              />
+            ))}
+          </div>
+
           <div className="mt-10">
-            <div className="flex flex-wrap lg:flex-nowrap lg:items-center  bg-primary py-2 px-2 md:py-10 md:px-10">
+            <div className="flex flex-wrap lg:flex-nowrap lg:items-center bg-primary py-2 px-2 md:py-10 md:px-10">
               <div className="w-full lg:w-1/2">
                 <Image
                   className="h-full w-full object-contain md:h-full lg:w-full lg:h-full"
@@ -186,24 +165,22 @@ const Brands: React.FC = () => {
                 <h3 className="text-xl font-bold text-start">
                   {tabContent[activeTab].title}
                 </h3>
-                <p className="mt-3 text-sm md:text-base  sm:mt-4">
+                <p className="mt-3 text-sm md:text-base sm:mt-4">
                   {tabContent[activeTab].description}
                 </p>
 
                 <div className='flex flex-wrap gap-2 mt-5'>
-                  <Link href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Catalogue PDF</Link>
+                  <button onClick={() => router.push(`/product?tab=${activeTab}`)} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>View Products</button>
                   {tabContent[activeTab].content && (
                     <>
-                    <button onClick={showModal} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white '>Technical Details</button>
-                    <Modal title="" footer="" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} width={2000}>
-                      {tabContent[activeTab].content}
-                    </Modal>
+                      <button onClick={showModal} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</button>
+                      <Modal title="" footer="" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} width={2000}>
+                        {tabContent[activeTab].content}
+                      </Modal>
                     </>
-                )}
-          
-  
-                  <Link href={"/product"} className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Read More</Link>
-                  <Link href={tabContent[activeTab].websitelink}  target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2  md:px-4 py-2 text-white'>Visit Official Site</Link>
+                  )}
+                  <Link target='_blank' href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Download Catalogue</Link>
+                  <Link href={tabContent[activeTab].websitelink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
               </div>
             </div>

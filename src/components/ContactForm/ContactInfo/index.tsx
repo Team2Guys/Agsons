@@ -11,8 +11,8 @@ interface ContactInfoProps {
 const ContactInfo: React.FC<ContactInfoProps> = ({ phone, email, address }) => {
   return (
     <div className="p-8 bg-gray-100 rounded-lg">
-      <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-      <p className=" mb-4">Say something to start chat!</p>
+      <h2 className="text-2xl font-bold mb-4">Let&apos;s Build Something Great Together!</h2>
+      <p className=" mb-4">Have Questions? We&apos;re Here to Help!</p>
       <div className="flex items-center mb-4">
         <FaPhoneAlt className="mr-3 " />
         <Link href={`tel:${phone}`}>{phone}</Link>
