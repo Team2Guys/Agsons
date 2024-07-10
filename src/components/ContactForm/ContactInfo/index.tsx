@@ -23,7 +23,12 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ phone, email, address }) => {
       </div>
       <div className="flex items-center mb-4">
         <FaMapMarkerAlt className="mr-3 " />
-        <Link target='_blank' href={"https://maps.app.goo.gl/ZMFEiHmxCGEwrQnZ7"}>{address}</Link>
+        <Link
+          target="_blank"
+          href={'https://maps.app.goo.gl/ZMFEiHmxCGEwrQnZ7'}
+        >
+          {address}
+        </Link>
       </div>
     </div>
   );
