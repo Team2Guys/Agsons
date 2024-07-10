@@ -1,6 +1,6 @@
-//@ts-nocheck
-'use client';
-import React, { useState } from 'react';
+// @ts-nocheck
+"use client";
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import tabContent from '@components/constant/index';
 import ProductCard from './ProductCard';
@@ -10,6 +10,34 @@ const ProductTab: React.FC = () => {
   const [nestedTab, setNestedTab] = useState<string>('nestedTab1');
   const [visibleCount, setVisibleCount] = useState<number>(9);
 
+  // Function to get query parameters from URL
+  const getQueryParam = (name: string): string | null => {
+    const searchParams = new URLSearchParams(window.location.search);
+    return searchParams.get(name);
+  };
+
+  // Set active tab based on URL parameter on initial load
+  useEffect(() => {
+    const tabParam = getQueryParam('tab');
+    if (tabParam && tabParam in tabContent) {
+      setActiveTab(tabParam);
+    }
+  }, []);
+
+  // Handle tab change and update URL
+  const handleTabChange = (tabKey: string) => {
+    setActiveTab(tabKey);
+    setVisibleCount(9);
+    setNestedTab('nestedTab1'); // Reset nested tab
+
+    // Update URL without reloading page
+    const searchParams = new URLSearchParams(window.location.search);
+    searchParams.set('tab', tabKey);
+    const newUrl = `${window.location.pathname}?${searchParams.toString()}`;
+    window.history.replaceState({ path: newUrl }, '', newUrl);
+  };
+
+  // Load more products
   const loadMore = () => {
     setVisibleCount(prevCount => prevCount + 9);
   };
@@ -22,7 +50,7 @@ const ProductTab: React.FC = () => {
             <Image
               width={150}
               height={150}
-              src={tabContent[activeTab].logo}
+              src={tabContent[activeTab]?.logo}
               alt="logo"
             />
           </div>
@@ -33,36 +61,29 @@ const ProductTab: React.FC = () => {
         </div>
         <div className="text-center bg-primary pt-10 pb-10">
           <h2 className="text-xl md:text-6xl font-medium uppercase">
-            {tabContent[activeTab].title}
+            {tabContent[activeTab]?.title}
           </h2>
-          <div className={`overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-evenly flex-wrap gap-2 mt-5 `}>
+          <div className={`overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-evenly flex-wrap gap-2 mt-5`}>
             {Object.keys(tabContent).map((tabKey) => (
               <button
                 key={tabKey}
-                onClick={() => {
-                  setActiveTab(tabKey);
-                  setVisibleCount(9);
-                  setNestedTab('nestedTab1'); // Reset nested tab
-                }}
+                onMouseOver={() => handleTabChange(tabKey)}
                 className={`px-4 py-2 font-medium text-xs md:text-lg rounded-full uppercase ml-2 ${
-                  activeTab === tabKey
-                    ? 'bg-black text-white'
-                    : 'bg-primary border border-black'
+                  activeTab === tabKey ? 'bg-black text-white' : 'bg-primary border border-black'
                 }`}
               >
-                {tabContent[tabKey].label}
+                {tabContent[tabKey]?.label}
               </button>
             ))}
           </div>
         </div>
         <div className="">
-        <div className="text-center bg-secondary pt-5 pb-5">
-              <div className={`overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-center flex-wrap gap-2 ${tabContent[activeTab].className}`}>
-               
-              {Object.keys(tabContent[activeTab].nestedTabs).map((nestedKey) => (
+          <div className="text-center bg-secondary pt-5 pb-5">
+            <div className={`overflow-x-auto whitespace-nowrap scrollbar-hide md:justify-center flex-wrap gap-2 ${tabContent[activeTab]?.className}`}>
+              {Object.keys(tabContent[activeTab]?.nestedTabs || {}).map((nestedKey) => (
                 <button
                   key={nestedKey}
-                  onClick={() => {
+                  onMouseOver={() => {
                     setNestedTab(nestedKey);
                     setVisibleCount(9);
                   }}
@@ -72,13 +93,13 @@ const ProductTab: React.FC = () => {
                       : 'bg-secondary border border-black'
                   }`}
                 >
-                  {tabContent[activeTab].nestedTabs[nestedKey].label}
+                  {tabContent[activeTab]?.nestedTabs[nestedKey]?.label}
                 </button>
               ))}
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mt-3 mb-10">
-            {tabContent[activeTab].nestedTabs[nestedTab].products.slice(0, visibleCount).map((product, index) => (
+            {tabContent[activeTab]?.nestedTabs[nestedTab]?.products.slice(0, visibleCount).map((product, index) => (
               <ProductCard
                 key={index}
                 title={product.title}
@@ -92,7 +113,7 @@ const ProductTab: React.FC = () => {
               />
             ))}
           </div>
-          {visibleCount < tabContent[activeTab].nestedTabs[nestedTab].products.length && (
+          {visibleCount < tabContent[activeTab]?.nestedTabs[nestedTab]?.products.length && (
             <div className="text-center">
               <button
                 onClick={loadMore}
@@ -109,3 +130,4 @@ const ProductTab: React.FC = () => {
 };
 
 export default ProductTab;
+

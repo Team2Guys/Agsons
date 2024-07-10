@@ -74,9 +74,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
           </div>
         </div>
      
-        <div className='pt-3'>
-          <h2 className='font-semibold text-xs md:text-sm'>{subtitle}</h2>
-          <p className='text-sm md:text-lg font-semibold'> {title}</p>
+        <div className='pt-3 capitalize'>
+          <h2 className='font-semibold text-xs md:text-sm uppercase'>{subtitle}</h2>
+          <p className='text-sm md:text-lg font-semibold uppercase'> {title}</p>
         </div>
       </div>
 
