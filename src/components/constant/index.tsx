@@ -412,88 +412,77 @@ const tabContent = {
             title: 'Ariston White',
             
             imageUrl: Ariston,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
 
           },
           {
             title: 'Blanco',
             imageUrl: Blanco,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Camel',
             
             imageUrl: Camel,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Cleveland White',
             
             imageUrl: Cleveland,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Gotland Natural',
             
             imageUrl: natural,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Maserati Greay',
             
             imageUrl: Maserati,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Pure black',
             
             imageUrl: black,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Pure White',
             
             imageUrl: Pure,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Silver Travertine',
             
             imageUrl: Silver,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Terra Cashmere',
             
             imageUrl: Terra,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Vela Natural',
             
             imageUrl: Vela,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
         
@@ -513,11 +502,9 @@ const tabContent = {
     
           },
           {
-            title: 'Calacatta Gold',
-            
-            imageUrl: CalacattaGold,
-            size:"3200mm x 1600mm x 6mm (Silk , POLISHED)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
+            title: 'Calacatta Gold',           
+           imageUrl: CalacattaGold, 
+            size:"3200mm x 1600mm x 12mm (MATT)"
     
           },
           {
@@ -531,8 +518,7 @@ const tabContent = {
             title: 'Roman Travertine',
             
             imageUrl: RomanTravertine,
-            size:"3200mm x 1600mm x 5.5mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
+            size:"3200mm x 1600mm x 12mm (MATT)"
     
           },
           {
@@ -558,8 +544,8 @@ const tabContent = {
             title: 'Galaxy Black',
             
             imageUrl: GalaxyBlack,
-            size:"3200mm x 1600mm x 6mm (POLISHED)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
+          
+            size:"3200mm x 1600mm x 12mm (MATT)"
     
           },
           {
@@ -580,8 +566,8 @@ const tabContent = {
             title: 'Calacatta Royal',
             
             imageUrl: CalacattaRoyal,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
-            size2:"2700mm x 1200mm x 6mm (MATT)",
+           
+            size:"2700mm x 1200mm x 6mm (MATT)",
     
           },
           {
@@ -622,8 +608,8 @@ const tabContent = {
             title: 'Sandy Grey Cream',
             
             imageUrl: SANDY,
-            size:"3200mm x 1600mm x 12mm (MATT)",
-            size2:"2700mm x 1200mm x 6mm (MATT)",
+           
+            size:"2700mm x 1200mm x 6mm (MATT)",
     
           },
           {
@@ -679,8 +665,8 @@ const tabContent = {
             title: 'Calacatta Polido',
             
             imageUrl: Calacatta,
-            size:"3200mm x 1600mm x 12mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (POLISHED)",
+            
+            size:"3200mm x 1600mm x 12mm (POLISHED)",
     
           },
           {
@@ -715,8 +701,8 @@ const tabContent = {
             title: 'Polaris Statuario',
             
             imageUrl: Polaris,
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            
+            size:"3200mm x 1600mm x 12mm (MATT)",
     
           },
           {
