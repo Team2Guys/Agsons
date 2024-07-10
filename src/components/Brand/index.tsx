@@ -101,11 +101,11 @@ const Brands: React.FC = () => {
           <h2 className="text-xl font-extrabold sm:text-4xl capitalize">
             Brands that we have built with quality always in mind
           </h2>
-          <p className="mt-3 text-base md:text-lg sm:mt-4 font-semibold">
-            From the UK to the Middle East now, Agsons delivers 3 decades of experience in the property renovation sector
+          <p className="mt-3 sm:mt-4 text-sm md:text-base">
+          From the UK to the Middle East, Agsons brings three decades of experience in the property renovation sector.
           </p>
           <p className="text-sm md:text-base">
-            Our key clients would be architects, interior designers, fit out contractors, channel partners and of course the end user. All our products are offered with a manufacturer’s warranty with a no hassle policy.
+          Our key clients include architects, interior designers, fit-out contractors, channel partners, and, of course, end-users. All our products come with a manufacturer’s warranty and a no-hassle policy.
           </p>
         </div>
 
@@ -170,7 +170,7 @@ const Brands: React.FC = () => {
                 </p>
 
                 <div className='flex flex-wrap gap-2 mt-5'>
-                  <Link target='_blank' href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Catalogue PDF</Link>
+                  <button onClick={() => router.push(`/product?tab=${activeTab}`)} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>View Products</button>
                   {tabContent[activeTab].content && (
                     <>
                       <button onClick={showModal} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</button>
@@ -179,7 +179,7 @@ const Brands: React.FC = () => {
                       </Modal>
                     </>
                   )}
-                  <button onClick={() => router.push(`/product?tab=${activeTab}`)} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Read More</button>
+                  <Link target='_blank' href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Download Catalogue</Link>
                   <Link href={tabContent[activeTab].websitelink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
               </div>

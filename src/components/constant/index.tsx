@@ -433,14 +433,14 @@ const tabContent = {
             title: 'Cleveland White',
             
             imageUrl: Cleveland,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3000mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
           {
             title: 'Gotland Natural',
             
             imageUrl: natural,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3000mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
           {
@@ -468,21 +468,21 @@ const tabContent = {
             title: 'Silver Travertine',
             
             imageUrl: Silver,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"2800mm x 1600mm x 6mm (MATT)",
             newproduct : newimages,
           },
           {
             title: 'Terra Cashmere',
             
             imageUrl: Terra,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"2800mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
           {
             title: 'Vela Natural',
             
             imageUrl: Vela,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"2800mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
         

@@ -88,7 +88,7 @@ const Header: React.FC = () => {
                 </Link>
                 <Link
                   className=" hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  href="/product"
+                  href={pathName === "/product" ? "#products" : "/product"}
                 >
                   Product
                 </Link>
@@ -142,7 +142,8 @@ const Header: React.FC = () => {
             </Link>
             <Link
               className=" hover:text-black block rounded-md text-base font-medium" onClick={onClose}
-              href="/product"
+            
+              href={pathName === "/product" ? "#product" : "/product"}
             >
               Product
             </Link>

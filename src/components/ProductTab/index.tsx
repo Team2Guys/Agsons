@@ -43,7 +43,7 @@ const ProductTab: React.FC = () => {
   };
 
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12" id='products'>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <div className="flex items-center justify-between gap-4">
           <div className="w-4/12 md:w-2/12">
