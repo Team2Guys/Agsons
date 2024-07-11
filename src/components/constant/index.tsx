@@ -26,7 +26,6 @@ import CalacattaWhite from "@images/Sintrich/Opulent Legacy Stone/Calacatta Whit
 import GalaxyBlack from "@images/Sintrich/Opulent Legacy Stone/Galaxy Black/Galaxy Black.jpg";
 import PANDAWHITE from "@images/Sintrich/Opulent Legacy Stone/PANDA WHITE/PANDA WHITE.jpg";
 import StatuarioOro from "@images/Sintrich/Opulent Legacy Stone/Statuario Oro/Statuario Oro.png";
-
 import VENUSWHITE from "@images/Sintrich/Opulent Legacy Stone/VENUS WHITE (CALACATTA)/VENUS WHITE (CALACATTA).jpg";
 import Gotland from "@images/Sintrich/Opulent Legacy Stone/Gotland Walnut.jpg";
 import Woodbreak from "@images/Sintrich/Opulent Legacy Stone/Woodbreak Oak.jpg";
@@ -143,6 +142,7 @@ interface Product {
   link: string;
   size?: string;
   size2?: string;
+  size3?: string;
   available?: string;
   className?: string;
   newproduct?:string;
@@ -418,7 +418,7 @@ const tabContent = {
           },
           {
             title: 'Blanco',
-            imageUrl: Blanco,
+            imageUrl: Terra,
             size:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
@@ -474,7 +474,7 @@ const tabContent = {
           {
             title: 'Terra Cashmere',
             
-            imageUrl: Terra,
+            imageUrl: Blanco,
             size:"2800mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
@@ -504,7 +504,9 @@ const tabContent = {
           {
             title: 'Calacatta Gold',           
            imageUrl: CalacattaGold, 
-            size:"3200mm x 1600mm x 12mm (MATT)"
+            size:"3200mm x 1600mm x 6mm SILK (SOFT)",
+            size2:"2700mm x 1200mm x 6mm (POLISHED)",
+            size3:"3200mm x 1600mm x 12mm (MATT)",
     
           },
           {
@@ -518,7 +520,8 @@ const tabContent = {
             title: 'Roman Travertine',
             
             imageUrl: RomanTravertine,
-            size:"3200mm x 1600mm x 12mm (MATT)"
+            size:"3200mm x 1600mm x 6mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (MATT)"
     
           },
           {
@@ -545,7 +548,8 @@ const tabContent = {
             
             imageUrl: GalaxyBlack,
           
-            size:"3200mm x 1600mm x 12mm (MATT)"
+            size:"3200mm x 1600mm x 6mm (POLISHED)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
     
           },
           {
@@ -567,7 +571,8 @@ const tabContent = {
             
             imageUrl: CalacattaRoyal,
            
-            size:"2700mm x 1200mm x 6mm (MATT)",
+            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size2:"2700mm x 1200mm x 6mm (MATT)",
     
           },
           {
@@ -609,7 +614,8 @@ const tabContent = {
             
             imageUrl: SANDY,
            
-            size:"2700mm x 1200mm x 6mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
+            size2:"2700mm x 1200mm x 6mm (MATT)",
     
           },
           {
@@ -652,6 +658,7 @@ const tabContent = {
             
             imageUrl: PUREWHITE,
             size:"3200mm x 1600mm x 6mm (POLISHED)",
+            size2:"3200mm x 1600mm x 6mm (MATT)",
     
           },
           {
@@ -666,7 +673,8 @@ const tabContent = {
             
             imageUrl: Calacatta,
             
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
+            size:"3200mm x 1600mm x 12mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (POLISHED)",
     
           },
           {
@@ -702,7 +710,8 @@ const tabContent = {
             
             imageUrl: Polaris,
             
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (POLISHED)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
     
           },
           {

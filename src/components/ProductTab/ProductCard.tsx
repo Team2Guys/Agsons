@@ -11,9 +11,10 @@ interface ProductCardProps {
   size2?: string;
   available?: string;
   newproduct?: string;
+  size3?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,available,newproduct }) => {
+const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, link ,size,size2,size3,available,newproduct }) => {
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
 
   const handleImageClick = () => {
@@ -67,6 +68,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ title, subtitle, imageUrl, li
               {
                 size2?.length && 
                 <p className='text-white text-xs px-2'><span className='font-bold'>Size: </span>{size2}</p>
+              }
+              {
+                size3?.length && 
+                <p className='text-white text-xs px-2'><span className='font-bold'>Size: </span>{size3}</p>
               }
             </div>
           </div>

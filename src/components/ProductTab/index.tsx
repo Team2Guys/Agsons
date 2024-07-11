@@ -108,6 +108,7 @@ const ProductTab: React.FC = () => {
                 link={product.link}
                 size={product.size}
                 size2={product.size2}
+                size3={product.size3}
                 available={product.available}
                 newproduct={product.newproduct}
               />
