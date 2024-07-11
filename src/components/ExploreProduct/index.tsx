@@ -60,7 +60,6 @@ const ExploreProduct = () => {
                   alt={project.title}
                   width={500}
                   height={500}
-                  priority
                   loading='lazy'
                   className="w-full h-64 object-cover rounded-md hover:scale-90 hover:rounded-md transition duration-300"
                 />

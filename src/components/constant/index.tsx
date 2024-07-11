@@ -131,6 +131,8 @@ import Silver from "@images/New series sintered stone slabs/Silver Travertine.jp
 import Terra from "@images/New series sintered stone slabs/Terra cashmere.jpg"
 import Vela from "@images/New series sintered stone slabs/Vela natural.jpg"
 import newimages from '@images/new.png';
+import BrandData from '../Brands/BrandData';
+import Table from '../Table';
 
 
 
@@ -412,21 +414,21 @@ const tabContent = {
             title: 'Ariston White',
             
             imageUrl: Ariston,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
 
           },
           {
             title: 'Blanco',
             imageUrl: Terra,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
           },
           {
             title: 'Camel',
             
             imageUrl: Camel,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
           },
           {
@@ -447,14 +449,14 @@ const tabContent = {
             title: 'Maserati Grey',
             
             imageUrl: Maserati,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
           },
           {
             title: 'Pure black',
             
             imageUrl: black,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
           },
           {
@@ -462,14 +464,14 @@ const tabContent = {
             
             imageUrl: Pure,
             size:"3200mm x 1600mm x 12mm (Polished)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size2:"3200mm x 1600mm x 12mm (Matt)",
             newproduct : newimages,
           },
           {
             title: 'Silver Travertine',
             
             imageUrl: Silver,
-            size:"2800mm x 1600mm x 6mm (MATT)",
+            size:"2800mm x 1200mm x 6mm (Matt)",
             newproduct : newimages,
           },
           {
@@ -493,78 +495,78 @@ const tabContent = {
             title: 'Calacatta Bianco',
             
             imageUrl: CalacattaBianco,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
           },
           {
             title: 'Calacatta White',
             
             imageUrl: CalacattaWhite,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
     
           },
           {
             title: 'Calacatta Gold',           
            imageUrl: CalacattaGold, 
-            size:"3200mm x 1600mm x 6mm SILK (SOFT)",
-            size2:"2700mm x 1200mm x 6mm (POLISHED)",
-            size3:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 6mm Silk (Soft)",
+            size2:"2700mm x 1200mm x 6mm (Polished)",
+            size3:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
             title: 'Bulgari Calacatta Viola',
             
             imageUrl: BULGARICALACATTAVIOLA,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
     
           },
           {
             title: 'Roman Travertine',
             
             imageUrl: RomanTravertine,
-            size:"3200mm x 1600mm x 6mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (MATT)"
+            size:"3200mm x 1600mm x 6mm (Matt)",
+            size2:"3200mm x 1600mm x 12mm (Matt)"
     
           },
           {
             title: 'Palissandro Blue',
             
             imageUrl: Palissandro,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
     
           },
           {
             title: 'Freezing Emeral',
             
             imageUrl: Freezing,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
           },
           {
             title: 'Prada Green',
             
             imageUrl: PRADA,
-            size:"3200mm x 1600mm x 6mm (POLISHED)"
+            size:"3200mm x 1600mm x 6mm (Polished)"
           },
           {
             title: 'Galaxy Black',
             
             imageUrl: GalaxyBlack,
           
-            size:"3200mm x 1600mm x 6mm (POLISHED)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 6mm (Polished)",
+            size2:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
             title: 'Napoleon Black',
             
             imageUrl: NAPOLEON,
-            size:"3200mm x 1600mm x 6mm (POLISHED)",
+            size:"3200mm x 1600mm x 6mm (Polished)",
     
           },
           {
             title: 'Patagonia',
             
             imageUrl: PATAGONIA,
-            size:"3200mm x 1600mm x 6mm (POLISHED)",
+            size:"3200mm x 1600mm x 6mm (Polished)",
     
           },
           {
@@ -572,42 +574,42 @@ const tabContent = {
             
             imageUrl: CalacattaRoyal,
            
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
-            size2:"2700mm x 1200mm x 6mm (MATT)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
+            size2:"2700mm x 1200mm x 6mm (Matt)",
     
           },
           {
             title: 'Statuario Oro',
             
             imageUrl: StatuarioOro,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Calacatta Gold Extra',
             
             imageUrl: CalacattaGoldExtra,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
           },
           {
             title: 'Frappuccino',
             
             imageUrl: Frappuccino,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Rosa Crystal',
             
             imageUrl: RosaCrystal,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Silk Road',
             
             imageUrl: SilkRoad,
-            size:"2700mm x 1200mm x 6mm (POLISHED)",
+            size:"2700mm x 1200mm x 6mm (Polished)",
     
           },
           {
@@ -615,58 +617,58 @@ const tabContent = {
             
             imageUrl: SANDY,
            
-            size:"3200mm x 1600mm x 12mm (MATT)",
-            size2:"2700mm x 1200mm x 6mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
+            size2:"2700mm x 1200mm x 6mm (Matt)",
     
           },
           {
             title: 'Amber Grey',
             
             imageUrl: AMBERGREY,
-            size:"2600mm x 1200mm x 6mm (POLISHED)",
+            size:"2600mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Calacatta Extra',
             
             imageUrl: CalacattaExtra,
-            size:"2600mm x 1200mm x 6mm (POLISHED)",
+            size:"2600mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Iron Grey',
             
             imageUrl: IRON,
-            size:"2600mm x 1200mm x 6mm (POLISHED)",
+            size:"2600mm x 1200mm x 6mm (Polished)",
     
           },
           {
             title: 'Gotland Walnut (Mould)',
             
             imageUrl: Gotland,
-            size:"3000mm x 1200mm x 6mm (MATT)",
+            size:"3000mm x 1200mm x 6mm (Matt)",
     
           },
           {
             title: 'Woodbreak Oak (Mould)',
             
             imageUrl: Woodbreak,
-            size:"3000mm x 1200mm x 6mm (MATT)",
+            size:"3000mm x 1200mm x 6mm (Matt)",
     
           },
           {
             title: 'Pure White',
             
             imageUrl: PUREWHITE,
-            size:"3200mm x 1600mm x 6mm (POLISHED)",
-            size2:"3200mm x 1600mm x 6mm (MATT)",
+            size:"3200mm x 1600mm x 6mm (Polished)",
+            size2:"3200mm x 1600mm x 6mm (Matt)",
     
           },
           {
             title: 'Platinum Leica',
             
             imageUrl: Platinum,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
@@ -674,36 +676,36 @@ const tabContent = {
             
             imageUrl: Calacatta,
             
-            size:"3200mm x 1600mm x 12mm (MATT)",
-            size2:"3200mm x 1600mm x 12mm (POLISHED)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
+            size2:"3200mm x 1600mm x 12mm (Polished)",
     
           },
           {
             title: 'Panda White',
             
             imageUrl: PANDAWHITE,
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
+            size:"3200mm x 1600mm x 12mm (Polished)",
     
           },
           {
             title: 'Bulgari White',
             
             imageUrl: BULGARI,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
             title: 'Venus White',
             
             imageUrl: VENUSWHITE,
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
+            size:"3200mm x 1600mm x 12mm (Polished)",
     
           },
           {
             title: 'Nero Margiua',
             
             imageUrl: NERO,
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
+            size:"3200mm x 1600mm x 12mm (Polished)",
     
           },
           {
@@ -711,8 +713,8 @@ const tabContent = {
             
             imageUrl: Polaris,
             
-            size:"3200mm x 1600mm x 12mm (POLISHED)",
-            size2:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Polished)",
+            size2:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
@@ -720,7 +722,7 @@ const tabContent = {
             
             imageUrl: TajMahal,
 
-            size:"3200mm x 1600mm x 12mm (SILK (SOFT))",
+            size:"3200mm x 1600mm x 12mm Silk (Soft)",
     
           },
           {
@@ -728,7 +730,7 @@ const tabContent = {
             
             imageUrl: VanGogh,
 
-            size:"3200mm x 1600mm x 12mm (SILK (SOFT))",
+            size:"3200mm x 1600mm x 12mm Silk (Soft)",
     
           },
           {
@@ -736,7 +738,7 @@ const tabContent = {
             
             imageUrl: SANDYGREY,
 
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           {
@@ -744,7 +746,7 @@ const tabContent = {
             
             imageUrl: Arden,
 
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Matt)",
     
           },
           
@@ -1000,7 +1002,7 @@ const tabContent = {
             title: 'DULUX AMBIANCE',
           
             imageUrl: AMBIANCE,
-            available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+            available:"18L, 16.5L, 4L, 1L (Matt, SILK)"
             
           },
           {
@@ -1014,14 +1016,14 @@ const tabContent = {
           
             imageUrl: COLOURS,
 
-            available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+            available:"18L, 16.5L, 4L, 1L (Matt, SILK)"
     
           },
           {
             title: 'DULUX INSPIRE INTERIOR',
           
             imageUrl: RANGE,
-            available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+            available:"18L, 16.5L, 4L, 1L (Matt, SILK)"
     
           },
         ],
@@ -1039,13 +1041,13 @@ const tabContent = {
             title: 'DULUX WEATHERSHIELD',
            
             imageUrl: WEATHERSHIELD,
-            available:"18L, 16.5L, 4L, 1L (MATT, GLOSS)"
+            available:"18L, 16.5L, 4L, 1L (Matt, GLOSS)"
           },
           {
             title: 'DULUX INSPIRE EXTERIOR',
             
             imageUrl: INSPIRE,
-            available:"18L, 16.5L, 4L, 1L (MATT, SILK)"
+            available:"18L, 16.5L, 4L, 1L (Matt, SILK)"
           },
         ],
       },
