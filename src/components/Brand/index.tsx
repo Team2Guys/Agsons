@@ -7,11 +7,12 @@ import Monster from '@images/logo/Monster logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Richmond from '@images/logo/Richmond logo.png';
 import Sintrich from '@images/logo/Sintrich logo.png';
-import rich from "@/assets/images/Richmond Flooring.png";
-import monst from "@/assets/images/Monster.png";
-import pol from "@/assets/images/Polar.png";
-import sint from "@/assets/images/Sintrich.png";
-import dux from "@images/DULUX.png";
+
+import rich from "../../../public/assets/images/Richmond Flooring.png";
+import monst from "../../../public/assets/images/Monster.png";
+import pol from "../../../public/assets/images/Polar.png";
+import sint from "../../../public/assets/images/Sintrich.png";
+import dux from "../../../public/assets/images/DULUX.png";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
@@ -162,7 +163,7 @@ const Brands: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>`
+          </div>
         </div>
       </div>
     </div>
