@@ -11,7 +11,7 @@ import rich from "@/assets/images/Richmond Flooring.png";
 import monst from "@/assets/images/Monster.png";
 import pol from "@/assets/images/Polar.png";
 import sint from "@/assets/images/Sintrich.png";
-import dux from "@/assets/images/DULUX.png";
+import dux from "@images/DULUX.png";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
