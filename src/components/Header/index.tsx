@@ -48,6 +48,7 @@ const Header: React.FC = () => {
                 src={logo}
                 width={150}
                 height={150}
+                loading='lazy'
                 alt="Logo"
               />
             </Link>

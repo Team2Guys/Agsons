@@ -10,6 +10,7 @@ const Map: React.FC = () => {
         height="300"
         allowFullScreen={false}
         loading="lazy"
+        title='map'
         className="rounded-lg shadow-lg"
       ></iframe>
     </div>

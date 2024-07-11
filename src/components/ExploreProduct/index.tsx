@@ -61,6 +61,7 @@ const ExploreProduct = () => {
                   width={500}
                   height={500}
                   priority
+                  loading='lazy'
                   className="w-full h-64 object-cover rounded-md hover:scale-90 hover:rounded-md transition duration-300"
                 />
               <h3 className="mt-4 text-sm font-semibold text-center">{truncateText(project.title, 50)} </h3>

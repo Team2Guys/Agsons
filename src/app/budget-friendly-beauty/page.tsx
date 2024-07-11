@@ -36,7 +36,7 @@ const Blog4:React.FC = () => {
         <div className='flex flex-wrap md:flex-nowrap md:gap-10'>
         <div className='w-full md:w-9/12 space-y-4'>
             <h1 className='text-lg md:text-2xl font-bold'>Budget-friendly Beauty: Affordable Flooring Options That Do Not Compromise On Style</h1>
-            <Image className='rounded-md' width={1000} height={1000} src={blog4} alt='blog1'/>
+            <Image className='rounded-md' width={1000} height={1000} src={blog4} alt='blog1' loading='lazy'/>
                 <p>Home transformation does not always come with a hefty price tag. Right? While you plan a home makeover, you must be looking for a blend of quality, elegance, and pocket-friendliness. There are many affordable flooring options that do not stress your pocket and don&apos;t compromise on quality as well. So, why break the bank when you have flooring choices that offer value for money?</p>
                 <p>From charming laminate to elegant vinyl, we will help you explore all the ins and outs of affordable flooring options</p>
                 <p>Let&apos;s head off to the details without further ado!</p>

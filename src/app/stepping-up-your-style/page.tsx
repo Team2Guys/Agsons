@@ -36,7 +36,7 @@ const Blog1:React.FC = () => {
         <div className='flex flex-wrap md:flex-nowrap md:gap-10'>
         <div className='w-full md:w-9/12 space-y-4'>
             <h1 className='text-lg md:text-2xl font-bold'>STEPPING UP YOUR STYLE: A GUIDE TO SPC & LVT FLOORING</h1>
-            <Image className='rounded-md' width={1000} height={1000} src={blog1} alt='blog1'/>
+            <Image className='rounded-md' width={1000} height={1000} src={blog1} alt='blog1' loading='lazy'/>
               <p>Flooring is the ultimate to any structure. If we serve with both operational and appealing objectives, the alternative flooring affects a space&apos;s overall atmosphere, protection, and feasibility. So, you have to say goodbye to outdated carpets and welcome the modern fascination of SPC and LVT flooring! </p>
               <p>These pioneering-edge flooring selections are stunning and exquisite with unique endurance and weather-resistant maintenance. Wooden flooring offers timeless beauty and natural warmth, with textures like smoked oak, Brazilian walnut, and antique maple. </p>
               <p>In this blog, we&lsquo;ll take you on a voyage that completes the fascinating world of SPC (Stone Plastic Composite) and LVT (Luxury Vinyl Tile) flooring. We&lsquo;ll explore their unique items, myriad settlements, and key points, inspiring you to choose the complete flooring solution for your space. </p>
