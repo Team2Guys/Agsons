@@ -76,7 +76,7 @@ import POLARHERRINGBONE6 from "@images/Polor/POLAR SPC HERRINGBONE/POLAR SPC HB-
 
 import SPCP1 from "@images/POLAR_SPC/Antique.webp"
 import SPCP2 from "@images/POLAR_SPC/Cherry.webp"
-import SPCP3 from "@images/POLAR_SPC/Chestnut.webp"
+import SPCP3 from "@images/POLAR_SPC/Chestnut.png"
 import SPCP4 from "@images/POLAR_SPC/Classic OAK.webp"
 import SPCP5 from "@images/POLAR_SPC/OAK HISTORY.webp"
 import SPCP6 from "@images/POLAR_SPC/Prarie.webp"
@@ -444,7 +444,7 @@ const tabContent = {
             newproduct : newimages,
           },
           {
-            title: 'Maserati Greay',
+            title: 'Maserati Grey',
             
             imageUrl: Maserati,
             size:"3200mm x 1600mm x 12mm (MATT)",
@@ -872,7 +872,7 @@ const tabContent = {
             size:"Size: 1220mm x 180mm x 4mm"
           },
           {
-            title: 'Polar LVT- History OAK',
+            title: 'Polar LVT- OAK History ',
             imageUrl: History1,
 
             size:"Size: 1220mm x 180mm x 4mm"
