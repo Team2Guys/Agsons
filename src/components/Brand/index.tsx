@@ -12,7 +12,7 @@ import rich from "../../../public/assets/images/Richmond Flooring.png";
 import monst from "../../../public/assets/images/Monster.png";
 import pol from "../../../public/assets/images/Polar.png";
 import sint from "../../../public/assets/images/Sintrich.png";
-import dux from "../../../public/assets/images/DULUX.png";
+import duliximage from "../../../public/assets/images/Dulux.webp";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
@@ -61,7 +61,7 @@ const tabContent = [
     key: 'tab5',
     title: 'Dulux Paints',
     description: 'Dulux Paints is globally known as the industrial leader in the painting supply industry. At Agsons, we keep stock of all the paints and tinting options are done in house. For large scale projects and companies that require a large volume of matt emulsion paints nobody can beat us on price and quality.',
-    image: dux,
+    image: duliximage,
     logo: Dulux,
     downloadlink: "/assets/Dulux.pdf",
     websitelink: "https://www.dulux.co.uk/en"
