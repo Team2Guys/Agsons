@@ -461,7 +461,8 @@ const tabContent = {
             title: 'Pure White',
             
             imageUrl: Pure,
-            size:"3200mm x 1600mm x 12mm (MATT)",
+            size:"3200mm x 1600mm x 12mm (Polished)",
+            size2:"3200mm x 1600mm x 12mm (MATT)",
             newproduct : newimages,
           },
           {
