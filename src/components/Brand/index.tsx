@@ -11,7 +11,7 @@ import rich from "@/assets/images/Richmond Flooring.png";
 import monst from "@/assets/images/Monster.png";
 import pol from "@/assets/images/Polar.png";
 import sint from "@/assets/images/Sintrich.png";
-import dux from "@/assets/images/DULUX .png";
+import dux from "@/assets/images/DULUX.png";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
@@ -44,10 +44,7 @@ const Brands: React.FC = () => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
-  const changeTab = (tab: string) => {
-    setActiveTab(tab);
-    router.push(`/brands?tab=${tab}`);
-  };
+
   
   const tabContent: TabContent = {
     tab1: {
@@ -184,7 +181,7 @@ const Brands: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>``
         </div>
       </div>
     </div>

@@ -7,6 +7,8 @@ import { usePathname } from 'next/navigation';
 import { Drawer } from 'antd';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import insta from "@/assets/images/instagram.png"
+import { IoIosClose } from 'react-icons/io';
+import { HiMenuAlt2 } from 'react-icons/hi';
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathName = usePathname();
@@ -33,37 +35,9 @@ const Header: React.FC = () => {
             >
               <span className="sr-only">Open main menu</span>
               {open ? (
-                <svg
-                  className="block h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <IoIosClose size={30} />
               ) : (
-                <svg
-                  className="block h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16m-7 6h7"
-                  />
-                </svg>
+                <HiMenuAlt2 size={30} />
               )}
             </button>
           </div>
@@ -92,6 +66,7 @@ const Header: React.FC = () => {
                 >
                   Product
                 </Link>
+                
                 <Link
                   className=" hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   href="#about"
