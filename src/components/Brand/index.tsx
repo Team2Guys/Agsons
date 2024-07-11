@@ -7,26 +7,65 @@ import Monster from '@images/logo/Monster logo.png';
 import Polar from '@images/logo/Polar logo.png';
 import Richmond from '@images/logo/Richmond logo.png';
 import Sintrich from '@images/logo/Sintrich logo.png';
-import rich from "../../../public/assets/images/Richmond Flooring.png";
-import monst from "../../../public/assets/images/Monster.png";
-import pol from "../../../public/assets/images/Polar.png";
-import sint from "../../../public/assets/images/Sintrich.png";
-import dux from "../../../public/assets/images/DULUX.png";
+import rich from "@/assets/images/Richmond Flooring.png";
+import monst from "@/assets/images/Monster.png";
+import pol from "@/assets/images/Polar.png";
+import sint from "@/assets/images/Sintrich.png";
+import dux from "@images/DULUX.png";
 import { Modal } from 'antd';
 import Table from '../Table';
 import PolarTable from '../Table/PolarTable';
 import { useRouter } from 'next/navigation';
 
-type TabContent = {
-  [key: string]: {
-    title: string;
-    description: string;
-    image: any;
-    downloadlink?: any;
-    websitelink?: any;
-    content?: any;
-  };
-};
+const tabContent = [
+  {
+    key: 'tab1',
+    title: 'Richmond Flooring',
+    description: 'Richmond has a well-established reputation among floor traders and wholesalers, having maintained a position as a top-tier brand for more than 20 years in the UK and the last 3 years in the Middle East. As manufacturers of the Richmond brand, we leave no attention to detail untouched. With over 2 decades of manufacturing experience using the latest technology with branding to create appealing and well constructed products. We have an extensive range of SPC flooring and LVT flooring. Please contact us if you’re a retailer, wholesaler or wish to be a distributor in your own country. We currently have a dealer network in the UK, Spain, Greece, South Africa, Kenya, and Zimbabwe. We would love to add more countries. ',
+    image: rich,
+    logo: Richmond,
+    downloadlink: "/assets/Richmond.pdf",
+    websitelink: "https://richmondflooring.ae/ae-en",
+    content: <Table />
+  },
+  {
+    key: 'tab2',
+    title: 'Sintrich Stone',
+    description: "Sintrich Sintered Stone stands as a paragon of functional beauty, tailor-made for every architectural endeavour. Its versatility knows no bounds, thriving even in the most challenging environments, be it interior, exterior, kitchen countertops, vanities, dining table or floors and walls. Sintrich is designed to withstand extreme temperatures and fire, proudly holding an A1 certification for fire resistance. It also boasts remarkable UV-ray resilience, ensuring that its vibrancy and integrity remain intact over time. With Sintrich, this becomes a reality.  At Agsons, we bring you the unmatched durability and beauty of Sintrich Sintered Stone. Whether you're designing a sleek modern facade or a sophisticated design Sintrich offers the perfect solution. ",
+    image: sint,
+    logo: Sintrich,
+    downloadlink: "/assets/SINTRICH.pdf",
+    websitelink: "https://sintrich.com/ae-en"
+  },
+  {
+    key: 'tab3',
+    title: 'Polar Flooring',
+    description: 'Polar Flooring was established in 2022 to cater for development projects. All our Polar Flooring in our SPC and LVT ranges still offer a manufacturer’s warranty but have been rigorously value engineered to create a contractor’s perfect solution in a competitive marketplace. Have comfort in the knowledge that the skeleton and quality of Polar Flooring have not been compromised to still be a high quality product. ',
+    image: pol,
+    logo: Polar,
+    downloadlink: "/assets/Polar.pdf",
+    websitelink: "https://polarfloors.co.uk/",
+    content: <PolarTable />,
+  },
+  {
+    key: 'tab4',
+    title: 'Monster Sealent',
+    description: 'Monster sealants are our new products we’ve added to the range under our Richmond brand. These high quality silicons and glues are used daily with all the product ranges that we sell in Agsons. Quality and competitive pricing are key to the success of these products. Our formulas exceed all European requirements.',
+    image: monst,
+    logo: Monster,
+    downloadlink: "/assets/Monster.pdf",
+    websitelink: "https://monstersealant.com/"
+  },
+  {
+    key: 'tab5',
+    title: 'Dulux Paints',
+    description: 'Dulux Paints is globally known as the industrial leader in the painting supply industry. At Agsons, we keep stock of all the paints and tinting options are done in house. For large scale projects and companies that require a large volume of matt emulsion paints nobody can beat us on price and quality.',
+    image: dux,
+    logo: Dulux,
+    downloadlink: "/assets/Dulux.pdf",
+    websitelink: "https://www.dulux.co.uk/en"
+  },
+];
 
 const Brands: React.FC = () => {
   const router = useRouter();
@@ -45,52 +84,6 @@ const Brands: React.FC = () => {
     setIsModalOpen(false);
   };
 
-  
-  const tabContent: TabContent = {
-    tab1: {
-      title: 'Richmond Flooring',
-      description:
-        'Richmond has a well-established reputation among floor traders and wholesalers, having maintained a position as a top-tier brand for more than 20 years in the UK and the last 3 years in the Middle East. As manufacturers of the Richmond brand, we leave no attention to detail untouched. With over 2 decades of manufacturing experience using the latest technology with branding to create appealing and well constructed products. We have an extensive range of SPC flooring and LVT flooring. Please contact us if you’re a retailer, wholesaler or wish to be a distributor in your own country. We currently have a dealer network in the UK, Spain, Greece, South Africa, Kenya, and Zimbabwe. We would love to add more countries. ',
-      image: rich,
-      downloadlink: "/assets/Richmond.pdf",
-      websitelink:"https://richmondflooring.ae/ae-en",
-      content: <Table/>
-    },
-    tab2: {
-      title: 'Sintrich Stone',
-      description:
-        "Sintrich Sintered Stone stands as a paragon of functional beauty, tailor-made for every architectural endeavour. Its versatility knows no bounds, thriving even in the most challenging environments, be it interior, exterior, kitchen countertops, vanities, dining table or floors and walls. Sintrich is designed to withstand extreme temperatures and fire, proudly holding an A1 certification for fire resistance. It also boasts remarkable UV-ray resilience, ensuring that its vibrancy and integrity remain intact over time. With Sintrich, this becomes a reality.  At Agsons, we bring you the unmatched durability and beauty of Sintrich Sintered Stone. Whether you're designing a sleek modern facade or a sophisticated design Sintrich offers the perfect solution. ",
-      image: sint,
-      downloadlink: "/assets/SINTRICH.pdf",
-      websitelink:"https://sintrich.com/ae-en"
-    },
-    tab3: {
-      title: 'Polar Flooring',
-      description:
-        'Polar Flooring was established in 2022 to cater for development projects. All our Polar Flooring in our SPC and LVT ranges still offer a manufacturer’s warranty but have been rigorously value engineered to create a contractor’s perfect solution in a competitive marketplace. Have comfort in the knowledge that the skeleton and quality of Polar Flooring have not been compromised to still be a high quality product. ',
-      image: pol,
-      downloadlink: "/assets/Polar.pdf",
-      websitelink:"https://polarfloors.co.uk/",
-      content: <PolarTable/> ,
-    },
-    tab4: {
-      title: 'Monster Sealent',
-      description:
-        'Monster sealants are our new products we’ve added to the range under our Richmond brand. These high quality silicons and glues are used daily with all the product ranges that we sell in Agsons. Quality and competitive pricing are key to the success of these products. Our formulas exceed all European requirements.',
-      image: monst,
-      downloadlink: "/assets/Monster.pdf",
-      websitelink:"https://monstersealant.com/"
-    },
-    tab5: {
-      title: 'Dulux Paints',
-      description:
-        'Dulux Paints is globally known as the industrial leader in the painting supply industry. At Agsons, we keep stock of all the paints and tinting options are done in house. For large scale projects and companies that require a large volume of matt emulsion paints nobody can beat us on price and quality.',
-      image: dux,
-      downloadlink: "/assets/Dulux.pdf",
-      websitelink:"https://www.dulux.co.uk/en"
-    },
-  };
-
   return (
     <div className="bg-white py-12 mt-20 md:mt-20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -99,50 +92,38 @@ const Brands: React.FC = () => {
             Brands that we have built with quality always in mind
           </h2>
           <p className="mt-3 sm:mt-4 text-sm md:text-base">
-          From the UK to the Middle East, Agsons brings three decades of experience in the property renovation sector.
+            From the UK to the Middle East, Agsons brings three decades of experience in the property renovation sector.
           </p>
           <p className="text-sm md:text-base">
-          Our key clients include architects, interior designers, fit-out contractors, channel partners, and, of course, end-users. All our products come with a manufacturer’s warranty and a no-hassle policy.
+            Our key clients include architects, interior designers, fit-out contractors, channel partners, and, of course, end-users. All our products come with a manufacturer’s warranty and a no-hassle policy.
           </p>
         </div>
 
         <div className="mt-10 overflow-y-auto overflow-hidden">
           <div className="overflow-x-auto whitespace-nowrap scrollbar-hide md:flex md:justify-evenly flex-wrap gap-2 space-x-2">
-            {Object.keys(tabContent).map((tab, index) => (
+            {tabContent.map((tab, index) => (
               <button
                 key={index}
-                onMouseOver={() => setActiveTab(tab)}
+                onMouseOver={() => setActiveTab(tab.key)}
                 className={`px-2 md:px-4 py-2 font-medium text-xs border-2 border-black md:text-sm rounded-full uppercase hover:bg-black hover:text-white ${
-                  activeTab === tab ? 'bg-black text-white' : 'bg-white text-black'
+                  activeTab === tab.key ? 'bg-black text-white' : 'bg-white text-black'
                 }`}
               >
-                {tabContent[tab].title}
+                {tab.title}
               </button>
             ))}
           </div>
 
           <div className='grid grid-cols-3 md:grid-cols-5 justify-items-center mt-5 max-w-screen-md mx-auto'>
-            {Object.keys(tabContent).map((tab, index) => (
+            {tabContent.map((tab, index) => (
               <Image
                 key={index}
-                className={`border-b-2 ${activeTab === tab ? 'border-black' : 'border-transparent'}`}
+                className={`border-b-2 ${activeTab === tab.key ? 'border-black' : 'border-transparent'}`}
                 width={100}
                 height={100}
-                src={
-                  tab === 'tab1' ? Richmond :
-                  tab === 'tab2' ? Sintrich :
-                  tab === 'tab3' ? Polar :
-                  tab === 'tab4' ? Monster :
-                  Dulux
-                }
-                alt={
-                  tab === 'tab1' ? 'Richmond' :
-                  tab === 'tab2' ? 'Sintrich' :
-                  tab === 'tab3' ? 'Polar' :
-                  tab === 'tab4' ? 'Monster' :
-                  'Dulux'
-                }
-                onMouseOver={() => setActiveTab(tab)}
+                src={tab.logo}
+                alt={tab.title}
+                onMouseOver={() => setActiveTab(tab.key)}
               />
             ))}
           </div>
@@ -154,34 +135,34 @@ const Brands: React.FC = () => {
                   className="h-full w-full object-contain md:h-full lg:w-full lg:h-full"
                   width={500}
                   height={500}
-                  src={tabContent[activeTab].image}
-                  alt={tabContent[activeTab].title}
+                  src={tabContent.find(tab => tab.key === activeTab)?.image || ''}
+                  alt={tabContent.find(tab => tab.key === activeTab)?.title || ''}
                 />
               </div>
               <div className="mt-6 lg:mt-0 lg:ml-10 lg:w-1/2">
                 <h3 className="text-xl font-bold text-start">
-                  {tabContent[activeTab].title}
+                  {tabContent.find(tab => tab.key === activeTab)?.title || ''}
                 </h3>
                 <p className="mt-3 text-sm md:text-base sm:mt-4">
-                  {tabContent[activeTab].description}
+                  {tabContent.find(tab => tab.key === activeTab)?.description || ''}
                 </p>
 
                 <div className='flex flex-wrap gap-2 mt-5'>
                   <button onClick={() => router.push(`/product?tab=${activeTab}`)} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>View Products</button>
-                  {tabContent[activeTab].content && (
+                  {tabContent.find(tab => tab.key === activeTab)?.content && (
                     <>
                       <button onClick={showModal} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Technical Details</button>
                       <Modal title="" footer="" open={isModalOpen} onOk={handleOk} onCancel={handleCancel} width={2000}>
-                        {tabContent[activeTab].content}
+                        {tabContent.find(tab => tab.key === activeTab)?.content || ''}
                       </Modal>
                     </>
                   )}
-                  <Link target='_blank' href={tabContent[activeTab].downloadlink} download={tabContent[activeTab].downloadlink} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Download Catalogue</Link>
-                  <Link href={tabContent[activeTab].websitelink} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Visit Official Site</Link>
+                  <Link target='_blank' href={tabContent.find(tab => tab.key === activeTab)?.downloadlink || ''} download={tabContent.find(tab => tab.key === activeTab)?.downloadlink || ''} className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Download Catalogue</Link>
+                  <Link href={tabContent.find(tab => tab.key === activeTab)?.websitelink || ''} target="_blank" className='bg-black rounded-full text-[10px] md:text-base px-2 md:px-4 py-2 text-white'>Visit Official Site</Link>
                 </div>
               </div>
             </div>
-          </div>``
+          </div>`
         </div>
       </div>
     </div>
