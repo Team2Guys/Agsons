@@ -14,7 +14,7 @@ const formFields: FormField[] = [
   { id: 'firstName', label: 'First Name', type: 'text', name: 'firstName' },
   { id: 'lastName', label: 'Last Name', type: 'text', name: 'lastName' },
   { id: 'email', label: 'Email', type: 'email', name: 'email' },
-  { id: 'phone', label: 'Phone Number', type: 'text', name: 'phone' },
+  { id: 'phone', label: 'Phone Number', type: 'number', name: 'phone' },
   { id: 'message', label: 'Message', type: 'textarea', name: 'message' },
 ];
 
@@ -52,15 +52,11 @@ const ContactForm: React.FC = () => {
     }
 
     try {
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_BASE_URL}/api/sendmail`,
-        formValues,
-        {
-          headers: {
-            'Content-Type': 'application/json',
-          },
+      const res = await axios.post(`/api/sendmail`, formValues, {
+        headers: {
+          'Content-Type': 'application/json',
         },
-      );
+      });
 
       if (res.status === 200) {
         showToast('success', 'Email sent successfully!');

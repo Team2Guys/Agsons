@@ -6,22 +6,21 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: 'info@artiart.ae',
-    pass: 'Queryart@035',
+    user: `${process.env.NEXT_PUBLIC_ADMIN_MAIL}`,
+    pass: `${process.env.NEXT_PUBLIC_ADMIN_PASSWORD}`,
   },
 });
 
 export const POST = async (req: NextRequest) => {
   try {
-    console.log('Server trigger bhai');
     const body = await req.json();
-    const { name, email, message, subject } = body;
+    const { firstName, lastName, email, phone, message } = body;
 
     const mailOptions = {
-      from: 'info@agsons.ae',
-      to: 'mujtaba.shafique01@gmail.com',
-      subject: subject,
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      from: `${process.env.NEXT_PUBLIC_CONTACTUS_MAIL}`,
+      to: `${process.env.NEXT_PUBLIC_CONTACTUS_MAIL}`,
+      subject: 'Agsons Contact form submission',
+      text: `Name: ${firstName} ${lastName}\nEmail: ${email} \nphone: ${phone}\nMessage: ${message}`,
     };
 
     const info = await transporter.sendMail(mailOptions);
