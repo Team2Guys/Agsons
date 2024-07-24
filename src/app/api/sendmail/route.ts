@@ -15,10 +15,12 @@ export const POST = async (req: NextRequest) => {
   try {
     const body = await req.json();
     const { firstName, lastName, email, phone, message } = body;
+    console.log(firstName, transporter, "transporter")
 
     const mailOptions = {
       from: `${process.env.NEXT_PUBLIC_CONTACTUS_MAIL}`,
-      to: `${process.env.NEXT_PUBLIC_CONTACTUS_MAIL}`,
+      // to: `${process.env.NEXT_PUBLIC_CONTACTUS_MAIL}`,
+      to:'faadsardar123@gmail.com',
       subject: 'Agsons Contact form submission',
       text: `Name: ${firstName} ${lastName}\nEmail: ${email} \nphone: ${phone}\nMessage: ${message}`,
     };

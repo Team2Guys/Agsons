@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import showToast from '@/components/toast';
+import Loader from '@/components/Loader/Loader';
+
 interface FormField {
   id: string;
   label: string;
@@ -26,15 +28,17 @@ interface FormValues {
   message: string;
 }
 
-const ContactForm: React.FC = () => {
-  const [formValues, setFormValues] = useState<FormValues>({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    message: '',
-  });
+const initialValue = {
+  firstName: '',
+  lastName: '',
+  email: '',
+  phone: '',
+  message: '',
+}
 
+const ContactForm: React.FC = () => {
+  const [formValues, setFormValues] = useState<FormValues>(initialValue);
+const [loading, setloading] = useState<boolean>(false)
   const handleChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
@@ -52,6 +56,7 @@ const ContactForm: React.FC = () => {
     }
 
     try {
+      setloading(true)
       const res = await axios.post(`/api/sendmail`, formValues, {
         headers: {
           'Content-Type': 'application/json',
@@ -60,11 +65,14 @@ const ContactForm: React.FC = () => {
 
       if (res.status === 200) {
         showToast('success', 'Email sent successfully!');
+        setFormValues(initialValue)
       } else {
-        showToast('error', `Failed to send email: ${res.data.error}`);
+        throw new Error(`Failed to send email: ${res.data.error}`)
       }
     } catch (error) {
       showToast('error', 'An error occurred while sending the email!');
+    }finally{
+      setloading(false)
     }
   };
 
@@ -121,7 +129,7 @@ const ContactForm: React.FC = () => {
           type="submit"
           className="px-4 py-2 bg-black text-white rounded-md"
         >
-          Send Message
+      {loading ? <Loader color='#fff'/> :    "Send Message"}
         </button>
       </form>
     </div>
